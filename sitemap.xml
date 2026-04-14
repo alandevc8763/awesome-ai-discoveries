@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://alandevc8763.github.io/awesome-ai-discoveries/</loc>
-         <lastmod>2026-04-14</lastmod>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/"/>
     </url>
     <url>
-         <loc>https://alandevc8763.github.io/awesome-ai-discoveries/resources/</loc>
-         <lastmod>2026-04-14</lastmod>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/resources/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/resources/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/resources/"/>
+    </url>
+    <url>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/zh/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/zh/"/>
+    </url>
+    <url>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/zh/resources/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/resources/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/zh/resources/"/>
+    </url>
+    <url>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/zh/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/"/>
+    </url>
+    <url>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/zh/resources/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/resources/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/resources/"/>
+    </url>
+    <url>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/zh/zh/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/"/>
+    </url>
+    <url>
+        <loc>https://alandevc8763.github.io/awesome-ai-discoveries/zh/zh/resources/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/zh/resources/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://alandevc8763.github.io/awesome-ai-discoveries/zh/resources/"/>
     </url>
 </urlset>
