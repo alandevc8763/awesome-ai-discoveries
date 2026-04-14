@@ -13,8 +13,11 @@ A resource is added here if it meets one or more of the following:
 
 | Resource Name | Link | Type | Category | Key Innovation | Date Added | Interest |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| DeepSeek-R1 | [Link](https://github.com/deepseek-ai/DeepSeek-R1) | Project | Research | Open-weights reasoning model achieving o1-level performance | 2026-04-14 | High |
-| OpenAI o1 | [Link](https://openai.com/o1) | Project | Model | Introduces large-scale reinforcement learning for chain-of-thought reasoning | 2026-04-14 | High |
+| Ursa | [Link](https://topicpartition.io/blog/ursa-a-new-lakehouse-first-storage-engine-for-kafka) | Project | Data Eng | Diskless, leaderless Kafka storage with Iceberg native integration | 2026-04-14 | High |
+| Ix | [Link](https://github.com/ix-infrastructure/Ix) | Project | AI/LLM | Deterministic architectural mapping for persistent agent codebase context | 2026-04-14 | High |
+| StreamHouse | [Link](https://github.com/gbram1/streamhouse) | Project | Data Eng | Kafka-style streaming with S3-backed storage for extreme cost reduction | 2026-04-14 | High |
+| Leaderless Log Protocol | [Link](https://github.com/lakestream-io/leaderless-log-protocol) | Project | Infrastructure | Formally verified spec as a harness for agentic implementation | 2026-04-14 | High |
+| Datadog SRE Eval | [Link](https://www.datadoghq.com/blog/engineering/bits-ai-eval-platform/) | Project | Observability | Replayable evaluation platform for scaling autonomous SRE agents | 2026-04-14 | High |
 | Model Context Protocol (MCP) | [Link](https://modelcontextprotocol.io) | Project | Infrastructure | Standardized interface for LLM-tool connectivity | 2026-04-14 | High |
 | Browser-use | [Link](https://github.com/browser-use/browser-use) | Project | Automation | High-level agentic browser automation | 2026-04-14 | High |
 | Unsloth | [Link](https://github.com/unslothai/unsloth) | Tool | Training | Extreme efficiency in LLM fine-tuning | 2026-04-14 | High |
