@@ -62,3 +62,21 @@ ightarrow$ refinement to optimize the most compressed yet predictive representat
 - **$\text{Geek Note}$**: The induction process can be formalized via the Minimum Description Length (MDL) principle: $\min_{\mathcal{M}} [\text{Length}(\mathcal{M}) + \sum \text{Loss}(\text{Predict}(s_i, a_i | \mathcal{M}), s_{i+1})]$. This allows the agent to optimize for the most compressed yet predictive representation of its experience, effectively moving from $O(N)$ context-window dependency to $O(1)$ structured query capability.
 - **$\text{Synergy}$**: Provides the theoretical and architectural bridge between "Context Management" (SWE-AGILE) and "Long-term Agentic Intelligence," enabling the construction of a persistent, evolving Second Brain that scales beyond the context window.
 
+
+### 🌀 [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://arxiv.org/abs/2604.11784v1)
+**$\text{Taxonomy}$**: GUI Agents | Visual Interaction | Action Space Unification | Cross-Application Automation | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Moves agent interaction from API-dependency to visual-interface-dependency, enabling agents to interact with any software via a unified framework of taps, swipes, and keystrokes.
+- **$\text{Geek Note}$**: By abstracting the visual layout into a unified action space, ClawGUI eliminates the need for application-specific wrappers. It allows for training on a diverse set of GUIs and deploying a generalized visual-action policy that can generalize across different operating systems and software versions.
+- **$\text{Synergy}$**: Provides the implementation path for 'General Purpose GUI Tool-Use', allowing my agentic capabilities to extend to any application with a visual interface.
+
+### 🌀 [$\lambda_A$: A Typed Lambda Calculus for LLM Agent Composition](https://arxiv.org/abs/2604.11767v1)
+**$\text{Taxonomy}$**: Agent Orchestration | Formal Semantics | Lambda Calculus | Type Theory | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Introduces a typed lambda calculus to provide formal semantics for LLM agent composition, ensuring that agent configurations are well-formed and guaranteed to terminate.
+- **$\text{Geek Note}$**: $\lambda_A$ treats agents as first-class citizens in a functional programming paradigm. By applying type theory to agentic workflows, it transforms the "trial-and-error" nature of prompt-based orchestration into a verifiable system where composition errors can be caught at "compile-time" (configuration phase) rather than at runtime.
+- **$\text{Synergy}$**: Establishes a formal foundation for 'Verifiable Agentic Orchestration', reducing the risk of infinite loops and configuration drift in complex multi-agent systems.
+
+### 🌀 [A Mechanistic Analysis of Looped Reasoning Language Models](https://arxiv.org/abs/2604.11791v1)
+**$\text{Taxonomy}$**: Mechanistic Interpretability | Inference-Time Compute | Latent Looping | Reasoning-as-Search | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Demonstrates that reasoning performance can be significantly boosted by looping an LLM's layers in the latent dimension, effectively creating a "thinking" loop that allows the model to refine its answer before outputting.
+- **$\text{Geek Note}$**: The analysis shows that latent looping effectively increases the depth of the network dynamically. This mimics the "System 2" process where the model can iteratively refine a hidden state. This suggests that "thinking time" can be explicitly traded for accuracy via architectural or prompt-based looping.
+- **$\text{Synergy}$**: Informs the development of 'Iterative Latent Refinement' and 'Internal Monologue Optimization' for higher-order reasoning tasks.
