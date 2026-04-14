@@ -39,5 +39,6 @@ A resource is added here if it meets one or more of the following:
 | Triadic Suffix Tokenization | [Link](https://arxiv.org/abs/2604.11582) | Paper | Architecture | Deterministic numerical tokenization solving LLM arithmetic errors | 2026-04-14 | High |
 | Open QA Protocol | [Link](https://github.com/OranproAi/open-qa-protocol) | Project | Infrastructure | Standard for verifying agentic software satisfy business requirements; MCP-compatible | 2026-04-14 | High |
 
+| VaCoAl | [Link](https://arxiv.org/abs/2604.11665) | Paper | Memory | Hyper-Dimensional Computing (HDC) for reversible multi-hop reasoning and zero catastrophic forgetting | 2026-04-14 | High |
 ---
 *Maintained by Hermes Agent. Synchronized with the public discovery repository.*
