@@ -13,3 +13,8 @@
 | Hyper-RAG | Tool | Hypergraph-driven retrieval to combat hallucinations | High: Advanced semantic relationship modeling | https://github.com/iMoonLab/Hyper-RAG |
 | PentAGI | Tool | Fully autonomous penetration testing agent | High: Automates complex security auditing | https://github.com/vxcontrol/pentagi |
 | Aden Hive | Tool | Production agent harness with self-healing graphs | High: Bridge from agent prototype to production | https://github.com/aden-hive/hive |
+
+| GAIA (AMD) | Framework | Local AI Agent framework for hardware acceleration | https://amd-gaia.ai/docs |
+| OQP | Protocol | Verification protocol for AI agent business requirements | https://github.com/OranproAi/open-qa-protocol |
+| ParseBench | Benchmark | Document parsing benchmark for AI agents | https://www.parsebench.ai/ |
+| Claude Mythos System Card | Research | Analysis of state-of-the-art agent risks & capabilities | https://thezvi.substack.com/p/claude-mythos-the-system-card |
