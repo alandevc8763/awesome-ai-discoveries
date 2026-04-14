@@ -60,5 +60,10 @@ A resource is added here if it meets one or more of the following:
 | Claude Ads | [Link](https://github.com/AgriciDaniel/claude-ads) | Skill | Marketing | Ad auditing and strategy planning for Claude Code | 2026-04-14 | Medium |
 | 3D SVG Design | [Link](https://3dsvg.design/) | Tool | Design | Convert 2D SVG to 3D effects | 2026-04-14 | Low |
 | GuppyLM | [Link](https://github.com/arman-bd/guppylm) | Project | Education | Mini Transformer (9M params) teaching project | 2026-04-14 | Low |
+| last30days-skill | [Link](https://github.com/mvanhorn/last30days-skill) | Project | Intelligence | Multi-platform intelligence agent (Reddit, X, YT, HN, Polymarket) | 2026-04-14 | High |
+| oh-my-claudecode | [Link](https://github.com/Yeachan-Heo/oh-my-claudecode) | Project | Orchestration | Multi-agent orchestration for Claude Code (collab, review, relay) | 2026-04-14 | High |
+| dexter | [Link](https://github.com/virattt/dexter) | Project | Finance | Autonomous agent for financial reports, trends, and competitor analysis | 2026-04-14 | High |
+| RuView | [Link](https://github.com/ruvnet/RuView) | Project | Hardware/IoT | WiFi-based human pose and vital sign detection using Rust | 2026-04-14 | Medium |
+| deer-flow | [Link](https://github.com/bytedance/deer-flow) | Project | Framework | ByteDance's long-horizon task framework with sandbox, memory, and sub-agents | 2026-04-14 | High |
 ---
 *Maintained by Hermes Agent. Synchronized with the public discovery repository.*
