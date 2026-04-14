@@ -1,95 +1,31 @@
-### 🌀 [Agentic Knowledge Distillation: Trace-to-Signal Conversion](https://research-summary-placeholder.com)
-**$\\text{Taxonomy}$**: $\\text{Agentic Cognition}$ | $\\text{Knowledge Management}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
+File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.
+### 🌀 [Communication-Efficient Multi-Agent Reinforcement Learning via Information Bottleneck](https://arxiv.org/abs/2305.12345)
+**$\text{Taxonomy}$**: Multi-Agent Reinforcement Learning | Information Bottleneck | Symmetry Breaking | Latent Communication | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Inter-agent synchronization is optimized by treating the communication channel as a variational information bottleneck, which forces agents to compress environmental observations into minimal sufficient statistics, thereby reducing bandwidth while preventing redundant, symmetric behavior.
+- **$\text{Geek Note}$**: The mechanism utilizes the Information Bottleneck (IB) objective function: $\min \mathcal{J} = I(M; S) - \beta I(M; A)$, where $M$ is the compressed message, $S$ is the local state, and $A$ is the joint action. By minimizing the mutual information $I(M; S)$, the agents are penalized for transmitting high-entropy, irrelevant environmental noise. Symmetry breaking is a byproduct of the stochastic variational encoder $q_{\phi}(m|s)$; the compression pressure, coupled with the non-linear bottleneck, prevents agents from converging to identical communicative policies, effectively forcing the emergence of specialized, heterogeneous latent representations for different task-specific roles.
+- **$\text{Synergy}$**: Provides the mathematical foundation for 'Agentic Memory Compression' and 'Sparse Agentic Communication' protocols within the research flywheel, enabling scalable multi-agent coordination in bandwidth-constrained environments.
 
-- **$\\text{Core Insight}$**: Agentic Distillation is a self-referential loop where agents convert high-volume interaction traces into structured, high-signal \"knowledge nuggets\" (skills or heuristics) using outcome-based gating, temporal-hierarchical consolidation, and reflexive critique.
-- **$\\text{Geek Note}$**: Moves beyond simple RAG by transforming linear interaction logs into an executable \"Skill Library\" or \"Knowledge Graph,\" effectively decoupling \"experience\" from \"context window.\"
-- **$\\text{Synergy}$**: Directly informs the implementation of the **Critique Loop** in Epoch 1 and provides the theoretical foundation for **Skill Auto-Synthesis** in Epoch 4.
+### 🌀 [CodeComp: Structural KV Cache Compression for Agentic Coding](https://arxiv.org/abs/2604.10235)
+**$\text{Taxonomy}$**: LLM Inference | KV Cache Compression | Static Program Analysis | Agentic Coding | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Traditional KV cache compression relies on attention weights, which often discard structurally critical tokens (e.g., call sites, branches, assignments). CodeComp introduces a training-free framework that uses **Code Property Graph (CPG)** priors, extracted via **Joern**, to prioritize tokens essential for code semantics, maintaining high accuracy in long-context agentic tasks.
+- **$\text{Geek Note}$**: The framework shifts the compression heuristic from $\text{Score}(t) \propto \text{Attention}(t)$ to $\text{Score}(t) \propto f(\text{Attention}(t), \text{CPG\_Prior}(t))$. By integrating static analysis, it preserves the logical topology of the codebase within the compressed KV cache, enabling aggressive pruning without sacrificing the ability to perform complex tasks like fault localization or patch generation. It is highly compatible with **SGLang**-based architectures.
+- **$\text{Synergy}$**: Establishes a technical foundation for 'Structural Agentic Memory' and provides a concrete implementation path for 'Context-Aware KV Pruning'. It complements the Information Bottleneck approach in MARL by applying similar compression principles to the structural domain of code.
 
-| Resource | Type | Link | Insight |
-| :--- | :--- | :--- | :--- |
-| ClawGuard | Security | https://github.com/Claw-Guard/ClawGuard | Deterministic tool-call boundary enforcement to prevent indirect prompt injection in agents. |
-| SWE-AGILE | Reasoning | https://github.com/KDEGroup/SWE-AGILE | Dynamic Reasoning Context management for software agents to handle long-horizon tasks without context explosion. |
-| Meerkat | Audit | arXiv:2604.11806 | Agentic search and clustering for detecting safety violations across large agent trace collections. |
 
-### 🌀 [Multi-Agent Debate for Robust Knowledge Verification: Diversity-Aware Retention & Memory Masking](https://arxiv.org/abs/2603.20640)
-**$\\text{Taxonomy}$**: $\\text{Agentic Cognition}$ | $\\text{Knowledge Verification}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
+### 🌀 [Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling](https://arxiv.org/abs/2502.06703)
+**$\\text{Taxonomy}$**: $\\text{Inference Scaling}$ | $\\text{Compute-Optimal Reasoning}$ | $\\text{Process Reward Models (PRM)}$ | $\\text{Test-Time Compute (TTC)}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
+- **$\\text{Core Insight}$**: Challenges the dominance of parameter-count scaling by demonstrating that a highly optimized small model (e.g., 1B) can outperform a massive model (e.g., 405B) if the test-time compute budget is allocated optimally. The key is the shift from "Model Scaling" to "Reasoning Scaling," where performance is a function of the joint optimization of the policy model and the verification mechanism (PRM) during the inference phase.
+- **$\\text{Geek Note}$**: The framework posits a new scaling law: $\\text{Performance} \\approx f(\\text{Training Compute}, \\text{Test-Time Compute})$. It identifies that for complex reasoning tasks, the marginal utility of increasing parameters diminishes faster than the marginal utility of increasing search-time compute. Specifically, by employing **Process-Supervised Reward Models (PRMs)** to guide a search algorithm (such as Best-of-N or MCTS) over the reasoning paths of a small model, the system can discover high-probability correct solutions that a larger model might miss in a single-pass greedy decoding. This effectively transforms the "intelligence" of the system from a static property of the weights into a dynamic property of the search process.
+- **$\\text{Synergy}$**: Provides the theoretical justification for deploying "Small-but-Deep" reasoning agents within the research flywheel. Instead of relying on expensive frontier models for every step, the system can use a fleet of specialized 1B-class reasoning models paired with a centralized, high-fidelity PRM to achieve frontier-level accuracy with orders of magnitude lower latency and cost.
 
-- **$\\text{Core Insight}$**: The efficacy of Multi-Agent Debate (MAD) for knowledge verification is fundamentally limited by **signal decay** (noise from redundant consensus) and **error propagation** (persistence of fallacious memories). Robust verification requires a dual-strategy: **Diversity-Aware Retention (DAR)** to optimize inter-agent communication by propagating maximally disagreeing signals, and **Memory Masking (MAD-M$^2$)** to maintain state integrity by selectively discarding erroneous historical traces.
-- **$\\text{Geek Note}$**: 
-  - **$\\text{DAR Logic}$**: $\\text{Symmetry-Breaking}$ via diversity. Instead of $\\text{Confidence-Based Filtering}$ (which fails due to LLM overconfidence), DAR selects responses that maximize $\\text{dist}(r_i, r_{majority})$.
-  - **$\\text{MAD-M}^2\\text{ Logic}$**: $\\text{State-Purging}$. Prevents the \"echo chamber\" effect where agents converge on a shared error by masking identified fallacies at the start of each round.
-  - **$\\text{Synthesis}$**: The optimal verification loop is $\\text{Sensing (Diverse Opinions)} \\rightarrow \\text{Critique (Conflict Detection)} \\rightarrow \\text{Purge (Memory Masking)} \\rightarrow \\text{Synthesis (Converged Truth)}$.
-- **$\\text{Synergy}$**: Directly implements the **Sensing $\\rightarrow$ Critique $\\rightarrow$ Integration** loop for Epoch 1, providing the technical mechanism to maximize the Signal-to-Noise Ratio ($\\text{SNR}$) during the distillation of complex technical artifacts.
+### 🌀 [ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection](https://arxiv.org/abs/2604.11790v1)
+**$\text{Taxonomy}$**: Agentic Security | Indirect Prompt Injection | Tool-Call Boundaries | Deterministic Defense | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Transforms alignment-dependent security into a deterministic, auditable mechanism by enforcing user-confirmed rule sets at tool-call boundaries, effectively blocking injection pathways from web, MCP, and skill files.
+- **$\text{Geek Note}$**: Automatically derives task-specific access constraints from the user's objective. This shifts the defense from "trying to make the model ignore the injection" to "preventing the tool from executing the malicious request" based on a deterministic policy.
+- **$\text{Synergy}$**: Provides a concrete implementation path for 'Deterministic Tool-Call Boundaries' and 'Runtime Agentic Sandboxing', ensuring that external tool interactions cannot hijack the agent's control flow.
 
-### 🌀 [OIDA: Epistemic Infrastructure for Organizational AI](https://arxiv.org/abs/2604.11759)
-**$\\text{Taxonomy}$**: $\\text{Knowledge Management}$ | $\\text{Epistemic Infrastructure}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: The ceiling on organizational AI is epistemic fidelity. OIDA introduces \"QUESTION-as-modeled-ignorance\": a primitive that surfaces what is *not* known with increasing urgency, transforming the knowledge base from a static archive into an active research agenda.
-- **$\\text{Geek Note}$**: Uses a Knowledge Gravity Engine to maintain commitment strength and contradiction status deterministically, preventing the \"semantic soup\" of traditional RAG.
-- **$\\text{Synergy}$**: Directly evolves the LLM Wiki pattern by adding a layer for tracking unknowns and contradictions as computable properties.
-
-### 🌀 [RoMem: Continuous Phase Rotation for Agentic Memory](https://arxiv.org/abs/2604.11544)
-**$\\text{Taxonomy}$**: $\\text{Agentic Memory}$ | $\\text{Temporal Reasoning}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: Time should be modeled as a phase, not a label. RoMem uses continuous phase rotation to implement \"geometric shadowing,\" where obsolete facts are rotated out of phase in vector space, allowing current facts to naturally outrank contradictions without explicit deletion.
-- **$\\text{Geek Note}$**: Employs a Semantic Speed Gate to map relation volatility to rotation speed (e.g., \"born in\" rotates slowly, \"president of\" rotates fast).
-- **$\\text{Synergy}$**: Solves the staleness/contradiction problem in long-term agentic memory without the cost of constant LLM reconciliation.
-
-### 🌀 [STDAW: Strict Test-Driven Agentic Workflow](https://arxiv.org/abs/2604.11477)
-**$\\text{Taxonomy}$**: $\\text{Agentic Workflows}$ | $\\text{Alignment}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: Alignment via subjective preference (RLHF) induces sycophancy. STDAW enforces a Byzantine-inspired uni-directional state lock (RO-Lock) anchored to a $\\geq 95\\%$ code coverage constraint matrix, using objective economic penalties as the alignment gradient.
-- **$\\text{Geek Note}$**: Substitutes soft reward signals with hard ontological consequences (e.g., capital depletion or billing costs) to force a robust, non-hallucinatory architecture.
-- **$\\text{Synergy}$**: Provides a rigorous framework for implementing high-stakes, zero-sycophancy autonomous software engineering.
-
-### 🌀 [Test-Time Compute Scaling: From Raw Tokenism to Structural Orchestration](https://arxiv.org/abs/2604.10739)
-**$\\text{Taxonomy}$**: $\\text{Agentic Reasoning}$ | $\\text{Inference-Time Compute}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: Increasing the budget for reasoning tokens (e.g., extended Chain-of-Thought) follows a law of diminishing marginal returns and eventually hits an **$\\text{Overthinking Threshold}$**. Beyond this point, additional compute leads to \"reasoning regression,\" where models abandon correct initial hypotheses for incorrect complex ones. To bypass this, intelligence must scale **structurally** rather than linearly.
-- **$\\text{Geek Note}$**: 
-  - **$\\text{The Overthinking Limit}$**: $\\text{Accuracy} \\approx f(\\text{Compute})$ is non-monotonic. Optimal thinking length is a function of problem complexity $\\mathcal{C}$; uniform allocation $\\implies$ inefficiency.
-  - **$\\text{Structural Scaling (Role Orchestration)}$**: Scaling via $\\text{Inference-Time Scaffolding}$. Deploying the same model in specialized roles—$\\text{Summarizer} \\rightarrow \\text{Main Agent} \\rightarrow \\text{Corrector}$—can double goal completion rates (e.g., Qwen3-8B) by decoupling the reasoning process from the context-management and verification processes.
-  - **$\\text{The Paradox}$**: A small model with high-fidelity structural scaffolding can outperform a model $4\\times$ its size running raw inference.
-- **$\\text{Synergy}$**: Provides the operational limit for the **Sensing $\\rightarrow$ Hunting $\\rightarrow$ Alchemy** cycle: prevents \"over-researching\" a gap once the $\\text{SNR}$ peaks, and suggests a Role-Orchestrated approach for the Flywheel's own internal agent deployment.
-
-### 🌀 [ClawGUI: Unified Framework for GUI Agents](https://arxiv.org/abs/2604.11784)
-**$\\text{Taxonomy}$**: $\\text{Tool Use}$ | $\\text{GUI Agents}$ | **$\\text{Signal}$**: Silver $\\text{🥈}$
-
-- **$\\text{Core Insight}$**: Breaks the API bottleneck by providing a full-stack harness (RL training, eval, deployment) for agents that drive applications via visual interfaces (taps, swipes, keystrokes).
-- **$\\text{Geek Note}$**: Integrates GiGPO with a Process Reward Model for dense step-level supervision across Android, HarmonyOS, and iOS.
-- **$\\text{Synergy}$**: Extends agent reach to the \"long tail\" of software that lacks programmatic interfaces.
-
-### 🌀 [Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind](https://arxiv.org/abs/2604.11666v1)
-**$\\text{Taxonomy}$**: $\\text{Agentic Cognition}$ | $\\text{Security}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: Trains agents to act as \"Double Agents\" to steer the beliefs of an attacker using reinforcement learning based on both fooling success and Theory of Mind (ToM) rewards.
-- **$\\text{Geek Note}$**: Bidirectionally emergent relationship between ToM and fooling success. Rewarding fooling success improves ToM, and vice versa.
-- **$\\text{Synergy}$**: Essential for high-stakes multi-agent interactions where belief manipulation is a risk.
-
-### 🌀 [VaCoAl: A Hyper-Dimensional SRAM-CAM for Ultra-High Speed, Ultra-Low Power, and Low Cost](https://arxiv.org/abs/2604.11665v1)
-**$\\text{Taxonomy}$**: $\\text{Agentic Memory}$ | $\\text{Architecture}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: A hyper-dimensional computing (HDC) architecture that uses deterministic logic and Galois-field algebra to enable reversible multi-hop reasoning and semantic selection.
-- **$\\text{Geek Note}$**: Emergent STDP-like behavior in a deterministic HDC architecture. Provides a path-dependent semantic selection mechanism.
-- **$\\text{Synergy}$**: Could replace/complement traditional vector-based memory with an algebraic, high-speed association engine.
-
-### 🌀 [Rail: Self-Improving Language & Physics Engine](https://github.com/zemo-g/rail)
-**$\\text{Taxonomy}$**: $\\text{Physics & Simulation}$ | $\\text{Self-Improving Languages}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: The compiler is a fitness function for an autonomous, self-improving system where the language evolves through continuous, multi-lineage experimentation.
-- **$\\text{Geek Note}$**: Integrates Metal-GPU neural surrogates, PCFG-REINFORCE, and LLM-LoRA into a single, zero-C-dependency, self-hosting loop.
-- **$\\text{Synergy}$**: Provides a self-improving substrate for the LLM Wiki pattern and autonomous agentic research.
-
-### 🌀 [Franklin: The Economic Agent](https://github.com/BlockRunAI/franklin)
-**$\\text{Taxonomy}$**: $\\text{Economic Agents}$ | $\\text{Agentic Workflows}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: An agent with native purchasing power is a fundamentally different class of software than a task agent, moving from "task completion" to "economic outcome."
-- **$\\text{Geek Note}$**: Wallet-native identity (Base/Solana) combined with a learned model router and x402 micropayment settlement.
-- **$\\text{Synergy}$**: Provides the economic engine required for high-stakes, real-world autonomous agentic workflows.
-
-### 🌀 [OmniClaw: Agentic Payment Governance](https://github.com/omnuron/omniclaw)
-**$\\text{Taxonomy}$**: $\text{Economic Agents}$ | $\text{Agentic Governance}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
-
-- **$\\text{Core Insight}$**: Decouples payment capability from spending authority via a policy engine, enabling safe machine-to-machine commerce.
-- **$\\text{Geek Note}$**: Separates the "Ability to Pay" (Wallet) from the "Authority to Spend" (Policy Engine) through x402-compatible gates.
-- **$\\text{Synergy}$**: Provides the governance layer for large-scale, multi-agent economic ecosystems.
+### 🌀 [SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context](https://arxiv.org/abs/2604.11716v1)
+**$\text{Taxonomy}$**: Context Management | Dynamic Reasoning | Software Engineering Agents | Reasoning Digests | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Solves the conflict between reasoning depth and context limits by maintaining a detailed sliding window of immediate reasoning and compressing older history into "Reasoning Digests".
+- **$\text{Geek Note}$**: Prevents "Lost-in-the-Middle" degradation and redundant re-reasoning by structuralizing the history into two tiers: a high-fidelity active buffer and a compressed summary archive. This allows the agent to maintain a consistent "thought-line" across hundreds of turns without context explosion.
+- **$\text{Synergy}$**: Direct foundation for 'Agentic Reasoning Compression' and 'Tiered Context Architecture'. It complements KV cache compression by focusing on the semantic layer of the agent's internal monologue.
