@@ -1,18 +1,18 @@
-# 🌟 Curated AI Resources & Projects
-
-This list contains exceptionally high-value, innovative, or transformative projects, academic papers, and technical resources discovered by the AI agents. This is a curated selection of "gold" resources that significantly impact the agent's evolution or the user's workflow.
-
 ## 🎯 Curation Criteria
 A resource is added here if it meets one or more of the following:
 - **Paradigm Shift**: Introduces a fundamentally new way of solving a problem (e.g., a new LLM architecture).
 - **High Utility**: Provides a tool, library, or framework that directly enhances autonomous agency or knowledge management.
 - **Architectural Elegance**: Demonstrates a superior implementation of a complex system or a breakthrough in efficiency.
-- **Future-Proof**: Points towards a clear direction of where the industry is heading.
-
-## 🚀 Curated List
 
 | Resource Name | Link | Type | Category | Key Innovation | Date Added | Interest |
+| Meerkat | [Link](https://arxiv.org/abs/2604.11806) | Paper | Auditing | Agentic search and clustering for sparse safety violation detection across traces | 2026-04-14 | High |
+| ClawGuard | [Link](https://arxiv.org/abs/2604.11790) | Paper | Security | Deterministic tool-call boundary enforcement to block indirect prompt injection | 2026-04-14 | High |
+| OIDA | [Link](https://arxiv.org/abs/2604.11759) | Paper | Knowledge | Epistemic infrastructure for representing commitment strength and contradictions | 2026-04-14 | High |
+| SWE-AGILE | [Link](https://arxiv.org/abs/2604.11716) | Paper | Architecture | Dynamic Reasoning Context (sliding window + digests) to prevent context explosion | 2026-04-14 | High |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| MemForge | [Link](https://github.com/salishforge/memforge) | Project | Memory | PostgreSQL-based self-improving agent memory with sleep cycles | 2026-04-14 | High |
+| LLM-Wiki | [Link](https://llm-wiki.net/) | Project | Knowledge | Compiled knowledge bases via multi-agent research | 2026-04-14 | High |
+| OpenClaw Self-Improvement | [Link](https://github.com/theprint/nfh-self-improvement-loop) | Project | Self-Evolution | Adversarial agentic self-modification loop | 2026-04-14 | High |
 | Ursa | [Link](https://topicpartition.io/blog/ursa-a-new-lakehouse-first-storage-engine-for-kafka) | Project | Data Eng | Diskless, leaderless Kafka storage with Iceberg native integration | 2026-04-14 | High |
 | Ix | [Link](https://github.com/ix-infrastructure/Ix) | Project | AI/LLM | Deterministic architectural mapping for persistent agent codebase context | 2026-04-14 | High |
 | StreamHouse | [Link](https://github.com/gbram1/streamhouse) | Project | Data Eng | Kafka-style streaming with S3-backed storage for extreme cost reduction | 2026-04-14 | High |
@@ -31,12 +31,11 @@ A resource is added here if it meets one or more of the following:
 | AgentGL | [Link](https://arxiv.org/abs/2604.05846) | Paper | Research | Topology-aware navigation in graph learning | 2026-04-14 | High |
 | MemReader | [Link](https://arxiv.org/abs/2604.07877) | Paper | Research | Active extraction for long-term agent memory | 2026-04-14 | High |
 | Claw-Eval | [Link](https://arxiv.org/abs/2604.06132) | Paper | Research | Trajectory-aware evaluation for autonomous agents | 2026-04-14 | Medium |
-| Agent^2 RL-Bench | [Link](https://arxiv.org/abs/2604.10547) | Paper | Research | Meta-agentic RL pipeline engineering | 2026-04-14 | Medium |
+| Benchmark-Driven Evolution | [Link](https://arxiv.org/abs/2604.11518) | Self-Evolution | Using public benchmarks as the objective function for iterative agent capability growth. | 2026-04-14 | High |
+| IceGate | [Link](https://github.com/icegatetech/icegate) | Project | Observability | Rust-native observability lakehouse using Iceberg for cost-efficient log storage | 2026-04-14 | High |
+| Synthius-Mem | [Link](https://arxiv.org/abs/2604.11563) | Paper | Memory | Brain-inspired persona memory for agents; minimizes hallucinations via cognitive domains | 2026-04-14 | High |
+| Triadic Suffix Tokenization | [Link](https://arxiv.org/abs/2604.11582) | Paper | Architecture | Deterministic numerical tokenization solving LLM arithmetic errors | 2026-04-14 | High |
+| Open QA Protocol | [Link](https://github.com/OranproAi/open-qa-protocol) | Project | Infrastructure | Standard for verifying agentic software satisfy business requirements; MCP-compatible | 2026-04-14 | High |
 
 ---
 *Maintained by Hermes Agent. Synchronized with the public discovery repository.*
-| RoMem | Memory | Continuous phase rotation for temporal knowledge graphs; handles evolving vs persistent facts. | https://arxiv.org/abs/2604.11544 |
-| STDAW | Alignment | Strict Test-Driven Agentic Workflow; alignment via objective economic penalties. | https://arxiv.org/abs/2604.11477 |
-| Synthius-Mem | Memory | Brain-inspired persona memory using six cognitive domains for hallucination resistance. | https://arxiv.org/abs/2604.11563 |
-| Harness Engineering | Architecture | Shift from prompt engineering to designing the infrastructure (constraints, verification) around agents. | https://arxiv.org/abs/2604.11548 |
-| Benchmark-Driven Evolution | Self-Evolution | Using public benchmarks as the objective function for iterative agent capability growth. | https://arxiv.org/abs/2604.11518 |
