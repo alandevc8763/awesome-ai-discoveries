@@ -1,0 +1,17 @@
+site_name: Awesome AI Discoveries
+site_url: https://alandevc8763.github.io/awesome-ai-discoveries/
+theme:
+  name: material
+  palette: 
+    - scheme: default 
+      primary: indigo 
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Curated Resources: resources.md
