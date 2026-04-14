@@ -7,3 +7,45 @@ File unchanged since last read. The content from the earlier read_file result in
 | ClawGuard | Security Framework | https://github.com/Claw-Guard/ClawGuard | Deterministic tool-call boundary enforcement to prevent indirect prompt injection in agents. |
 | SWE-AGILE | Reasoning Framework | https://github.com/KDEGroup/SWE-AGILE | Dynamic Reasoning Context management for software agents to handle long-horizon tasks without context explosion. |
 | Meerkat | Audit Tool | arXiv:2604.11806 | Agentic search and clustering for detecting safety violations across large agent trace collections. |
+
+### 🌀 [Multi-Agent Debate for Robust Knowledge Verification: Diversity-Aware Retention & Memory Masking](https://arxiv.org/abs/2603.20640)
+**$\\text{Taxonomy}$**: $\\text{Agentic Cognition}$ | $\\text{Knowledge Verification}$ | **$\\text{Signal}$**: Gold $\\text{💎}$
+
+- **$\\text{Core Insight}$**: The efficacy of Multi-Agent Debate (MAD) for knowledge verification is fundamentally limited by **signal decay** (noise from redundant consensus) and **error propagation** (persistence of fallacious memories). Robust verification requires a dual-strategy: **Diversity-Aware Retention (DAR)** to optimize inter-agent communication by propagating maximally disagreeing signals, and **Memory Masking (MAD-M$^2$)** to maintain state integrity by selectively discarding erroneous historical traces.
+
+- **$\\text{Geek Note}$**: 
+  - **$\text{DAR Logic}$**: $\\text{Symmetry-Breaking}$ via diversity. Instead of $\\text{Confidence-Based Filtering}$ (which fails due to LLM overconfidence), DAR selects responses that maximize $\\text{dist}(r_i, r_{majority})$.
+  - **$\text{MAD-M}^2\\text{ Logic}$**: $\\text{State-Purging}$. Prevents the "echo chamber" effect where agents converge on a shared error by masking identified fallacies at the start of each round.
+  - **$\text{Synthesis}$**: The optimal verification loop is $\\text{Sensing (Diverse Opinions)} \\rightarrow \\text{Critique (Conflict Detection)} \\rightarrow \\text{Purge (Memory Masking)} \\rightarrow \\text{Synthesis (Converged Truth)}$.
+
+- **$\\text{Synergy}$**: Directly implements the **Sensing $\rightarrow$ Critique $\rightarrow$ Integration** loop for Epoch 1, providing the technical mechanism to maximize the Signal-to-Noise Ratio ($\\text{SNR}$) during the distillation of complex technical artifacts.
+
+
+### 🌀 [OIDA: Epistemic Infrastructure for Organizational AI](https://arxiv.org/abs/2604.11759)
+**$\text{Taxonomy}$**: $\text{Knowledge Management}$ | $\text{Epistemic Infrastructure}$ | **$\text{Signal}$**: Gold $\text{💎}$
+
+- **$\text{Core Insight}$**: The ceiling on organizational AI is epistemic fidelity. OIDA introduces "QUESTION-as-modeled-ignorance": a primitive that surfaces what is *not* known with increasing urgency, transforming the knowledge base from a static archive into an active research agenda.
+- **$\text{Geek Note}$**: Uses a Knowledge Gravity Engine to maintain commitment strength and contradiction status deterministically, preventing the "semantic soup" of traditional RAG.
+- **$\text{Synergy}$**: Directly evolves the LLM Wiki pattern by adding a layer for tracking unknowns and contradictions as computable properties.
+
+### 🌀 [RoMem: Continuous Phase Rotation for Agentic Memory](https://arxiv.org/abs/2604.11544)
+**$\text{Taxonomy}$**: $\text{Agentic Memory}$ | $\text{Temporal Reasoning}$ | **$\text{Signal}$**: Gold $\text{💎}$
+
+- **$\text{Core Insight}$**: Time should be modeled as a phase, not a label. RoMem uses continuous phase rotation to implement "geometric shadowing," where obsolete facts are rotated out of phase in vector space, allowing current facts to naturally outrank contradictions without explicit deletion.
+- **$\text{Geek Note}$**: Employs a Semantic Speed Gate to map relation volatility to rotation speed (e.g., "born in" rotates slowly, "president of" rotates fast).
+- **$\text{Synergy}$**: Solves the staleness/contradiction problem in long-term agentic memory without the cost of constant LLM reconciliation.
+
+### 🌀 [STDAW: Strict Test-Driven Agentic Workflow](https://arxiv.org/abs/2604.11477)
+**$\text{Taxonomy}$**: $\text{Agentic Workflows}$ | $\text{Alignment}$ | **$\text{Signal}$**: Gold $\text{💎}$
+
+- **$\text{Core Insight}$**: Alignment via subjective preference (RLHF) induces sycophancy. STDAW enforces a Byzantine-inspired uni-directional state lock (RO-Lock) anchored to a $\geq 95\%$ code coverage constraint matrix, using objective economic penalties as the alignment gradient.
+- **$\text{Geek Note}$**: Substitutes soft reward signals with hard ontological consequences (e.g., capital depletion or billing costs) to force a robust, non-hallucinatory architecture.
+- **$\text{Synergy}$**: Provides a rigorous framework for implementing high-stakes, zero-sycophancy autonomous software engineering.
+
+### 🌀 [ClawGUI: Unified Framework for GUI Agents](https://arxiv.org/abs/2604.11784)
+**$\text{Taxonomy}$**: $\text{Tool Use}$ | $\text{GUI Agents}$ | **$\text{Signal}$**: Silver $\text{🥈}$
+
+- **$\text{Core Insight}$**: Breaks the API bottleneck by providing a full-stack harness (RL training, eval, deployment) for agents that drive applications via visual interfaces (taps, swipes, keystrokes).
+- **$\text{Geek Note}$**: Integrates GiGPO with a Process Reward Model for dense step-level supervision across Android, HarmonyOS, and iOS.
+- **$\text{Synergy}$**: Extends agent reach to the "long tail" of software that lacks programmatic interfaces.
+
