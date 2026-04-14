@@ -7,3 +7,7 @@
 | OIDA Framework | Epistemic infrastructure for organizational AI | Moves from semantic retrieval to 'epistemic fidelity', tracking contradiction and ignorance. | https://arxiv.org/abs/2604.11759 |
 | ClawGuard | Runtime security for tool-augmented agents | Deterministic boundary enforcement against indirect prompt injection. | https://arxiv.org/abs/2604.11790 |
 | SWE-AGILE | Dynamic Reasoning Context framework | Introduces 'Reasoning Digests' to prevent context explosion in complex tasks. | https://arxiv.org/abs/2604.11716 |
+
+| Context Kubernetes | 2604.11623 | Declarative orchestration of enterprise knowledge; reconciliation loops for freshness. | [2604.11623](https://arxiv.org/abs/2604.11623) |
+| Synthius-Mem | 2604.11563 | Brain-inspired persona memory with 6 cognitive domains; near-perfect adversarial robustness. | [2604.11563](https://arxiv.org/abs/2604.11563) |
+| Skill-SD: Skill-Conditioned Self-Distillation | 2604.10674 | $\text{Trajectory} \rightarrow \text{Skill Distillation}$; transforms agent traces into natural language 'skills' to provide dense supervision for student agents via reverse-KL alignment. | [2604.10674](https://arxiv.org/abs/2604.10674) |
