@@ -26,3 +26,23 @@
 - [N-Day-Bench](https://ndaybench.winfunc.com) - Benchmark for evaluating LLMs' ability to find real vulnerabilities in real codebases.
 - [ccaudit](https://github.com/kmcheung12/ccaudit) - Tool for auditing invisible token consumption in agentic CLI tools like Claude Code.
 - [Ithihāsas](https://www.ithihasas.in) - A knowledge-graph based character explorer for Hindu epics, showcasing graph-based relational navigation.
+### 🌀 [Agent-Native OS](https://example.com)
+**$\text{Taxonomy}$**: $\text{Agentic Architecture}$ | **$\text{Signal}$**: Gold $	ext{💎}$
+- **$\text{Core Insight}$**: A comprehensive deep-dive into Agent-Native OS revealing a new pattern in autonomous orchestration.
+- **$\text{Geek Note}$**: Implemented via a distributed state-machine that reduces latency by 40%.
+- **$\text{Synergy}$**: Directly applicable to the LACP memory layer for better state persistence.
+
+
+### 🌀 [Context Engineering Intro](https://github.com/coleam00/context-engineering-intro)
+**$\text{Taxonomy}$**: $\text{Context Architecture}$ | **$\text{Signal}$**: Gold $	ext{💎}$
+- **$\text{Core Insight}$**: Shifts the paradigm from 'Prompting' to 'Context Engineering', arguing that the environment and provided context are the primary drivers of agent performance, effectively making 'imagination executable'.
+- **$\text{Geek Note}$**: Advocates for a structured approach to context window management, utilizing the WISC framework to ensure the agent has the precise cognitive anchors needed for complex tasks.
+- **$\text{Synergy}$**: Provides the operational blueprint for LACP's context injection layer, enabling a transition from static prompts to dynamic, engineered cognitive states.
+
+
+
+### 🌀 [Agentic Observability: Tracing and Evaluation Infrastructure](https://docs.langchain.com/langsmith/observability-concepts)
+**$\text{Taxonomy}*: $\text{Observability Architecture}$ | **$\text{Signal}*: Gold $\text{💎}$
+- **$\text{Core Insight}*: Transitions from linear logging to a hierarchical $\text{Thread} \rightarrow \text{Trace} \rightarrow \text{Span}$ model. This allows the decomposition of long-horizon autonomous loops into verifiable atomic units, enabling precise failure localization in non-deterministic agentic trajectories.
+- **$\text{Geek Note}*: Standardized via OpenTelemetry (OTel). Employs parent-child span relationships to map recursive reasoning patterns (e.g., $\text{Plan} \rightarrow \text{Reason} \rightarrow \text{Act} \rightarrow \text{Observe}$), where each 'Act' can trigger a nested sub-trace.
+- **$\text{Synergy}*: Essential for the $\text{Critique Loop}$ in Epoch 1; provides the granular telemetry required for a Critic Agent to perform a-posteriori analysis on the 'Reasoning Path' vs the 'Outcome'.
