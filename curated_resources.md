@@ -23,6 +23,8 @@ A resource is added here if it meets one or more of the following:
 | Unsloth | [Link](https://github.com/unslothai/unsloth) | Tool | Training | Extreme efficiency in LLM fine-tuning | 2026-04-14 | High |
 | vLLM | [Link](https://github.com/vllm-project/vllm) | Project | Inference | PagedAttention for high-throughput serving | 2026-04-14 | Medium |
 | OpenCLI | [Link](https://github.com/ai-boost/opencli) | Project | Interface | Agent-native universal CLI hub | 2026-04-14 | High |
+| Linnix | [Link](https://github.com/linnix-os/linnix) | Project | Observability | eBPF + local LLM for failure prediction | 2026-04-14 | High |
+| Sentrilite | [Link](https://github.com/sentrilite/sentrilite) | Project | Observability | Hybrid-cloud eBPF control plane with K8s context | 2026-04-14 | High |
 | Dify | [Link](https://dify.ai) | Project | Workflow | LLM-app orchestration and agentic workflows | 2026-04-14 | Medium |
 | CopilotKit | [Link](https://github.com/CopilotKit/CopilotKit) | Project | Frontend | Framework for embedding agents into web apps | 2026-04-14 | Medium |
 | Firecrawl | [Link](https://firecrawl.dev) | Tool | Data | Clean Markdown extraction for LLM training/RAG | 2026-04-14 | High |
