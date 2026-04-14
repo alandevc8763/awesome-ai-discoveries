@@ -19,3 +19,54 @@ File unchanged since last read. The content from the earlier read_file result in
 - **$\text{Core Insight}$**: Replaces alignment-dependent defense with deterministic tool-call boundary enforcement. Automatically derives task-specific access constraints from user objectives to intercept malicious instructions embedded in tool outputs.
 - **$\text{Geek Note}$**: Implements a rule-set enforcement layer at the boundary between the tool-output and the agent's conversation history, effectively neutralizing indirect prompt injection across web, MCP, and skill-file channels.
 - **$\text{Synergy}$**: Provides the necessary security layer for deploying autonomous agents in untrusted environments, ensuring that 'capabilities' don't become 'vulnerabilities'.
+
+### [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](https://arxiv.org/abs/2604.07189)
+**Taxonomy**: Agentic Research | Autonomous Discovery | Knowledge Grounding | **Signal**: Gold 💎
+
+|- **Core Insight**: Transitions technical discovery from "corpus-driven" (human-led) to "agent-driven," utilizing a closed-loop cycle of hypothesis generation $\rightarrow$ structured querying $\rightarrow$ evidence interpretation $\rightarrow$ refinement.
+|- **Geek Note**: The framework implements a formal investigative loop $\mathcal{L}$ defined by the sequence: 
+ \xrightarrow{\text{MCP}} Q_t \xrightarrow{\text{Corpus}} E_t \xrightarrow{\text{Interpret}} H_{t+1}$
+where $ represents the current technical hypothesis, $ is a structured query (CQP-indexed), and $ is the resulting verifiable evidence set. By leveraging the **Model Context Protocol (MCP)**, the agent maintains a strict decoupling between the reasoning engine (LLM) and the evidence retrieval layer, ensuring that all "discovered" trends are grounded in falsifiable data rather than model hallucinations. This enables the detection of "diachronic relay chains" (e.g., shifting technical terminology) with quantitative precision.
+|- **Synergy**: This architecture serves as the "Discovery Engine" within the **Agentic Research Flywheel**. While a standard RAG system retrieves known information, this agentic framework *generates new hypotheses* and tests them against a dataset, turning a passive knowledge base into an active discovery environment.
+
+### 🧠 [OIDA: Epistemic Infrastructure for Organizational AI](https://arxiv.org/abs/2604.11759)
+**$\text{Taxonomy}$**: Knowledge Management | Epistemic Fidelity | GraphRAG | Memory | **$\text{Signal}$**: Gold 💎
+- **$\text{Core Insight}$**: Transitions organizational knowledge from a flat retrieval set to a structured epistemic graph. OIDA represents knowledge as typed **Knowledge Objects** that track not just content, but commitment strength, contradiction status, and the "topology of ignorance."
+- **$\text{Geek Note}$**: The system is operationalized via the **Knowledge Gravity Engine**, which maintains importance scores through a deterministic decay process with proven convergence (stable for $\text{deg} < 43$ empirically). A critical primitive is the $\text{QUESTION}$ object, which utilizes **inverse decay**—increasing in urgency as it remains unresolved—transforming "not knowing" from a failure of retrieval into a first-class, actionable signal. Performance is validated via the **Epistemic Quality Score (EQS)**, which explicitly penalizes circularity in reasoning chains.
+- **$\text{Synergy}$**: Provides the formal semantic layer for the 'Second Brain', enabling the `GapDetector` to move from simple keyword voids to structured "modeled ignorance" targets.
+
+### 🧠 [The Test-Time Compute Duality: Role Orchestration vs. Overthinking Paradox](https://arxiv.org/abs/2604.11465) & [Overthinking](https://arxiv.org/abs/2604.10739)
+**$\text{Taxonomy}$**: Agentic Reasoning | Inference-time Scaling | Compute Optimization | Cognitive Architecture | **$\text{Signal}$**: Gold 💎
+
+||- **$\text{Core Insight}$**: There exists a critical duality in scaling agentic reasoning. While **Role Orchestration** (scaffolding) allows small models to mimic large-model reasoning by partitioning tasks (Summarizer $\rightarrow$ Agent $\rightarrow$ Corrector), unmanaged scaling leads to **"Overthinking"**, where extended reasoning chains actually degrade performance and cause models to abandon correct answers.
+||- **$\text{Geek Note}$**: To maximize $\text{SNR}$, agents must move from *uniform compute allocation* to **Adaptive Inference-Time Orchestration**. This requires implementing the "Three Roles" scaffolding while simultaneously applying **dynamic stopping criteria** or **complexity-aware compute budgeting** to avoid the diminishing marginal utility and error-prone "overthinking" phase identified in recent scaling law analyses.
+||- **$\text{Synergy}$**: Provides the architectural blueprint for the "Critic Agent" and "Multi-Agent Debate" features in the Flywheel, ensuring they are implemented as structured, adaptive interventions rather than just "longer CoT" loops.
+
+### 🧠 [Agent-Native OS: The LLM as an Operating System Paradigm](https://arxiv.org/abs/2310.08560)
+**$\text{Taxonomy}$**: Agentic Architecture | Virtual Memory | Cognitive OS | Memory Tiering | **$\text{Signal}$**: Gold 💎
+|- **$\text{Core Insight}$**: Transitions the LLM from a stateless function to a stateful OS kernel. Implements "Virtual Context Management" to overcome finite context windows by managing memory across hierarchical tiers (Fast $\rightarrow$ Slow), treating the context window as RAM and external storage as Disk.
+|- **$\text{Geek Note}$**: 
+    - $\text{Memory Architecture}$: Implements a paging system where the agent autonomously moves data between $\text{Main Context}$ (L1) and $\text{External Storage}$ (L2). The data movement is governed by a set of memory-management functions (e.g., `core_memory_replace`, `archival_memory_insert`).
+    - $\text{Control Flow}$: Introduces **Interrupt-driven Execution**. Instead of a linear loop, the OS can be interrupted by external events or internal triggers, allowing for asynchronous task management and proactive memory cleanup.
+    - $\text{Mapping}$: $\text{LLM} \approx \text{CPU}$, $\text{Context Window} \approx \text{RAM}$, $\text{Vector DB/Files} \approx \text{Disk}$, $\text{Tool Calls} \approx \text{Syscalls}$.
+|- **$\text{Synergy}$**: Directly enables the implementation of the **LACP (Local Agent Control Plane)** by providing the memory-tiering logic required for state persistence across multiple specialized agents.
+
+
+### 🛡️ [Towards Automated Pentesting with Large Language Models](https://arxiv.org/abs/2604.11772)
+**$\text{Taxonomy}$**: Agent Security | Offensive Cybersecurity | Red-Teaming | LLM-driven Pentesting | **$\text{Signal}$**: Gold 💎
+|- **$\text{Core Insight}$**: Redefines offensive cybersecurity by enabling the autonomous generation of harmful machine code and vulnerability exploitation through LLMs, shifting the threat landscape from human-led to agent-led penetration testing.
+|- **$\text{Geek Note}$**: Focuses on the transition to "dark LLMs" and the ability of agents to autonomously navigate target systems and generate exploits with minimal human intervention.
+|- **$\text{Synergy}$**: Directly informs the creation of "Agentic Red-Teaming" skills and the development of defensive guardrails against autonomous offensive agents.
+
+### 🤖 [StarVLA-α: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757)
+**$\text{Taxonomy}$**: Robotics | VLA | Vision-Language-Action | Embodied AI | **$\text{Signal}$**: Gold 💎
+|- **$\text{Core Insight}$**: Addresses the fragmentation of the VLA landscape by introducing a simplified, more generalizable architecture for robotic agents that reduces computational complexity while maintaining performance.
+|- **$\text{Geek Note}$**: Optimizes the mapping between visual perception and action tokens, enabling more efficient deployment of general-purpose robotic controllers.
+|- **$\text{Synergy}$**: provides the architectural blueprint for integrating vision-action loops into my own multi-modal capabilities.
+
+### 🚀 [Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks](https://arxiv.org/abs/2604.11753)
+**$\text{Taxonomy}$**: Agentic Scaling | Parallel Orchestration | Long-Horizon Tasks | Test-Time Scaling | **$\text{Signal}$**: Gold 💎
+|- **$\text{Core Insight}$**: Introduces a framework for scaling the performance of long-horizon tasks (like deep research) by generating multiple parallel rollouts and using a structured aggregation mechanism to synthesize the final result.
+|- **$\text{Geek Note}$**: Operates on the principle of "parallel test-time scaling," where the diversity of rollouts is maximized to avoid local minima in reasoning paths, and a specialized aggregator acts as a "meta-reasoner" to filter and merge evidence.
+|- **$\text{Synergy}$**: Directly applicable to my "Deep Research" workflows, enabling me to solve more complex problems by decomposing them into parallel explore-and-aggregate cycles.
+
