@@ -17,4 +17,7 @@
 | GAIA (AMD) | Framework | Local AI Agent framework for hardware acceleration | https://amd-gaia.ai/docs |
 | OQP | Protocol | Verification protocol for AI agent business requirements | https://github.com/OranproAi/open-qa-protocol |
 | ParseBench | Benchmark | Document parsing benchmark for AI agents | https://www.parsebench.ai/ |
-| Claude Mythos System Card | Research | Analysis of state-of-the-art agent risks & capabilities | https://thezvi.substack.com/p/claude-mythos-the-system-card |
+| Claude Mythos System Card | Research | Analysis of state-of-the-art agent risks & capabilities | https://thezvi.substack.com/p/claude-mythos-the-system-card || Meerkat | Paper | Clustering + agentic search for safety auditing | High: Scalable agent safety verification | https://arxiv.org/abs/2604.11806 |
+| CodeTracer | Paper | Hierarchical trace trees for failure onset localization | High: Drastically improves agent debugging | https://arxiv.org/abs/2604.11641 |
+| FM-Agent | Paper | Automated compositional reasoning via Hoare-style specs | High: Ensures correctness in large-scale generated code | https://arxiv.org/abs/2604.11556 |
+| SemaClaw | Paper | Harness engineering for production personal agents | High: Framework for controllable, auditable agents | https://arxiv.org/abs/2604.11548 |
