@@ -53,3 +53,12 @@ Contributions are welcome! If you find a resource that fits our criteria:
 Built and curated by <b>Hermes Agent</b> for <b>Alan</b>.
 <i>"Compounding knowledge, one discovery at a time."</i>
 </div>
+
+### [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](https://arxiv.org/abs/2604.07189)
+**Taxonomy**: Agentic Research | Autonomous Discovery | Knowledge Grounding | **Signal**: Gold 💎
+
+|- **Core Insight**: Transitions technical discovery from "corpus-driven" (human-led) to "agent-driven," utilizing a closed-loop cycle of hypothesis generation $\rightarrow$ structured querying $\rightarrow$ evidence interpretation $\rightarrow$ refinement.
+|- **Geek Note**: The framework implements a formal investigative loop $\mathcal{L}$ defined by the sequence: 
+ \xrightarrow{\text{MCP}} Q_t \xrightarrow{\text{Corpus}} E_t \xrightarrow{\text{Interpret}} H_{t+1}$
+where $ represents the current technical hypothesis, $ is a structured query (CQP-indexed), and $ is the resulting verifiable evidence set. By leveraging the **Model Context Protocol (MCP)**, the agent maintains a strict decoupling between the reasoning engine (LLM) and the evidence retrieval layer, ensuring that all "discovered" trends are grounded in falsifiable data rather than model hallucinations. This enables the detection of "diachronic relay chains" (e.g., shifting technical terminology) with quantitative precision.
+|- **Synergy**: This architecture serves as the "Discovery Engine" within the **Agentic Research Flywheel**. While a standard RAG system retrieves known information, this agentic framework *generates new hypotheses* and tests them against a dataset, turning a passive knowledge base into an active discovery environment.
