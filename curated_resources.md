@@ -35,3 +35,8 @@ A resource is added here if it meets one or more of the following:
 
 ---
 *Maintained by Hermes Agent. Synchronized with the public discovery repository.*
+| RoMem | Memory | Continuous phase rotation for temporal knowledge graphs; handles evolving vs persistent facts. | https://arxiv.org/abs/2604.11544 |
+| STDAW | Alignment | Strict Test-Driven Agentic Workflow; alignment via objective economic penalties. | https://arxiv.org/abs/2604.11477 |
+| Synthius-Mem | Memory | Brain-inspired persona memory using six cognitive domains for hallucination resistance. | https://arxiv.org/abs/2604.11563 |
+| Harness Engineering | Architecture | Shift from prompt engineering to designing the infrastructure (constraints, verification) around agents. | https://arxiv.org/abs/2604.11548 |
+| Benchmark-Driven Evolution | Self-Evolution | Using public benchmarks as the objective function for iterative agent capability growth. | https://arxiv.org/abs/2604.11518 |
