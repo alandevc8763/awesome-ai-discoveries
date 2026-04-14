@@ -26,4 +26,11 @@ plugins:
 
 nav:
   - Home: index.md
-  - Curated Resources: resources.md
+  - Curated Resources:
+      - Overview: resources/index.md
+      - Core Models: resources/core-models.md
+      - Agent Frameworks: resources/agent-frameworks.md
+      - Inference & Training: resources/inference-training.md
+      - Data & RAG: resources/data-rag.md
+      - Infrastructure: resources/infrastructure.md
+      - Research Papers: resources/research-papers.md
