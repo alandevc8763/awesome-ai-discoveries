@@ -1,3 +1,4 @@
+
 site_name: Awesome AI Discoveries
 site_url: https://alandevc8763.github.io/awesome-ai-discoveries/
 theme:
@@ -11,6 +12,12 @@ theme:
     - navigation.sections
     - search.suggest
     - search.highlight
+
+plugins:
+  - i18n:
+      languages:
+        en: English
+        zh: 繁體中文
 
 nav:
   - Home: index.md
