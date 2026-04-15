@@ -64,3 +64,33 @@
 | DocSeeker | https://arxiv.org/abs/2604.12812 | Visual RAG | Analysis-Localization-Reasoning workflow for long multimodal document understanding. |
 | RALP | https://arxiv.org/abs/2604.12651 | Knowledge Graphs | CoT prompt learning as scoring functions for KG triple prediction. |
 | Case-Based Learning | https://arxiv.org/abs/2604.12717 | Autonomous Agents | Transferable expertise via reusable knowledge assets from real-world cases. |
+
+## 🧠 High-Fidelity Artifacts
+
+### 🧠 Uncertainty-Aware Reasoning: The CAPO Framework
+
+**Category**: Epistemic Verification / LLM Reasoning  
+**Tags**: `epistemic-verification`, `reasoning-llms`, `calibration`, `CAPO`, `GRPO`, `hallucination-mitigation`  
+**Source**: [arXiv:2604.12632](https://arxiv.org/abs/2604.12632) (Wang et al., 2026)
+
+#### 📌 Executive Summary
+While Group Relative Policy Optimization (GRPO) significantly enhances reasoning capabilities, it inherently induces an **overconfidence bias**. This bias manifests as a misalignment between a model's perceived certainty (perplexity) and its actual correctness, resulting in degraded **relative calibration**. The **Calibration-Aware Policy Optimization (CAPO)** framework addresses this by integrating uncertainty-aware advantage estimation into the optimization loop.
+
+#### 🛠 Technical Architecture
+
+##### 1. The Calibration Gap in GRPO
+Standard GRPO-style algorithms utilize uncertainty-agnostic advantage estimation. This optimizes for accuracy at the expense of calibration, where:
+$$\text{Perplexity}_{\text{incorrect}} < \text{Perplexity}_{\text{correct}}$$
+This phenomenon degrades the **Area Under the Curve (AUC)**, making the model's confidence signals unreliable for downstream verification.
+
+##### 2. The CAPO Solution
+CAPO introduces a **logistic AUC surrogate loss** that is theoretically consistent and admits regret bounds. This enables the optimization process to account for the uncertainty of each reasoning trajectory.
+- **Uncertainty-Aware Advantage Estimation**: Gradients are aligned with calibration metrics, ensuring that the model learns not just *what* is correct, but *when* it is likely to be correct.
+- **Noise Masking Mechanism**: Ensures stable learning dynamics during the joint optimization of calibration and accuracy.
+
+##### 3. Key Capabilities & Outcomes
+- **Precision-Coverage Trade-off**: CAPO enables models to **abstain** from answering under low-confidence conditions, achieving a Pareto-optimal balance between precision and coverage.
+- **Performance**: Demonstrates a $\sim 15\%$ improvement in calibration and a $\sim 5\%$ boost in accuracy for downstream inference-time scaling tasks compared to standard GRPO.
+
+#### 🚀 Flywheel Integration (Epoch 3)
+The CAPO framework provides the mathematical basis for the `Epistemic_Critique_Framework`. By treating the reasoning trace's calibration (via AUC) as a first-class metadata attribute, critic agents can autonomously decide when to **validate**, **reject**, or **demand refinement** of a given reasoning trajectory.
