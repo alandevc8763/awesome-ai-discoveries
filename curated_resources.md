@@ -77,3 +77,8 @@ where $ represents the current technical hypothesis, $ is a structured query (CQ
 |- **$\text{Geek Note}$**: Instead of inefficient, multi-turn recursive loops, MARS synthesizes these insights into optimized instructions, allowing agents to systematically refine reasoning logic without continuous online feedback. This transforms the self-improvement process from a stochastic search into a structured, two-tier optimization: $\text{Logic (Principles)} \times \text{Execution (Procedures)}$, significantly reducing computational overhead.
 |- **$\text{Synergy}$**: Provides the formal engine for the **Agentic Research Flywheel**'s self-evolutionary capabilities, enabling the agent to autonomously refine its own Distillation Protocol and Sensing heuristics.
 | Context Kubernetes | Declarative knowledge orchestration for agents | [arXiv:2604.11623](https://arxiv.org/abs/2604.11623) | Orchestration | High |
+| OriginTrail DKG v9 | Decentralized knowledge orchestration for agents | [github.com/OriginTrail/dkg-v9](https://github.com/OriginTrail/dkg-v9) | Orchestration | High |
+| Weav | In-memory context graph DB for AI workloads | [github.com/SiluPanda/weav](https://github.com/SiluPanda/weav) | Memory | High |
+| Vektor-Memory | Hardware-accelerated dreaming memory (MAGMA) | [github.com/Vektor-Memory/Vektor-memory](https://github.com/Vektor-Memory/Vektor-memory) | Memory | High |
+| Tokenman | Self-evolving autonomous project scaffold | [github.com/verkyyi/tokenman](https://github.com/verkyyi/tokenman) | Orchestration | High |
+
