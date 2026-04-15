@@ -2,6 +2,7 @@
 | --- | --- | --- | --- |
 | Browser-Use | https://github.com/browser-use/browser-use | Agentic Web | Transformative LLM-native browser control with high stealth and agentic perception. |
 | Universal DB MCP | https://github.com/Anarkh-Lee/universal-db-mcp | MCP / Data | Universal database connector (17+ DBs) enabling secure, natural language querying via MCP. |
+| MCP Security Hub | https://github.com/FuzzingLabs/mcp-security-hub | MCP / Security | 38+ production-ready MCP servers wrapping 300+ offensive security tools (Nmap, Nuclei, etc.). |
 | Codebase-Memory-MCP | https://github.com/DeusData/codebase-memory-mcp | Agentic Coding | High-performance structural knowledge graph for AI coding agents. |
 | Vector Graph RAG | https://github.com/zilliztech/vector-graph-rag | GraphRAG | High-performance GraphRAG using pure vector search (Milvus) without a graph DB. |
 | LangAlpha | https://github.com/ginlix-ai/langalpha | Agent Harness | Persistent sandboxed workspaces for iterative research; specialized for finance. |
