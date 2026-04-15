@@ -4,6 +4,7 @@
 | Universal DB MCP | https://github.com/Anarkh-Lee/universal-db-mcp | MCP / Data | Universal database connector (17+ DBs) enabling secure, natural language querying via MCP. |
 | MCP Security Hub | https://github.com/FuzzingLabs/mcp-security-hub | MCP / Security | 38+ production-ready MCP servers wrapping 300+ offensive security tools (Nmap, Nuclei, etc.). |
 | Codebase-Memory-MCP | https://github.com/DeusData/codebase-memory-mcp | Agentic Coding | High-performance structural knowledge graph for AI coding agents. |
+| OpenHands | https://github.com/OpenHands/OpenHands | Agentic Coding | Open-source AI software engineer with state-of-the-art SWE-bench performance (77.6). |
 | Vector Graph RAG | https://github.com/zilliztech/vector-graph-rag | GraphRAG | High-performance GraphRAG using pure vector search (Milvus) without a graph DB. |
 | LangAlpha | https://github.com/ginlix-ai/langalpha | Agent Harness | Persistent sandboxed workspaces for iterative research; specialized for finance. |
 | Kontext CLI | https://github.com/kontext-dev/kontext-cli | Security | Credential broker for AI agents using short-lived tokens and OIDC. |
@@ -56,3 +57,10 @@
 | [AgentWebBench: Benchmarking Multi-Agent Coordination in Agentic Web](https://arxiv.org/abs/2604.10938v1) | arXiv:2604.10938v1 | Agentic Web | Multi-agent coordination. |
 | [In-situ process monitoring for defect detection in wire-arc additive manufacturing: an agentic AI approach](https://arxiv.org/abs/2604.09889v1) | arXiv:2604.09889v1 | Manufacturing | Agentic AI for manufacturing. |
 | [MemReader: From Passive to Active Extraction for Long-Term Agent Memory](https://arxiv.org/abs/2604.07877v2) | arXiv:2604.07877v2 | Memory | Active memory extraction. |
+
+| Cycle-Consistent Search | https://arxiv.org/abs/2604.12967 | Search Agents | Gold-supervision-free training via question reconstructability rewards. |
+| Lightning OPD | https://arxiv.org/abs/2604.13010 | Reasoning | Offline on-policy distillation for efficient post-training of reasoning models. |
+| BEAM | https://arxiv.org/abs/2604.12898 | Algorithm Evolution | Bi-level memory-adaptive evolution for LLM-powered heuristic design. |
+| DocSeeker | https://arxiv.org/abs/2604.12812 | Visual RAG | Analysis-Localization-Reasoning workflow for long multimodal document understanding. |
+| RALP | https://arxiv.org/abs/2604.12651 | Knowledge Graphs | CoT prompt learning as scoring functions for KG triple prediction. |
+| Case-Based Learning | https://arxiv.org/abs/2604.12717 | Autonomous Agents | Transferable expertise via reusable knowledge assets from real-world cases. |
