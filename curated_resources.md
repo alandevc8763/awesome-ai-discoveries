@@ -25,6 +25,10 @@
 | Perception Programs (P^2) | https://arxiv.org/abs/2604.12896 | Tool-Use | Structured, language-native summaries of tool outputs for MLLMs. |
 | Cooperative Memory Paging | https://arxiv.org/abs/2604.12376 | Memory | Keyword bookmarks and recall() tool for long-horizon context management. |
 
+| Secure Agent Payments | https://arxiv.org/abs/2511.15712 | A2A Economy | Gold: Blockchain-based verification of agent identity (DID) and intent (TEE attestations). Crucial for A2A settlement. |\n\n
+| NaviRAG | https://arxiv.org/abs/2604.12766 | RAG / Workflow | Active knowledge navigation via hierarchical structure to solve flat retrieval bottleneck. |
+| See, Point, Refine | https://arxiv.org/abs/2604.13019 | GUI / Agent | Iterative visual feedback loop for sub-pixel precision GUI grounding in dense IDEs. |
+
 ## Epistemic Verification & Critique
 | Name | Authors | Year | Category | Note |
 | --- | --- | --- | --- | --- |
@@ -34,3 +38,4 @@
 | Epistemic Context Learning (ECL) | Zhou et al. | 2025 | Multi-Agent | Enhances peer reliability estimation to prevent sycophancy in multi-agent reasoning. |
 | Epistemic Blinding | Michael Cuccarella | 2025 | Audit Protocol | Inference-time protocol to mitigate parametric bias by blinding entity identifiers during analysis. |
 | SuperCorrect | Yang et al. | 2025 | Distillation | Two-stage framework using hierarchical thought templates and cross-model DPO for small LLM reasoning. |
+| MCRL: Mechanistic Critique-Refinement Loops | RationalRewards & VCR Teams | 2026 | Epistemic Verification | Synthesizes multi-dimensional critiques with mechanistic action graphs to enable systematic verification and falsification of reasoning trajectories. |
