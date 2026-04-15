@@ -185,4 +185,6 @@
    185|| Case-Based Learning for Agents | Framework | Transferable expertise via real-world case reuse | [https://arxiv.org/abs/2604.12717](https://arxiv.org/abs/2604.12717) |
    186|| NaviRAG | RAG Technique | Active knowledge navigation for hierarchical retrieval | [https://arxiv.org/abs/2604.12766](https://arxiv.org/abs/2604.12766) |
    187|| Parallax | Security Paradigm | Separation of Cognitive and Execution layers for safe autonomy | [https://arxiv.org/abs/2604.12986](https://arxiv.org/abs/2604.12986) |
-   188|
+   188|| VoidBox | https://github.com/the-void-ia/void-box | Infrastructure/Security | MicroVM sandboxing for AI agents |
+| 1-Bit Bonsai | https://prismml.com/news/bonsai-8b | Inference/Efficiency | Commercially viable 1-bit LLMs for on-device use |
+| Reprobot | https://www.metabase.com/blog/reprobot-github-issue-triage-agent | Agentic Workflows | Agent for automating bug reproduction from GitHub issues |
