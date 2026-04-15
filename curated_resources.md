@@ -1,5 +1,7 @@
 | Name | URL | Category | Note |
 | --- | --- | --- | --- |
+|| Browser-Use | https://github.com/browser-use/browser-use | Agentic Web | Transformative LLM-native browser control with high stealth and agentic perception. |
+|| Codebase-Memory-MCP | https://github.com/DeusData/codebase-memory-mcp | Agentic Coding | High-performance structural knowledge graph for AI coding agents. |
 | LangAlpha | https://github.com/ginlix-ai/langalpha | Agent Harness | Persistent sandboxed workspaces for iterative research; specialized for finance. |
 | Kontext CLI | https://github.com/kontext-dev/kontext-cli | Security | Credential broker for AI agents using short-lived tokens and OIDC. |
 | Kelet | https://kelet.ai/ | LLM-Ops | Automated root cause analysis for LLM apps via failure hypothesis clustering. |
