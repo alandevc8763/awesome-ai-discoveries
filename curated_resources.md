@@ -16,3 +16,6 @@
 | M* | https://arxiv.org/abs/2604.11811 | Memory | Evolves task-optimized memory harnesses as executable Python programs. |
 | MemReader | https://arxiv.org/abs/2604.07877 | Memory | Active, reasoning-driven memory extraction using GRPO to reduce noise. |
 | TraceSafe | https://arxiv.org/abs/2604.07223 | Safety | Systematic benchmark for auditing mid-trajectory agent execution traces. |
+| TTC Scaling: System-1 to System-2 | Various | 2025 | Survey | ~/ai-second-brain/TTC_Scaling_Report.md |
+| Dual-Trace Memory | https://arxiv.org/abs/2604.12948 | Memory | Narrative scene-trace encoding for improved cross-session recall. |
+| HypoExplore | https://arxiv.org/abs/2604.12999 | Agentic Workflow | Hypothesis-driven discovery with a Trajectory Tree and Memory Bank. |
