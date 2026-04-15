@@ -60,7 +60,6 @@
     60|    56|| [OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems](https://arxiv.org/abs/2604.11477v1) | arXiv:2604.11477v1 | Multi-Agent Alignment | Market-driven alignment. |
     61|    57|[AgentWebBench: Benchmarking Multi-Agent Coordination in Agentic Web](https://arxiv.org/abs/2604.10938v1) | Agentic Web | Multi-agent coordination. |
     62|    58|[AIP: Agent Identity Protocol (arXiv:2603.24775)](https://arxiv.org/abs/2603.24775) | A2A / MCP | Gold: Verifiable delegation and identity across MCP and A2A protocols. |
-<<<<<<< HEAD
 | 63|| Safe: Step-aware Formal Verification | Lin et al. | 2025 | Epistemic Verification | Uses Lean 4 to articulate mathematical claims at each reasoning step, providing verifiable evidence. |
 ## 🧠 High-Fidelity Artifacts
 
@@ -83,9 +82,6 @@ The framework operates through a dual-path verification loop:
 #### 🚀 Flywheel Integration (Epoch 3)
 $Safe$ provides the concrete implementation mechanism for the **TCDA (Trace-Level Calibration via Disagreement Analysis)** and **RER (Recursive Epistemic Refinement)** modules. By moving verification from the output level to the *transition* between steps, it enables the high-fidelity, step-wise monitoring required for the `Epistemic_Critique_Framework`.
 
-=======
-    63|    59|## 🧠 High-Fidelity Artifacts
->>>>>>> e85cb956107e14ef342e35f96e164077372f6ea8
     64|    60|| [MemReader: From Passive to Active Extraction for Long-Term Agent Memory](https://arxiv.org/abs/2604.07877v2) | arXiv:2604.07877v2 | Memory | Active memory extraction. |
     65|    61|
     66|    62|| Cycle-Consistent Search | https://arxiv.org/abs/2604.12967 | Search Agents | Gold-supervision-free training via question reconstructability rewards. |
