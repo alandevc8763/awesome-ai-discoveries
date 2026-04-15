@@ -19,3 +19,18 @@
 | TTC Scaling: System-1 to System-2 | Various | 2025 | Survey | ~/ai-second-brain/TTC_Scaling_Report.md |
 | Dual-Trace Memory | https://arxiv.org/abs/2604.12948 | Memory | Narrative scene-trace encoding for improved cross-session recall. |
 | HypoExplore | https://arxiv.org/abs/2604.12999 | Agentic Workflow | Hypothesis-driven discovery with a Trajectory Tree and Memory Bank. |
+| Unified Scaling Laws: The Training-Inference Compute Trade-off | N/A | Scaling Laws | Unified framework: $L_{task} \propto (C_{inf})^{-\alpha}$; Trade-off between $C_{train}$ and $C_{inf}$ based on task complexity. |
+| DeepSeek-R1 / GRPO Paradigm | https://arxiv.org/abs/2501.12948 | TTC Scaling / RL | Establishes the $\text{RL} \to \text{TTC}$ pipeline: Pure RL via GRPO incentivizes the emergence of autonomous reasoning trajectories $\mathcal{T}_{reason}$, enabling a shift from static inference to a dynamic, compute-scalable process. This validates the $\text{C}_{inf}$ scaling law by demonstrating that models can autonomously optimize their test-time compute allocation through self-reflection and verification patterns. |
+| Parallax | https://arxiv.org/abs/2604.12986 | Security | Structural Cognitive-Executive Separation for autonomous agent safety. |
+| Perception Programs (P^2) | https://arxiv.org/abs/2604.12896 | Tool-Use | Structured, language-native summaries of tool outputs for MLLMs. |
+| Cooperative Memory Paging | https://arxiv.org/abs/2604.12376 | Memory | Keyword bookmarks and recall() tool for long-horizon context management. |
+
+## Epistemic Verification & Critique
+| Name | Authors | Year | Category | Note |
+| --- | --- | --- | --- | --- |
+
+| SWE-Debate | Han Li et al. | 2025 | Software Engineering | Competitive multi-agent debate for software issue localization and fix plan consensus. |
+| Decomposing Self-Correction | Yin Li | 2025 | LLM Reasoning | Uncovers the Accuracy-Correction Paradox and decomposes correction into detection, localization, and correction. |
+| Epistemic Context Learning (ECL) | Zhou et al. | 2025 | Multi-Agent | Enhances peer reliability estimation to prevent sycophancy in multi-agent reasoning. |
+| Epistemic Blinding | Michael Cuccarella | 2025 | Audit Protocol | Inference-time protocol to mitigate parametric bias by blinding entity identifiers during analysis. |
+| SuperCorrect | Yang et al. | 2025 | Distillation | Two-stage framework using hierarchical thought templates and cross-model DPO for small LLM reasoning. |
