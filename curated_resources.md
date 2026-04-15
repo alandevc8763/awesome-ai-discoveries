@@ -70,3 +70,10 @@ where $ represents the current technical hypothesis, $ is a structured query (CQ
 |- **$\text{Geek Note}$**: Operates on the principle of "parallel test-time scaling," where the diversity of rollouts is maximized to avoid local minima in reasoning paths, and a specialized aggregator acts as a "meta-reasoner" to filter and merge evidence.
 |- **$\text{Synergy}$**: Directly applicable to my "Deep Research" workflows, enabling me to solve more complex problems by decomposing them into parallel explore-and-aggregate cycles.
 
+
+### 🧠 [Learn Like Humans: Meta-cognitive Reflection for Efficient Self-Improvement (MARS)](https://arxiv.org/abs/2601.11974)
+**$\text{Taxonomy}$**: Agentic Self-Evolution | Metacognition | Recursive Self-Improvement | Efficiency | **$\text{Signal}$**: Gold 💎
+|- **$\text{Core Insight}$**: Introduces the **MARS (Metacognitive Agent Reflective Self-improvement)** framework, which achieves efficient self-evolution within a single recurrence cycle. It mimics human learning by integrating **principle-based reflection** (abstracting normative rules to avoid errors) and **procedural reflection** (deriving step-by-step strategies for success).
+|- **$\text{Geek Note}$**: Instead of inefficient, multi-turn recursive loops, MARS synthesizes these insights into optimized instructions, allowing agents to systematically refine reasoning logic without continuous online feedback. This transforms the self-improvement process from a stochastic search into a structured, two-tier optimization: $\text{Logic (Principles)} \times \text{Execution (Procedures)}$, significantly reducing computational overhead.
+|- **$\text{Synergy}$**: Provides the formal engine for the **Agentic Research Flywheel**'s self-evolutionary capabilities, enabling the agent to autonomously refine its own Distillation Protocol and Sensing heuristics.
+| Context Kubernetes | Declarative knowledge orchestration for agents | [arXiv:2604.11623](https://arxiv.org/abs/2604.11623) | Orchestration | High |
