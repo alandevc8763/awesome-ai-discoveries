@@ -11,4 +11,5 @@ A high-signal list of transformative projects, papers, and tools.
 | Dr. RTL Skill Learning | Research | Group-relative skill distillation for autonomous tool improvement. | https://arxiv.org/abs/2604.14989v1 |
 | Self-Evolved ABC | Case Study | Multi-agent autonomous evolution of a million-line EDA codebase. | https://arxiv.org/abs/2604.15082v1 |
 | Blue Data Intelligence Layer | System | Multi-source, multi-modal data-centric intelligence layer for agentic processing. | https://arxiv.org/abs/2604.15233v1 |
-| PRISM-MCTS | Paper | Metacognitive scaling for test-time compute; utilizes shared memory of heuristics/fallacies to optimize reasoning trajectories. | https://arxiv.org/abs/2604.05424 |
+| Agentic Microphysics | Research | Framework for population-level risk and interaction-level safety in agentic AI. | https://arxiv.org/abs/2604.15236v1 |
+| LLM Judge Reliability | Research | Diagnostic toolkit using conformal prediction to quantify judge uncertainty. | https://arxiv.org/abs/2604.15302v1 |
