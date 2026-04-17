@@ -207,3 +207,69 @@ The framework introduces **Memory Gravity** (where central nodes attract more co
 | SRMU: Streaming Hyperdimensional Memories | Paper | Relevance-gated updates for more efficient long-term memory. | [https://arxiv.org/abs/2604.15121](https://arxiv.org/abs/2604.15121) |
 | IG-Search: Information Gain Rewards | Paper | Step-level rewards for search-augmented reasoning. | [https://arxiv.org/abs/2604.15148](https://arxiv.org/abs/2604.15148) |
 | Scepsy: Serving Agentic Workflows | Paper | Efficient serving of aggregate LLM pipelines for agent workflows. | [https://arxiv.org/abs/2604.15186](https://arxiv.org/abs/2604.15186) |
+
+### 🧠 NornicDB: High-Performance Graph+Vector Temporal Store
+**Category**: Infrastructure / Database  
+**Tags**: `graph-db`, `vector-db`, `mvcc`, `temporal-memory`, `neo4j-compatible`, `mcp`  
+**Source**: GitHub (orneryd/NornicDB, 2026)
+
+#### 📌 Executive Summary
+NornicDB is a distributed database that unifies graph traversal, vector retrieval, and historical truth in a single engine. It eliminates the need for separate vector sidecars (like Qdrant/Milvus) alongside graph databases (like Neo4j), providing a single execution path for hybrid retrieval. Its most distinctive feature is the use of MVCC for tritemporal fact modeling, allowing agents to perform "as-of" reads to reconstruct past states.
+
+#### 🛠 Technical Architecture
+1. **Hybrid Execution Engine**: Implements shape-specialized streaming executors for common graph patterns while maintaining a general Cypher path for correctness.
+2. **Temporal MVCC Layer**: Every mutation is versioned, enabling snapshot isolation and the ability to query the graph at any historical point in time.
+3. **Cognitive Memory Tiers**: Built-in memory decay logic categorized by half-life: Episodic (7 days), Semantic (69 days), and Procedural (693 days).
+4. **Hardware-Accelerated Paths**: Native integration with Metal, CUDA, and Vulkan for high-throughput embedding and traversal workloads.
+
+#### 📈 Utility Analysis
+- **Actionability**: Extremely High. Provides a drop-in Neo4j replacement with added vector and temporal capabilities.
+- **Architectural Depth**: Deep. Integrates MVCC and vector search into the core storage engine rather than as plugins.
+- **Novelty**: Solves the "state drift" problem in agent memory by making historical state a first-class citizen.
+
+---
+
+### 🧠 Ruflo: Multi-Agent Swarm Orchestration
+**Category**: Agent Infrastructure / Orchestration  
+**Tags**: `multi-agent`, `swarm-intelligence`, `consensus-protocols`, `self-learning`, `ruvector`  
+**Source**: GitHub (ruvnet/ruflo, 2026)
+
+#### 📌 Executive Summary
+Ruflo is an orchestration platform that transforms single-agent systems into coordinated swarms. It moves beyond simple sequential chains to use sophisticated swarm topologies (mesh, hierarchical) and consensus algorithms (Raft, BFT) to ensure agent alignment and fault tolerance. It features a "RuVector" intelligence layer that enables agents to learn optimal routing and patterns from their own successful trajectories.
+
+#### 🛠 Technical Architecture
+1. **RuVector Intelligence**: Implements SONA (Self-Optimizing Pattern Learning) and EWC++ (Elastic Weight Consolidation) to prevent catastrophic forgetting during agent adaptation.
+2. **Consensus-Driven Coordination**: Uses BFT (Byzantine Fault Tolerance) to reach decisions among agent teams, ensuring correctness even if a minority of agents diverge.
+3. **ReasoningBank**: A pattern store that captures successful reasoning trajectories, which are then distilled and reused to optimize future task routing.
+4. **WASM-Based Agent Booster**: Routes simple code transforms to WebAssembly kernels, bypassing the LLM entirely for <1ms latency.
+
+#### 📈 Utility Analysis
+- **Actionability**: High. Provides a comprehensive framework for deploying production-grade multi-agent swarms.
+- **Architectural Depth**: Deep. Integrates formal consensus protocols and neural pattern learning into agent orchestration.
+- **Novelty**: Introduces "Swarm Intelligence" to the LLM agent space, shifting focus from individual agent prompts to collective swarm behavior.
+
+---
+
+### 🧠 Hyper-RAG: Hypergraph-Driven Retrieval
+**Category**: RAG / Knowledge Representation  
+**Tags**: `hypergraph`, `high-order-correlations`, `hallucination-reduction`, `medical-ai`  
+**Source**: arXiv:2504.08758 (2026)
+
+#### 📌 Executive Summary
+Hyper-RAG evolves RAG by replacing traditional pairwise graphs with hypergraphs, where an edge (hyperedge) can connect any number of entities. This allows the system to capture "beyond-pairwise" correlations—complex relationships involving three or more entities—which are often the source of critical insights in specialized domains like medicine. This structural richness significantly reduces hallucinations by providing more complete and accurate context.
+
+#### 🛠 Technical Architecture
+1. **Hypergraph Modeling**: Instead of  \to B$ and  \to C$, it models $\{A, B, C\}$ as a single hyperedge, preserving the atomic nature of the relationship.
+2. **Hypergraph-DB Integration**: Utilizes a native hypergraph database for rapid retrieval of these higher-order associations.
+3. **Information Diffusion**: Employs a diffusion process across the hypergraph to retrieve a wider but more relevant context than standard vector search.
+4. **Lightweight Variant (Hyper-RAG-Lite)**: Optimizes the retrieval pipeline for \times$ speedup while maintaining high precision.
+
+#### 📈 Utility Analysis
+- **Actionability**: Medium. Requires a specialized hypergraph database and an extraction pipeline for high-order correlations.
+- **Architectural Depth**: Deep. Fundamentally changes the representation of knowledge from a graph to a hypergraph.
+- **Novelty**: Addresses the "information loss" inherent in decomposing complex relationships into multiple pairwise edges.
+
+---
+| NornicDB | Infrastructure | Distributed Graph+Vector DB with Temporal MVCC and native Graph-RAG support. | [https://github.com/orneryd/NornicDB](https://github.com/orneryd/NornicDB) |
+| Ruflo | Orchestration | Multi-agent swarm platform with BFT consensus and RuVector self-learning. | [https://github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo) |
+| Hyper-RAG | RAG | Hypergraph-driven retrieval that captures high-order correlations to reduce hallucinations. | [https://github.com/iMoonLab/Hyper-RAG](https://github.com/iMoonLab/Hyper-RAG) |
