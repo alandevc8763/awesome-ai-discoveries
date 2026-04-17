@@ -79,3 +79,126 @@ The framework introduces **Memory Gravity** (where central nodes attract more co
 - **Actionability**: Medium. Requires integration of a complex-vector retrieval layer or a simulation of phase-rotation in the memory index.
 - **Architectural Depth**: Deep. Replaces discrete time-stamping with a geometric representation of temporal decay.
 - **Novelty**: Eliminates the "delete vs. keep" dilemma in agentic memory by making obsolescence a natural property of the representation.
+
+---
+
+### 🧠 Scepsy: Aggregate LLM Pipelines for Agentic Scaling
+**Category**: Agent Infrastructure / Scaling  
+**Tags**: `gpu-scheduling`, `agentic-workflows`, `throughput-optimization`, `multi-llm`  
+**Source**: arXiv:2604.15186 (2026)
+
+#### 📌 Executive Summary
+**Scepsy** is an agentic serving system that optimizes the deployment of multi-LLM agentic workflows on GPU clusters. It recognizes that while end-to-end latencies of agentic workflows are unpredictable, the relative execution time shares of individual LLMs remain stable. Scepsy uses an "Aggregate LLM Pipeline" to predict the best GPU allocations (fractional shares, tensor parallelism, and replicas) to minimize latency while hitting target throughput.
+
+#### 🛠 Technical Architecture
+1. **Profiling Phase**: Profiles LLMs under various parallelism degrees to build a latency/throughput map.
+2. **Aggregate LLM Pipeline**: A lightweight predictor that explores the search space of GPU allocations based on aggregate execution shares.
+3. **Hierarchical Heuristic Placement**: Maps the optimal allocation onto the cluster while minimizing fragmentation and respecting network topology.
+
+#### 📈 Utility Analysis
+- **Actionability**: High for infrastructure providers. Provides a concrete method to optimize the serving of complex, branching agentic workflows.
+- **Architectural Depth**: Deep. Moves from independent LLM optimization to workflow-aware cluster scheduling.
+- **Novelty**: Uses aggregate stability of LLM shares to solve the unpredictability of agentic execution paths.
+
+---
+
+### 🧠 Dr. RTL: Group-Relative Skill Learning for Self-Improvement
+**Category**: Agentic Evolution / Self-Improvement  
+**Tags**: `skill-induction`, `closed-loop-optimization`, `self-evolving-agents`, `group-relative-learning`  
+**Source**: arXiv:2604.14989 (2026)
+
+#### 📌 Executive Summary
+**Dr. RTL** is a framework for autonomous optimization (originally for RTL timing) that implements a closed-loop self-improvement cycle. Its core innovation is **group-relative skill learning**, where the agent performs parallel attempts at a task, compares the outcomes, and distills the winning strategies into a structured, interpretable skill library that can be reused across different designs.
+
+#### 🛠 Technical Architecture
+1. **Multi-Agent Loop**: Specialized agents for critical-path analysis, parallel rewriting, and tool-based evaluation.
+2. **Parallel Trajectories**: Generates multiple candidate solutions for the same problem.
+3. **Relative Distillation**: Compares parallel rewrites to identify the most effective pattern, distilling this experience into a "pattern-strategy" entry in the skill library.
+4. **Cross-Design Reuse**: The evolved skill library is applied to new, unseen tasks to accelerate convergence.
+
+#### 📈 Utility Analysis
+- **Actionability**: Extremely High. This "group-relative" approach can be integrated into any agent's skill-induction loop to move from "recording success" to "distilling strategy."
+- **Architectural Depth**: Deep. Implements a formal mechanism for the transition from experience $	o$ skill $	o$ generalized capability.
+- **Novelty**: Shifts self-improvement from single-trajectory RL to comparative, multi-trajectory distillation.
+
+---
+
+### 🧠 SWE-TRACE: Rubric Process Reward Models (PRM)
+**Category**: Software Engineering / Reinforcement Learning  
+**Tags**: `prm`, `test-time-scaling`, `long-horizon-agents`, `swe-bench`  
+**Source**: arXiv:2604.14820 (2026)
+
+#### 📌 Executive Summary
+**SWE-TRACE** optimizes long-horizon software engineering agents by replacing sparse outcome rewards with a **Rubric-Based Process Reward Model (PRM)**. It uses a separate "Rubric-Agent" to provide dense, fine-grained heuristic feedback on intermediate steps, which is then used both for RL training and for heuristic-guided Test-Time Scaling (TTS) during inference.
+
+#### 🛠 Technical Architecture
+1. **Stepwise Oracle Verification**: Distills a token-efficient SFT corpus biased toward shortest-path trajectories.
+2. **Rubric-Agent Feedback**: An auxiliary agent evaluates intermediate steps against a predefined rubric, providing a dense reward signal.
+3. **Heuristic TTS**: During inference, the PRM dynamically evaluates and prunes action candidates, focusing compute on the most promising paths without the overhead of massive parallel sampling.
+
+#### 📈 Utility Analysis
+- **Actionability**: High. Implementing a rubric-based evaluator for intermediate agent steps is a powerful way to reduce "token bloat" and reward hacking.
+- **Architectural Depth**: Medium. Integrates PRMs into the SWE agent lifecycle.
+- **Novelty**: Bridges the gap between training-time reward modeling and inference-time search efficiency via heuristics.
+
+---
+
+### 🧠 Parallax: Cognitive-Executive Separation for Agent Safety
+**Category**: Agent Security / Architecture  
+**Tags**: `cognitive-separation`, `adversarial-validation`, `safe-execution`, `agent-guardrails`  
+**Source**: arXiv:2604.12986 (2026)
+
+#### 📌 Executive Summary
+**Parallax** introduces a fundamental architectural boundary for autonomous agents: **Cognitive-Executive Separation**. It argues that the reasoning system (the LLM) should never have direct execution capability. Instead, all actions must pass through an independent, multi-tiered validator that enforces safety invariants and information flow controls, ensuring that even a fully compromised reasoning system cannot execute destructive actions.
+
+#### 🛠 Technical Architecture
+1. **Structural Separation**: Reasoning (Cognitive) and Execution (Executive) are isolated into different processes/environments.
+2. **Adversarial Validation**: An independent validator checks the proposed action against a set of deterministic and probabilistic guardrails.
+3. **Information Flow Control**: Propagates sensitivity labels to detect context-dependent threats (e.g., "do not send this specific file to an external API").
+4. **Reversible Execution**: Captures pre-state to enable immediate rollback upon validation failure.
+
+#### 📈 Utility Analysis
+- **Actionability**: High. Essential for any agent with filesystem or network access.
+- **Architectural Depth**: Deep. Shifts safety from "prompt-level" (soft) to "architectural-level" (hard).
+- **Novelty**: Defines a "Zero Trust" model for agentic execution.
+
+---
+
+### 🧠 CodaRAG: Associative Navigation for Knowledge Discovery
+**Category**: RAG / Knowledge Management  
+**Tags**: `associative-rag`, `graph-rag`, `evidence-chains`, `complementary-learning`  
+**Source**: arXiv:2604.10426 (2026)
+
+#### 📌 Executive Summary
+**CodaRAG** evolves RAG from passive lookup to **active associative discovery**. Inspired by Complementary Learning Systems (CLS), it reconstructs logical chains that connect fragmented pieces of evidence across a corpus, allowing the agent to "connect the dots" rather than just retrieving isolated chunks.
+
+#### 🛠 Technical Architecture
+1. **Knowledge Consolidation**: Unifies fragmented extractions into a stable memory substrate.
+2. **Associative Navigation**: Traverses the knowledge graph via multi-dimensional pathways (semantic, contextual, and functional) to explicitly recover dispersed evidence chains.
+3. **Interference Elimination**: Prunes hyper-associative noise to maintain a high-precision reasoning context.
+
+#### 📈 Utility Analysis
+- **Actionability**: Medium. Requires a graph-based index and a multi-step navigation strategy during retrieval.
+- **Architectural Depth**: Deep. Models the retrieval process as an associative walk rather than a vector search.
+- **Novelty**: Solves the "fragmentation" problem in standard RAG by prioritizing the *relationship* between pieces of evidence.
+
+---
+
+### 🧠 AgentSPEX: Specification and Execution Language
+**Category**: Agent Orchestration / Formal Methods  
+**Tags**: `agent-dsl`, `workflow-spec`, `interpretability`, `state-management`  
+**Source**: arXiv:2604.13346 (2026)
+
+#### 📌 Executive Summary
+**AgentSPEX** is a domain-specific language (DSL) for specifying LLM-agent workflows. It decouples the workflow logic (control flow, branching, loops, state management) from the underlying Python implementation, making agentic systems more modular, interpretable, and easier to modify without changing the core harness.
+
+#### 🛠 Technical Architecture
+1. **Typed Steps**: Defines agents and tools as typed entities with clear input/output schemas.
+2. **Explicit Control Flow**: Supports native branching, loops, and parallel execution within the specification.
+3. **State Management**: Explicitly defines the agent's state and how it evolves across steps.
+4. **Visual Synchronization**: Includes a graph-based editor that synchronizes the visual workflow with the SPEX code.
+
+#### 📈 Utility Analysis
+- **Actionability**: Medium. Useful for teams building complex multi-agent systems that need a shared specification.
+- **Architectural Depth**: Medium. Adds a layer of abstraction between the "what" (workflow) and the "how" (execution).
+- **Novelty**: Moves agent orchestration from "code-as-config" (like LangGraph) to "spec-as-source."
