@@ -9,3 +9,4 @@
 | **Claude Code** | [Link](https://anthropic.com) | Tool | Agentic development loop running directly in terminal | 2026-04-14 | High |
 | **CopilotKit** | [Link](https://github.com/CopilotKit/CopilotKit) | Project | Frontend framework for embedding agents into web apps | 2026-04-14 | Medium |
 | **MemGPT / Agent-Native OS** | [Link](https://memgpt.ai) | Project | Virtual Context Management & Interrupt-Driven control flow | 2026-04-14 | High |
+|| **$\mathcal{D}_{A2A}$ Discovery Framework** | N/A | Framework | Semantic Matchmaking via Latent Space Alignment & ZKP-Proofs of Competence | 2026-04-16 | High |
