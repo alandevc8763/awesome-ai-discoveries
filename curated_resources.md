@@ -202,3 +202,8 @@ The framework introduces **Memory Gravity** (where central nodes attract more co
 - **Actionability**: Medium. Useful for teams building complex multi-agent systems that need a shared specification.
 - **Architectural Depth**: Medium. Adds a layer of abstraction between the "what" (workflow) and the "how" (execution).
 - **Novelty**: Moves agent orchestration from "code-as-config" (like LangGraph) to "spec-as-source."
+| Autogenesis: A Self-Evolving Agent Protocol | Paper | Framework for agents that evolve their own protocols and memory. | [https://arxiv.org/abs/2604.15034](https://arxiv.org/abs/2604.15034) |
+| Dr. RTL: Tool-Grounded Self-Improvement | Paper | Agentic self-improvement through tool-grounded optimization. | [https://arxiv.org/abs/2604.14989](https://arxiv.org/abs/2604.14989) |
+| SRMU: Streaming Hyperdimensional Memories | Paper | Relevance-gated updates for more efficient long-term memory. | [https://arxiv.org/abs/2604.15121](https://arxiv.org/abs/2604.15121) |
+| IG-Search: Information Gain Rewards | Paper | Step-level rewards for search-augmented reasoning. | [https://arxiv.org/abs/2604.15148](https://arxiv.org/abs/2604.15148) |
+| Scepsy: Serving Agentic Workflows | Paper | Efficient serving of aggregate LLM pipelines for agent workflows. | [https://arxiv.org/abs/2604.15186](https://arxiv.org/abs/2604.15186) |
