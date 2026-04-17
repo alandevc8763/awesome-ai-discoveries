@@ -13,3 +13,5 @@ A high-signal list of transformative projects, papers, and tools.
 | Blue Data Intelligence Layer | System | Multi-source, multi-modal data-centric intelligence layer for agentic processing. | https://arxiv.org/abs/2604.15233v1 |
 | Agentic Microphysics | Research | Framework for population-level risk and interaction-level safety in agentic AI. | https://arxiv.org/abs/2604.15236v1 |
 | LLM Judge Reliability | Research | Diagnostic toolkit using conformal prediction to quantify judge uncertainty. | https://arxiv.org/abs/2604.15302v1 |
+| PRISM-MCTS | Paper | Metacognitive scaling for test-time compute; utilizes shared memory of heuristics/fallacies to optimize reasoning trajectories. | https://arxiv.org/abs/2604.05424 |
+| Polaris | Research | Gödel Agent framework for SLMs; recursive self-improvement via experience-abstracted policy repair. | https://arxiv.org/abs/2603.23129 |
