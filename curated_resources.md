@@ -13,3 +13,5 @@ A high-signal list of transformative projects, papers, and tools.
 | Blue Data Intelligence Layer | System | Multi-source, multi-modal data-centric intelligence layer for agentic processing. | https://arxiv.org/abs/2604.15233v1 |
 | Agentic Microphysics | Research | Framework for population-level risk and interaction-level safety in agentic AI. | https://arxiv.org/abs/2604.15236v1 |
 | LLM Judge Reliability | Research | Diagnostic toolkit using conformal prediction to quantify judge uncertainty. | https://arxiv.org/abs/2604.15302v1 |
+| IG-Search | 2604.15148 | Implements step-level Information Gain rewards for search-augmented reasoning, drastically reducing redundant queries. | [https://arxiv.org/abs/2604.15148](https://arxiv.org/abs/2604.15148) |
+| SRMU (Relevance-Gated Memory) | 2604.15121 | A domain-agnostic update rule for streaming memories that filters redundant/stale info using relevance gating. | [https://arxiv.org/abs/2604.15121](https://arxiv.org/abs/2604.15121) |
