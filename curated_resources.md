@@ -11,4 +11,6 @@
 | 2604.15121v1 | SRMU | Relevance-Gated updates for streaming memories to filter redundant/stale info. | Memory |
 | 2604.15267v1 | CoopEval | Study on cooperation mechanisms (contracts/mediation) between capable LLM agents. | Multi-Agent |
 | 2604.15236v1 | Agentic Microphysics | High | Framework for agent safety focusing on population-level risks and local interaction dynamics. |
-| 2604.15244v1 | SpecGuard | High | Step-level verification via internal model signals for efficient reasoning. |
+| 2604.15034v1 | Autogenesis: A Self-Evolving Agent Protocol | [Transformative] Proposes a formal protocol for agent lifecycle, versioning, and safe self-evolution interfaces. | Self-Evolution |
+| 2604.15082v1 | Autonomous Evolution of EDA Tools | [High] Demonstrates successful autonomous codebase improvement on a complex integrated system. | Self-Evolution |
+| 2604.14989v1 | Dr. RTL: Agentic RTL Optimization | [High] Tool-grounded self-improvement loop for hardware optimization. | Self-Evolution |
