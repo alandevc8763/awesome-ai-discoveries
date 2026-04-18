@@ -19,3 +19,4 @@
 | Phantom | https://ghostwright.dev/phantom | AI co-worker with its own VM, self-evolution engine, and dynamic tool creation. | Moves agents from disposable chat sessions to persistent, evolving professional roles. | Agent Infrastructure |
 | History LLMs | https://github.com/DGoettlich/history-llms | Models trained on pre-1913 texts to avoid hindsight contamination. | Enables authentic simulation of historical cognitive frameworks. | Synthetic History |
 | Anna's Archive | https://annas-archive.org | Massive open library of books and papers. | Foundational data source for training and research. | Knowledge Preservation |
+| BehR | https://arxiv.org/abs/2604.13824 | Shifting world model training from state-similarity to functional behavior consistency; uses a Reference Agent to measure action-likelihood shifts. | Improves long-term planning and reduces offline eval false positives. | World Models / Planning |
