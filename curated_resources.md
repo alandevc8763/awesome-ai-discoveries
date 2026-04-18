@@ -26,3 +26,7 @@ A high-signal list of transformative projects, papers, and tools.
 | WaooWaoo | Platform | Industry-first professional AI Agent platform for controllable film & video production. | https://github.com/saturndec/waoowaoo |
 | Samyama Graph | Tool | High-efficiency graph-vector database capable of querying 1B edges for $2.50. | https://github.com/samyama-ai/samyama-graph |
 | NornicDB | Tool | Distributed low-latency Graph+Vector database with MCP server integration. | https://github.com/orneryd/NornicDB |
+| Claude Code Showcase | Case Study | Real-world examples of agentic workflows for triage, docs, and quality audits. | https://github.com/ChrisWiles/claude-code-showcase |
+| OpenCode | Tool | Open source alternative to proprietary coding agents with a server/client architecture. | https://opencode.ai/ |
+| History LLMs | Tool | Time-locked models trained on pre-1913 texts to avoid hindsight contamination. | https://github.com/DGoettlich/history-llms |
+| llms.txt | Concept | A proposal for a standard way for websites to provide LLM-friendly descriptions and guides. | https://annas-archive.li/blog/llms-txt.html |
