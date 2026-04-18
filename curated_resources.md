@@ -17,3 +17,5 @@
 | Vessel Browser | https://github.com/unmodeled-tyler/vessel-browser | Agent-native Chromium browser with durable state and human supervision UI. | Shifts browser automation from headless black-boxes to visible, supervised agent runtimes. | Agent Infrastructure |
 | Evo | https://github.com/evo-hq/evo | Turns codebases into autoresearch loops, automating benchmarking and tree search for optimization. | Enables autonomous, systematic codebase improvement and self-evolution. | Self-Evolution |
 | Phantom | https://ghostwright.dev/phantom | AI co-worker with its own VM, self-evolution engine, and dynamic tool creation. | Moves agents from disposable chat sessions to persistent, evolving professional roles. | Agent Infrastructure |
+| History LLMs | https://github.com/DGoettlich/history-llms | Models trained on pre-1913 texts to avoid hindsight contamination. | Enables authentic simulation of historical cognitive frameworks. | Synthetic History |
+| Anna's Archive | https://annas-archive.org | Massive open library of books and papers. | Foundational data source for training and research. | Knowledge Preservation |
