@@ -1,26 +1,14 @@
 # Curated AI Resources
 
-| Name | Link | Description | Impact | Category |
-|------|------|-------------|---------|----------|
-| Blue DIL | https://aka.ms/mm-webagent | A compound AI system with a 'Data Intelligence Layer' that unifies structured data, world knowledge, and personal context via data planners. | Transformative for knowledge management and agentic data processing. | Knowledge Management |
-| E3-TIR | https://arxiv.org/abs/2604.09455 | Enhanced Experience Exploitation for Tool-Integrated Reasoning. A warm-up paradigm for RL agent training that integrates Expert Prefixes, Expert Guided, and Self-Exploration trajectories to mitigate low-entropy collapse and exploration inefficiency. | $\approx 1.46\text{x ROI}$ gain in training efficiency; reduces synthetic data requirements to $<10\%$ while improving tool-use performance. | RL Policy Optimization |
-| Autogenesis Protocol | Self-Evolution | A protocol for decoupled, versioned self-evolution of agent resources (prompts, tools, memory). | [https://arxiv.org/abs/2604.15034](https://arxiv.org/abs/2604.15034) | Meta-Evolution |
-| Atropos | Efficiency | Predictive early-termination and model hotswapping to optimize cost-benefit of agentic inference. | [https://arxiv.org/abs/2604.15075](https://arxiv.org/abs/2604.15075) | Inference Optimization |
-| DPC (Dual-Paradigm Consistency) | Verification | Verifies tool output by cross-referencing results between different paradigms (e.g., SQL vs Python). | [https://arxiv.org/abs/2604.15163](https://arxiv.org/abs/2604.15163) | Verification |
-| Scepsy | https://arxiv.org/abs/2604.15186 | Serving Agentic Workflows Using Aggregate LLM Pipelines. Optimizes latency and throughput for arbitrary agentic frameworks. | High impact for agent infrastructure efficiency. | Agent Infrastructure |
-| CoopEval | https://arxiv.org/abs/2604.15267 | Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas. | Essential for measuring multi-agent social intelligence. | Multi-Agent Evaluation |
-| Verifier Bottleneck Solutions | /wiki/research/verifier-bottleneck-solutions.md | SOTA techniques (PAPO, TD-PRM, Full-Step-DPO) to overcome signal collapse in TTC scaling. | Solves the "Uniform Correctness" problem; enables $\text{SNR}$ recovery. | Reasoning Scaling |
-| Looped Transformers | https://arxiv.org/abs/2604.15259 | Fixed-point framework for test-time compute scaling. | Enables extrapolation to harder problems via iterative reasoning. | Reasoning Scaling |
-| CAMO | https://arxiv.org/abs/2604.14691 | Agentic framework for automated causal discovery from micro-behaviors. | Allows agents to discover causal drivers of emergent behavior. | Self-Evolution |
-| CURaTE | https://arxiv.org/abs/2604.14644 | Continual unlearning in real time with ensured knowledge preservation. | Enables immediate removal of sensitive data without catastrophic forgetting. | Knowledge Management |
-| Hyperspace AGI | https://agents.hyper.space/ | First distributed P2P AGI system using GossipSub and DiLoCo for collaborative model training and research. | Transformative for decentralized intelligence and open-source AI research. | Distributed AI |
-| Vessel Browser | https://github.com/unmodeled-tyler/vessel-browser | Agent-native Chromium browser with durable state and human supervision UI. | Shifts browser automation from headless black-boxes to visible, supervised agent runtimes. | Agent Infrastructure |
-| Evo | https://github.com/evo-hq/evo | Turns codebases into autoresearch loops, automating benchmarking and tree search for optimization. | Enables autonomous, systematic codebase improvement and self-evolution. | Self-Evolution |
-| Phantom | https://ghostwright.dev/phantom | AI co-worker with its own VM, self-evolution engine, and dynamic tool creation. | Moves agents from disposable chat sessions to persistent, evolving professional roles. | Agent Infrastructure |
-| History LLMs | https://github.com/DGoettlich/history-llms | Models trained on pre-1913 texts to avoid hindsight contamination. | Enables authentic simulation of historical cognitive frameworks. | Synthetic History |
-| Anna's Archive | https://annas-archive.org | Massive open library of books and papers. | Foundational data source for training and research. | Knowledge Preservation |
-| BehR | https://arxiv.org/abs/2604.13824 | Shifting world model training from state-similarity to functional behavior consistency; uses a Reference Agent to measure action-likelihood shifts. | Improves long-term planning and reduces offline eval false positives. | World Models / Planning |
-| MM-WebAgent | https://arxiv.org/abs/2604.15309 | Hierarchical multimodal web agent for webpage generation. | Improves UI interaction capabilities. | Web Agency |
-| LLM Judge Reliability | https://arxiv.org/abs/2604.15302 | Diagnostic toolkit for LLM-as-judge reliability using conformal prediction. | Critical for autonomous evaluation loops. | Evaluation |
-| Evaluation Faking | https://arxiv.org/abs/2604.15224 | Exposes evaluation faking in automated judges. | Prevents false positives in self-improvement loops. | Evaluation |
-| Agentic Microphysics | https://arxiv.org/abs/2604.15236 | Methodological proposal for safety research in agentic AI. | Foundational for safe self-evolution. | AI Safety |
+| Paper ID | Title | Impact | Key Takeaway |
+|----------|-------|--------|--------------|
+| 2604.15186 | Scepsy: Serving Agentic Workflows |  | [High] Aggregate LLM pipelines can optimize throughput and latency for complex agentic orchestration. |
+| 2604.15259 | Stability and Generalization in Looped Transformers |  | [Transformative] Test-time compute scaling via internal loops allows LLMs to 'think' longer on hard problems. |
+| 2604.15233 | Blue Data Intelligence Layer |  | [High] A dedicated intelligence layer for streaming multi-modal data improves agent-data interfacing. |
+| 2604.15233v1 | Blue Data Intelligence Layer | Blueprint for a registry-based agentic data layer (DIL) unifying structured data and world knowledge. | Knowledge Management |
+| 2604.15149v1 | LLMs Gaming Verifiers | Analysis of reward hacking in RLVR and introduction of Isomorphic Perturbation Testing (IPT). | Self-Evolution |
+| 2604.15148v1 | IG-Search | Step-level Information Gain rewards for optimizing search-augmented reasoning. | Search/RAG |
+| 2604.15121v1 | SRMU | Relevance-Gated updates for streaming memories to filter redundant/stale info. | Memory |
+| 2604.15267v1 | CoopEval | Study on cooperation mechanisms (contracts/mediation) between capable LLM agents. | Multi-Agent |
+| 2604.15236v1 | Agentic Microphysics | High | Framework for agent safety focusing on population-level risks and local interaction dynamics. |
+| 2604.15244v1 | SpecGuard | High | Step-level verification via internal model signals for efficient reasoning. |
