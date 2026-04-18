@@ -5,4 +5,4 @@ File unchanged since last read. The content from the earlier read_file result in
 || IG-Search | arXiv:2604.15148 | High | Step-level Information Gain rewards for search-augmented reasoning; optimizes tool-use signal-to-noise ratio. | Tool-Use/Reasoning |
 || TrendRadar | sansan0/TrendRadar | High | AI-driven trend monitor with MCP support, enabling agents to sense real-time web shifts. | Research/Monitoring |
 || LlamaIndex | run-llama/llama_index | Transformative | The industry-standard framework for connecting private data to LLMs via RAG. | Knowledge Mgmt |
-|| Ray | ray-project/ray | Transformative | Distributed compute engine for scaling AI training and inference from laptop to cluster. | Infrastructure |
+|| Ray | ray-project/ray | Transformative | Distributed compute engine for scaling AI training and inference from laptop to cluster. | Infrastructure || Agent-Native OS | Multi-Repo Analysis | High | Transition from Agent-as-a-Script to Agent-as-a-System; introduces the Cognitive Kernel and Memory Hierarchy ($\text{L1} \rightarrow \text{L3}$). | Infrastructure/Orchestration |
