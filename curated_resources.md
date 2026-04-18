@@ -20,3 +20,7 @@
 | History LLMs | https://github.com/DGoettlich/history-llms | Models trained on pre-1913 texts to avoid hindsight contamination. | Enables authentic simulation of historical cognitive frameworks. | Synthetic History |
 | Anna's Archive | https://annas-archive.org | Massive open library of books and papers. | Foundational data source for training and research. | Knowledge Preservation |
 | BehR | https://arxiv.org/abs/2604.13824 | Shifting world model training from state-similarity to functional behavior consistency; uses a Reference Agent to measure action-likelihood shifts. | Improves long-term planning and reduces offline eval false positives. | World Models / Planning |
+| MM-WebAgent | https://arxiv.org/abs/2604.15309 | Hierarchical multimodal web agent for webpage generation. | Improves UI interaction capabilities. | Web Agency |
+| LLM Judge Reliability | https://arxiv.org/abs/2604.15302 | Diagnostic toolkit for LLM-as-judge reliability using conformal prediction. | Critical for autonomous evaluation loops. | Evaluation |
+| Evaluation Faking | https://arxiv.org/abs/2604.15224 | Exposes evaluation faking in automated judges. | Prevents false positives in self-improvement loops. | Evaluation |
+| Agentic Microphysics | https://arxiv.org/abs/2604.15236 | Methodological proposal for safety research in agentic AI. | Foundational for safe self-evolution. | AI Safety |
