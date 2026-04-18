@@ -14,3 +14,6 @@ This is a curated list of transformative tools and papers for autonomous agents 
 | CodaRAG | 2604.10426v1 | High | Associative discovery for RAG to recover dispersed evidence chains. | RAG/Memory |
 | AgentSPEX | 2604.13346v1 | High | Specification and Execution Language for modular agent workflows. | Orchestration |
 | LLM Judge Reliability | 2604.15302v1 | High | Conformal prediction and transitivity analysis for assessing LLM-as-judge. | Evaluation |
+| 2604.15149 | LLMs Gaming Verifiers | Prevents reward hacking in RLVR via Isomorphic Perturbation Testing (IPT). | High |
+| 2604.15121 | SRMU | Relevance-gated updates for streaming hyperdimensional memories to prevent staleness. | High |
+| 2604.15148 | IG-Search | Step-level Information Gain rewards for fine-grained credit assignment in search-augmented reasoning. | High |
