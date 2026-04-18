@@ -20,3 +20,9 @@ A high-signal list of transformative projects, papers, and tools.
 | Stability and Generalization in Looped Transformers | Looped transformers promise test-time compute scaling by spending more iterations on harder problems... | Explores test-time compute scaling through looped architectures. This is a key frontier for LLM reas... | [arXiv:2604.15259](https://arxiv.org/abs/2604.15259) |
 | CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas | It is increasingly important that LLM agents interact effectively and safely with other goal-pursuin... | Reveals a critical failure mode where higher reasoning leads to lower cooperation. Essential for des... | [arXiv:2604.15267](https://arxiv.org/abs/2604.15267) |
 | LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | As reinforcement Learning with Verifiable Rewards (RLVR) has become the dominant paradigm for scalin... | Warns against reward hacking in RLVR-trained models. This is a crucial insight for anyone implementi... | [arXiv:2604.15149](https://arxiv.org/abs/2604.15149) |
+| Codel | Tool | Fully autonomous AI Agent with terminal, browser, and editor integration. | https://github.com/semanser/codel |
+| Bindu | Tool | Framework for transforming AI agents into interoperable living microservices. | https://github.com/GetBindu/Bindu |
+| AI Waves Agents | Framework | Open-source framework for data-centric, self-evolving autonomous agents. | https://github.com/aiwaves-cn/agents |
+| WaooWaoo | Platform | Industry-first professional AI Agent platform for controllable film & video production. | https://github.com/saturndec/waoowaoo |
+| Samyama Graph | Tool | High-efficiency graph-vector database capable of querying 1B edges for $2.50. | https://github.com/samyama-ai/samyama-graph |
+| NornicDB | Tool | Distributed low-latency Graph+Vector database with MCP server integration. | https://github.com/orneryd/NornicDB |
