@@ -1,8 +1,16 @@
-File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.
-| 2604.15302v1 | Diagnosing LLM Judge Reliability | [High] Conformal prediction and transitivity analysis for assessing LLM-as-judge reliability. | Evaluation |
-| Tool | Letta | [Transformative] | Platform for stateful agents with persistent, self-improving memory. |
-| Tool | Daytona | [High] | Secure, elastic infrastructure for executing AI-generated code. |
-| Tool | Casibase | [High] | Enterprise AI Cloud OS managing knowledge bases and A2A communication. || RoMem | 2604.11544v1 | Temporal KG with continuous phase rotation for stable agentic memory. | Agentic Memory/Safety |
-| Parallax | 2604.12986v1 | Architectural Cognitive-Executive Separation for secure agent execution. | Agentic Memory/Safety |
-| Memory as Metabolism | 2604.12034v1 | Governance profile for companion knowledge systems (LLM Wiki pattern). | Agentic Memory/Safety |
-| CodaRAG | 2604.10426v1 | Associative discovery for RAG to recover dispersed evidence chains. | Agentic Memory/Safety |
+# Curated AI Resources
+
+This is a curated list of transformative tools and papers for autonomous agents and knowledge management.
+
+| Resource | Identifier | Impact | Summary | Category |
+| :--- | :--- | :--- | :--- | :--- |
+| Letta | Tool | Transformative | Platform for stateful agents with persistent, self-improving memory. | Tool |
+| Daytona | Tool | High | Secure, elastic infrastructure for executing AI-generated code. | Tool |
+| Casibase | Tool | High | Enterprise AI Cloud OS managing knowledge bases and A2A communication. | Tool |
+| Parallax | 2604.12986v1 | Transformative | Architectural Cognitive-Executive Separation for secure agent execution. | Agentic Security |
+| RoMem | 2604.11544v1 | Transformative | Temporal KG with continuous phase rotation for stable agentic memory. | Agentic Memory |
+| Memory as Metabolism | 2604.12034v1 | Transformative | Governance profile for companion knowledge systems (LLM Wiki pattern). | Knowledge Management |
+| OOM-RL | 2604.11477v1 | Transformative | Alignment via objective economic penalties (capital depletion). | Alignment |
+| CodaRAG | 2604.10426v1 | High | Associative discovery for RAG to recover dispersed evidence chains. | RAG/Memory |
+| AgentSPEX | 2604.13346v1 | High | Specification and Execution Language for modular agent workflows. | Orchestration |
+| LLM Judge Reliability | 2604.15302v1 | High | Conformal prediction and transitivity analysis for assessing LLM-as-judge. | Evaluation |
