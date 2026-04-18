@@ -144,3 +144,4 @@ Integrating $\text{Explanatory Equilibrium}$ allows the $\text{Agentic Research 
 
 **Source**: [arXiv:2604.09917](https://arxiv.org/abs/2604.09917)
 >>>>>>> d96a6cf3 (Flywheel Cycle: Integrated Explanatory Equilibrium artifact)
+| 2604.15302v1 | Diagnosing LLM Judge Reliability | [High] Conformal prediction and transitivity analysis for assessing LLM-as-judge reliability. | Evaluation |
