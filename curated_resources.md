@@ -2,4 +2,7 @@ File unchanged since last read. The content from the earlier read_file result in
 | TTC-Scaling & Verifier-Evolution | TTC-SOTA-2026 | Transformative | Unified theory of Test-Time Compute scaling $\text{Performance} \propto \text{TTC}^\alpha$; tracks the transition from $\text{ORM} \rightarrow \text{PRM} \rightarrow \text{Implicit-Rewards}$ (e.g., GRPO) enabling autonomous self-correction. | Reasoning/Planning |
 | Blue Data Intelligence Layer | arXiv:2604.15233 | High | Compound AI architecture with Data Registry and Data Planners for multi-source/multi-modal knowledge orchestration. | Knowledge Mgmt |
 | SRMU | arXiv:2604.15121 | High | Relevance-gated updates for streaming hyperdimensional memories; prevents memory clutter and stale information. | Memory/Knowledge |
-| IG-Search | arXiv:2604.15148 | High | Step-level Information Gain rewards for search-augmented reasoning; optimizes tool-use signal-to-noise ratio. | Tool-Use/Reasoning |
+|| IG-Search | arXiv:2604.15148 | High | Step-level Information Gain rewards for search-augmented reasoning; optimizes tool-use signal-to-noise ratio. | Tool-Use/Reasoning |
+|| TrendRadar | sansan0/TrendRadar | High | AI-driven trend monitor with MCP support, enabling agents to sense real-time web shifts. | Research/Monitoring |
+|| LlamaIndex | run-llama/llama_index | Transformative | The industry-standard framework for connecting private data to LLMs via RAG. | Knowledge Mgmt |
+|| Ray | ray-project/ray | Transformative | Distributed compute engine for scaling AI training and inference from laptop to cluster. | Infrastructure |
