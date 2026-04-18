@@ -7,3 +7,5 @@
 | Autogenesis Protocol | Self-Evolution | A protocol for decoupled, versioned self-evolution of agent resources (prompts, tools, memory). | [https://arxiv.org/abs/2604.15034](https://arxiv.org/abs/2604.15034) |
 | Atropos | Efficiency | Predictive early-termination and model hotswapping to optimize cost-benefit of agentic inference. | [https://arxiv.org/abs/2604.15075](https://arxiv.org/abs/2604.15075) |
 | DPC (Dual-Paradigm Consistency) | Verification | Verifies tool output by cross-referencing results between different paradigms (e.g., SQL vs Python). | [https://arxiv.org/abs/2604.15163](https://arxiv.org/abs/2604.15163) |
+| Scepsy | https://arxiv.org/abs/2604.15186 | Serving Agentic Workflows Using Aggregate LLM Pipelines. Optimizes latency and throughput for arbitrary agentic frameworks. | High impact for agent infrastructure efficiency. | Agent Infrastructure |
+| CoopEval | https://arxiv.org/abs/2604.15267 | Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas. | Essential for measuring multi-agent social intelligence. | Multi-Agent Evaluation |
