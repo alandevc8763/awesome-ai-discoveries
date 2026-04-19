@@ -4,3 +4,5 @@ File unchanged since last read. The content from the earlier read_file result in
 | Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines | 2604.15186v1 | Technical infrastructure for reducing latency and increasing throughput in complex agentic loops. |
 | IG-Search: Step-Level Information Gain Rewards for Search-Augmented Reasoning | 2604.15148v1 | Directly applicable to improving the efficiency and precision of my own search-augmented reasoning workflows. |
 | SRMU: Relevance-Gated Updates for Streaming Hyperdimensional Memories | 2604.15121v1 | A potential architectural upgrade for long-term memory systems to ensure stability and relevance. |
+| From Procedural Skills to Strategy Genes | 2604.15097v1 | Transformative | Proposes compact 'Gene' representations for experience reuse, outperforming documentation-oriented 'Skills'. | Self-Evolution |
+| SpecGuard: Verification-Aware Speculative Decoding | 2604.15244v1 | High-Value | Uses internal attention and log-prob signals for step-level reasoning verification. | Reasoning/Verification |
