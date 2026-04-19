@@ -6,3 +6,5 @@
 | Time is Not a Label: Continuous Phase Rotation for Temporal Memory | https://arxiv.org/abs/2604.11544 | Geometric shadowing for temporal KG; solves the entrenchment problem in persistent agent memory. |
 
 | Memory as Metabolism: Governance for Companion Knowledge Systems | https://arxiv.org/abs/2604.12034 | Direct governance framework for LLM Wiki pattern; prevents Kuhnian ossification via metabolic operations. |
+| Blue's Data Intelligence Layer | 2604.15233v1 | Framework for multi-source, multi-modal data orchestration for agents. | High-value agentic architecture |
+| RadAgent | 2604.15231v1 | Demonstrates high-faithfulness via explicit, tool-augmented iterative reasoning traces. | High-value agentic architecture |
