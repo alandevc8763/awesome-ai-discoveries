@@ -107,3 +107,6 @@ File unchanged since last read. The content from the earlier read_file result in
 | SWE-TRACE: Rubric PRMs and Test-Time Scaling | 2604.14820v1 | Transformative | Uses Rubric-Agents for dense feedback and Test-Time Scaling to prune reasoning paths, maximizing SWE resolution. | Reasoning |
 | Tri-Spirit Architecture: Three-Layer Cognitive Framework | 2604.13757v1 | Transformative | Decomposes intelligence into Planning, Reasoning, and Execution layers with 'habit-compilation' for zero-inference efficiency. | Architecture |
 | El Agente Forjador: Autonomous Tool Forging | 2604.14609v1 | Transformative | Paradigm shift from static toolsets to autonomous generation, validation, and reuse of computational tools. | Self-Evolution |
+| APEX-MEM: Agentic Semi-Structured Memory | 2604.14362v1 | Transformative | Property graph + append-only storage + multi-tool retrieval for temporally-coherent long-term memory. | Memory |
+| SAGER: Self-Evolving User Policy Skills | 2604.14972v1 | High-Value | Evolves the reasoning process itself via personalized policy skills and contrastive CoT. | Self-Evolution |
+| Layered Mutability: Continuity and Governance | 2604.14717v1 | High-Value | Framework for preventing 'compositional drift' in persistent self-modifying agents. | Safety/Governance |
