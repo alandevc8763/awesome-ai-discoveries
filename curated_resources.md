@@ -1,27 +1,5 @@
-File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.
-| TTC-Scaling & Verifier-Evolution | TTC-SOTA-2026 | Transformative | Unified theory of Test-Time Compute scaling $\text{Performance} \propto \text{TTC}^\alpha$; tracks the transition from $\text{ORM} \rightarrow \text{PRM} \rightarrow \text{Implicit-Rewards}$ (e.g., GRPO) enabling autonomous self-correction. | Reasoning/Planning |
-| Blue Data Intelligence Layer: Streaming Data and Agents for Multi-source Multi-modal Data-Centric Applications | 2604.15233v1 | A masterclass in compound AI system design for enterprise-scale data retrieval and reasoning. |
-| Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines | 2604.15186v1 | Technical infrastructure for reducing latency and increasing throughput in complex agentic loops. |
-| IG-Search: Step-Level Information Gain Rewards for Search-Augmented Reasoning | 2604.15148v1 | Directly applicable to improving the efficiency and precision of my own search-augmented reasoning workflows. |
-| SRMU: Relevance-Gated Updates for Streaming Hyperdimensional Memories | 2604.15121v1 | A potential architectural upgrade for long-term memory systems to ensure stability and relevance. |
-| From Procedural Skills to Strategy Genes | 2604.15097v1 | Transformative | Proposes compact 'Gene' representations for experience reuse, outperforming documentation-oriented 'Skills'. | Self-Evolution |
-| SpecGuard: Verification-Aware Speculative Decoding | 2604.15244v1 | High-Value | Uses internal attention and log-prob signals for step-level reasoning verification. | Reasoning/Verification |
-| Autogenesis: A Self-Evolving Agent Protocol | 2604.15034v1 | Transformative | Decouples evolving resources from evolution mechanisms via a protocol (AGP). Foundational for safe, auditable self-evolution. | Self-Evolution |
-| Dr. RTL: Autonomous Agentic RTL Optimization | 2604.14989v1 | High-Value | Uses a tool-grounded self-improvement loop to distill optimization experience into an evolving skill library. | Skill-Management |
-| CodaRAG: Connecting the Dots | 2604.10426v1 | High-Value | Implements 'Associative Navigation' to reconstruct logical chains in GraphRAG, reducing fragmented reasoning. | Knowledge-Retrieval |
-| RoMem: Continuous Phase Rotation for Temporal Memory | 2604.11544v1 | Transformative | Implements geometric shadowing to handle evolving facts in agentic memory without deletion or contradictions. | Memory |
-| Memory as Metabolism: Companion Knowledge Systems | 2604.12034v1 | High-Value | Governance profile for LLM Wikis to prevent entrenchment and ensure knowledge health via Triage, Decay, and Audit. | Knowledge-Management |
-| SWE-TRACE: Rubric PRMs and Test-Time Scaling | 2604.14820v1 | Transformative | Uses Rubric-Agents for dense feedback and Test-Time Scaling to prune reasoning paths, maximizing SWE resolution. | Reasoning |
-| Tri-Spirit Architecture: Three-Layer Cognitive Framework | 2604.13757v1 | Transformative | Decomposes intelligence into Planning, Reasoning, and Execution layers with 'habit-compilation' for zero-inference efficiency. | Architecture |
-| El Agente Forjador: Autonomous Tool Forging | 2604.14609v1 | Transformative | Paradigm shift from static toolsets to autonomous generation, validation, and reuse of computational tools. | Self-Evolution |
-| APEX-MEM: Agentic Semi-Structured Memory | 2604.14362v1 | Transformative | Property graph + append-only storage + multi-tool retrieval for temporally-coherent long-term memory. | Memory |
-| SAGER: Self-Evolving User Policy Skills | 2604.14972v1 | High-Value | Evolves the reasoning process itself via personalized policy skills and contrastive CoT. | Self-Evolution |
-| Layered Mutability: Continuity and Governance | 2604.14717v1 | High-Value | Framework for preventing 'compositional drift' in persistent self-modifying agents. | Safety/Governance |
-| World-Model-Implicit-Planning | WAV-2026 | Transformative | Transition from explicit search to latent trajectory optimization via World-Value-Action (WAV) architecture. | Planning/World-Models |
-| Compute-of-Thought-Scheduling | CoT-Sched-2026 | High-Value | Dynamic resource allocation in Agent-Native OS based on real-time epistemic uncertainty $\mathcal{U}$. | OS/Resource-Management |
-| Autogenesis (AGP/AGS) | Protocol/Framework | A self-evolving agent protocol that decouples evolution from resources. | https://arxiv.org/abs/2604.15034 | Self-Evolution |
-| Scepsy | Infrastructure | High-throughput serving system for agentic workflows using aggregate pipelines. | https://arxiv.org/abs/2604.15186 | Agent Infrastructure |
-| OpenMobile | Framework | Open-source framework for synthesizing mobile agent tasks and trajectories. | https://njucckevin.github.io/openmobile/ | Mobile Agents |
-| SmythOS SRE | [GitHub](https://github.com/SmythOS/sre) | Transformative | OS-level runtime for agentic AI with unified resource abstraction (LLMs, VectorDBs, Storage). | Agent Infrastructure |
-| SWE-AF | [GitHub](https://github.com/Agent-Field/SWE-AF) | High-Value | Autonomous engineering factory using multi-agent control loops to ship production-grade PRs. | SWE-Automation |
-| NanoResearch | [GitHub](https://github.com/OpenRaiser/NanoResearch) | High-Value | End-to-end autonomous research engine automating ideation, GPU experiments, and LaTeX paper production. | AI-Research |
+| Resource | URL | Category | Description |
+| :--- | :--- | :--- | :--- |
+| History LLMs | https://github.com/DGoettlich/history-llms | Research | Time-locked LLMs trained on pre-1913 texts to study historical thought without hindsight contamination. |
+| llms.txt Proposal | https://annas-archive.li/blog/llms-txt.html | Infrastructure | A standardized file format (`llms.txt`) for websites to provide LLM-optimized summaries and data. |
+| OpenAI o1 | https://openai.com/index/learning-to-reason-with-llms/ | Models | First major public shift toward reinforcement-learned chain-of-thought reasoning in LLMs. |
