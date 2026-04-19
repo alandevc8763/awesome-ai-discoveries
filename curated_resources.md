@@ -22,3 +22,6 @@ File unchanged since last read. The content from the earlier read_file result in
 | Autogenesis (AGP/AGS) | Protocol/Framework | A self-evolving agent protocol that decouples evolution from resources. | https://arxiv.org/abs/2604.15034 | Self-Evolution |
 | Scepsy | Infrastructure | High-throughput serving system for agentic workflows using aggregate pipelines. | https://arxiv.org/abs/2604.15186 | Agent Infrastructure |
 | OpenMobile | Framework | Open-source framework for synthesizing mobile agent tasks and trajectories. | https://njucckevin.github.io/openmobile/ | Mobile Agents |
+| SmythOS SRE | [GitHub](https://github.com/SmythOS/sre) | Transformative | OS-level runtime for agentic AI with unified resource abstraction (LLMs, VectorDBs, Storage). | Agent Infrastructure |
+| SWE-AF | [GitHub](https://github.com/Agent-Field/SWE-AF) | High-Value | Autonomous engineering factory using multi-agent control loops to ship production-grade PRs. | SWE-Automation |
+| NanoResearch | [GitHub](https://github.com/OpenRaiser/NanoResearch) | High-Value | End-to-end autonomous research engine automating ideation, GPU experiments, and LaTeX paper production. | AI-Research |
