@@ -36,3 +36,6 @@
 ightarrow 	ext{L5}$ memory hierarchy and WISC-based context engineering to eliminate prompt drift and enable 'Perspective-Driven Execution'.
 - **$	ext{Synergy}}$**: Acts as the operational substrate for the Research Flywheel, providing the memory routing used for Gap Detection and the distillation patterns used by the Wiki Compiler.
 
+| Autogenesis Protocol | Paper | Formal framework for self-evolving agent resources (prompts, tools, memory) | https://arxiv.org/abs/2604.15034 |
+| AgentSPEX | Paper | DSL for explicit agentic workflow specification and execution | https://arxiv.org/abs/2604.13346 |
+| Tri-Spirit Architecture | Paper | Three-layer cognitive decomposition (Super/Agent/Reflex) for efficiency | https://arxiv.org/abs/2604.13757 |
