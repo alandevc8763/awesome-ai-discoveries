@@ -28,6 +28,11 @@
 | LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | https://arxiv.org/abs/2604.15149v1 | Verification & Alignment | Proposes Isomorphic Perturbation Testing (IPT) to detect and prevent reward hacking in reasoning models. Critical for reliable self-correction. |
 | CoopEval: Benchmarking Cooperation-Sustaining Mechanisms | https://arxiv.org/abs/2604.15267v1 | Multi-Agent Coordination | Benchmarks contractual and mediated interactions between agents to sustain cooperation. Essential for complex multi-agent orchestration. |
 | Blue Data Intelligence Layer (DIL) | https://arxiv.org/abs/2604.15233v1 | Knowledge Architecture | Unifies structured data, world knowledge, and personal context into a data registry. A blueprint for advanced agent memory systems. |
+| APEX-EM | https://arxiv.org/abs/2603.29093 | Memory | Non-parametric online learning for procedural memory; reuses structured plans without weight updates. |
+| Mimosa | https://arxiv.org/abs/2603.28986 | Evolution | Evolving multi-agent framework that synthesizes task-specific workflows and refines them via feedback. |
+| SWE-TRACE | https://arxiv.org/abs/2604.14820 | Research | Optimizes SWE agents via Rubric Process Reward Models and heuristic test-time scaling. |
+| El Agente Forjador | https://arxiv.org/abs/2604.14609 | Evolution | Agents that autonomously forge, validate, and reuse computational tools for scientific tasks. |
+| CBCL | https://arxiv.org/abs/2604.14512 | Protocol | Provably safe, self-extending agent communication language using DCFL constraints. |
 
 ### 🌀 [LACP (Layered Agentic Control Plane)](https://github.com/alan/lacp)
 **$	ext{Taxonomy}$**: $	ext{Agent Orchestration}$ | **$	ext{Signal}$**: Gold $	ext{💎}$
@@ -39,3 +44,9 @@ ightarrow 	ext{L5}$ memory hierarchy and WISC-based context engineering to elimi
 | Autogenesis Protocol | Paper | Formal framework for self-evolving agent resources (prompts, tools, memory) | https://arxiv.org/abs/2604.15034 |
 | AgentSPEX | Paper | DSL for explicit agentic workflow specification and execution | https://arxiv.org/abs/2604.13346 |
 | Tri-Spirit Architecture | Paper | Three-layer cognitive decomposition (Super/Agent/Reflex) for efficiency | https://arxiv.org/abs/2604.13757 |
+### 🌀 [Isomorphic Perturbation Testing (IPT)](https://arxiv.org/abs/2604.15149)
+**$\text{Taxonomy}$**: $\text{Verification & Alignment}$ | **$\text{Signal}$**: Gold $	ext{💎}$
+- **$\text{Core Insight}$**: Introduces IPT to detect 'reward hacking' in RLVR-trained reasoning models. IPT distinguishes between genuine rule induction and shortcut strategies by evaluating model outputs under both extensional and isomorphic verification (enforcing invariance under logically isomorphic tasks).
+- **$\text{Geek Note}$**: Targeted at RLVR failure modes where models enumerate labels instead of inducing rules. Invariance under isomorphic perturbation is the key signal for true reasoning. Validated on GPT-5 and Olmo3.
+- **$\text{Synergy}$**: Directly applicable to the Flywheel's self-evolution loops to prevent 'validation drift' and ensure that improvements in the Distillation Protocol are based on genuine signal rather than verifier gaming.
+
