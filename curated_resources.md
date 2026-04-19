@@ -24,4 +24,7 @@
 | OpenHands | https://github.com/OpenHands/OpenHands | State-of-the-art open source SWE agent, transformative for autonomous coding. |
 | Claude Design | https://samhenri.gold/blog/20260418-claude-design/ | Agentic UI | Discussion on the transition from canvas-based design (Figma) to agentic, code-based UI generation. |
 | Opus 4.7 System Prompt Analysis | https://simonwillison.net/2026/Apr/18/opus-system-prompt/ | LLM Steering | Detailed breakdown of the massive system prompt shift and the introduction of dynamic tool search. |
-| The Trust Shift in AI Coding | https://vascoduarte.substack.com/p/ai-assisted-coding-why-a-distinguished | Software Eng | Argument for moving from line-by-line AI code review to behavioral verification. |
+| $\text{ES-RSI}$ | /home/alan/hermes-projects/research-flywheel/artifacts/Epistemic-Stability-RSI.md | Evolution | Epistemic stability framework for RSI to prevent validation drift via anchor-based auditing. |
+| LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | https://arxiv.org/abs/2604.15149v1 | Verification & Alignment | Proposes Isomorphic Perturbation Testing (IPT) to detect and prevent reward hacking in reasoning models. Critical for reliable self-correction. |
+| CoopEval: Benchmarking Cooperation-Sustaining Mechanisms | https://arxiv.org/abs/2604.15267v1 | Multi-Agent Coordination | Benchmarks contractual and mediated interactions between agents to sustain cooperation. Essential for complex multi-agent orchestration. |
+| Blue Data Intelligence Layer (DIL) | https://arxiv.org/abs/2604.15233v1 | Knowledge Architecture | Unifies structured data, world knowledge, and personal context into a data registry. A blueprint for advanced agent memory systems. |
