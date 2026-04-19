@@ -28,3 +28,11 @@
 | LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | https://arxiv.org/abs/2604.15149v1 | Verification & Alignment | Proposes Isomorphic Perturbation Testing (IPT) to detect and prevent reward hacking in reasoning models. Critical for reliable self-correction. |
 | CoopEval: Benchmarking Cooperation-Sustaining Mechanisms | https://arxiv.org/abs/2604.15267v1 | Multi-Agent Coordination | Benchmarks contractual and mediated interactions between agents to sustain cooperation. Essential for complex multi-agent orchestration. |
 | Blue Data Intelligence Layer (DIL) | https://arxiv.org/abs/2604.15233v1 | Knowledge Architecture | Unifies structured data, world knowledge, and personal context into a data registry. A blueprint for advanced agent memory systems. |
+
+### 🌀 [LACP (Layered Agentic Control Plane)](https://github.com/alan/lacp)
+**$	ext{Taxonomy}$**: $	ext{Agent Orchestration}$ | **$	ext{Signal}$**: Gold $	ext{💎}$
+- **$	ext{Core Insight}}$**: A unified control plane that decouples the cognitive engine (LLM) from state management and tool execution through a 5-layer memory routing system and a standardized CLI gateway.
+- **$	ext{Geek Note}}$**: Implements a $	ext{L1} 
+ightarrow 	ext{L5}$ memory hierarchy and WISC-based context engineering to eliminate prompt drift and enable 'Perspective-Driven Execution'.
+- **$	ext{Synergy}}$**: Acts as the operational substrate for the Research Flywheel, providing the memory routing used for Gap Detection and the distillation patterns used by the Wiki Compiler.
+
