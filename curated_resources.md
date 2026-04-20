@@ -49,3 +49,5 @@
 | OpenCode | https://opencode.ai/ | AI Agent | Open-source AI coding agent supporting spec-driven workflows. |
 | Goal.md | https://github.com/jmilinovich/goal-md | Methodology | Goal-specification format for guiding autonomous agents via scalar metrics. |
 | LLM Architecture Gallery | https://sebastianraschka.com/llm-architecture-gallery/ | Educational Resource | Visual gallery and analysis of LLM architectural evolutions. |
+| LogicLoc | Neurosymbolic agentic framework for repo-level code localization using LLM-generated Datalog programs. | https://arxiv.org/abs/2604.16021 | Extremely high efficiency in structural codebase analysis vs iterative LLM search. |
+| AgentV-RL | Agentic Verifier framework using bidirectional (forward/backward) agents for robust reward modeling. | https://arxiv.org/abs/2604.16004 | High-fidelity verification for self-evolution and reasoning scaling. |
