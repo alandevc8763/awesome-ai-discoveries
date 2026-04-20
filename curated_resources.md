@@ -93,3 +93,7 @@
 | [WORC (Weak-Link Opt)](https://arxiv.org/abs/2604.15972) | Multi-agent stability via optimizing the weakest agent. | Multi-Agent || ASMR-Bench (arXiv:2604.16286v1) | Benchmark for auditing sabotage in ML research | Essential for autonomous research reliability |
 | SocialGrid (arXiv:2604.16022v1) | Planning and social reasoning benchmark | Exposes gap in social intelligence vs scale |
 | DeepInsightTheorem (arXiv:2604.16278v1) | Hierarchical dataset for insightful theorem proving | Model for extracting 'core techniques' before solving |
+| VeritasGraph | https://github.com/bibinprathap/VeritasGraph | Infrastructure | Combines Tree-Search and Knowledge Graphs for 100% verifiable attribution in RAG. |
+| M-flow | https://github.com/FlowElement-ai/m_flow | Memory | Bio-inspired cognitive memory engine using path-cost GraphRAG for high-precision retrieval. |
+| ByteRover CLI | https://github.com/campfirein/byterover-cli | Memory | Version-controlled context tree and persistent memory layer for AI coding agents. |
+| Haystack | https://github.com/deepset-ai/haystack | Infrastructure | Production-ready AI orchestration framework for building modular RAG pipelines and agents. |
