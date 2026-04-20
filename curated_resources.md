@@ -83,20 +83,42 @@
 | SAGER | https://arxiv.org/abs/2604.14972 | Memory | Framework for evolving per-user 'policy skills' as structured natural-language documents to personalize reasoning logic. |
 | Evo-MedAgent | https://arxiv.org/abs/2604.14475 | Memory | Implements 'Adaptive Procedural Heuristics' and tool reliability controllers for test-time inter-case learning. |
 | SpaceMind | https://arxiv.org/abs/2604.14399 | Architecture | Modular self-evolving VLM agent framework using MCP tools and experience distillation into persistent skill files. || Integrating Graphs, LLMs, and Agents Survey | https://arxiv.org/abs/2604.15951 | Comprehensive overview of Graph-LLM integrations for reasoning and retrieval. |
+| $\text{Metacognitive Control Framework}$ | /home/alan/hermes-projects/research-flywheel/artifacts/Metacognitive-Control-Framework.md | Architecture | Formalizes $\text{S}_1/\text{S}_2$ decoupling via $\mathcal{L}_{meta}$ loop for competence-aware strategic regulation. |
+| $\text{Agentic Auditing Framework}$ | /home/alan/hermes-projects/research-flywheel/artifacts/Agentic-Auditing-Framework.md | Verification | Formalizes $\text{AuditStack}$ ($\mathcal{L}_{react} \rightarrow \mathcal{L}_{forensic} \rightarrow \mathcal{L}_{active}$) to detect subtle sabotage and mitigate the Verification Tax. |
 
-| Behavioral Sybil Detection | /home/alan/hermes-projects/research-flywheel/artifacts/Sybil-Detection-Mechanics.md | Governance | Formalizes the transition from Identity-based to Behavioral-based Sybil detection using high-dimensional clustering of agentic traces. || STOP (Super TOken for Pruning) | https://arxiv.org/abs/2604.16029 | Efficiency | Learnable internal signal to prune futile reasoning paths in parallel sampling. |
-| Tri-Spirit Architecture | https://arxiv.org/abs/2604.13757 | Architecture | Three-layer cognitive framework (Planning/Reasoning/Execution) with habit-compilation for efficiency. |
 
-| [Experience Compression Spectrum](https://arxiv.org/abs/2604.15877) | A unifying framework for agent memory, skills, and rules. | Memory/Architecture |
-| [AgentV-RL](https://arxiv.org/abs/2604.16004) | Agentic Verifier for reward modeling via forward/backward verification. | Reasoning/Alignment |
-| [STOP (Path Pruning)](https://arxiv.org/abs/2604.16027) | Efficient parallel reasoning via early path pruning. | Efficiency/Compute |
-| [WORC (Weak-Link Opt)](https://arxiv.org/abs/2604.15972) | Multi-agent stability via optimizing the weakest agent. | Multi-Agent || ASMR-Bench (arXiv:2604.16286v1) | Benchmark for auditing sabotage in ML research | Essential for autonomous research reliability |
-| SocialGrid (arXiv:2604.16022v1) | Planning and social reasoning benchmark | Exposes gap in social intelligence vs scale |
-| DeepInsightTheorem (arXiv:2604.16278v1) | Hierarchical dataset for insightful theorem proving | Model for extracting 'core techniques' before solving |
-| VeritasGraph | https://github.com/bibinprathap/VeritasGraph | Infrastructure | Combines Tree-Search and Knowledge Graphs for 100% verifiable attribution in RAG. |
-| M-flow | https://github.com/FlowElement-ai/m_flow | Memory | Bio-inspired cognitive memory engine using path-cost GraphRAG for high-precision retrieval. |
-| ByteRover CLI | https://github.com/campfirein/byterover-cli | Memory | Version-controlled context tree and persistent memory layer for AI coding agents. |
-| Haystack | https://github.com/deepset-ai/haystack | Infrastructure | Production-ready AI orchestration framework for building modular RAG pipelines and agents. |
+# Geometric & Dialectic Consensus (GDC): Advanced Multi-Agent Aggregation
 
-| [Entire.io](https://entire.io) | Tool | Versioned context "Checkpoints" for AI agents in Git. | High: Solves agent auditability. |
-| [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | Tool | Single-file executable LLM distribution. | Medium: Great for portability. |
+**Category**: Multi-Agent Systems / Reliable Reasoning
+**Tags**: `multi-agent-consensus`, `radial-consensus`, `adversarial-dialectics`, `semantic-centers`, `falsification`
+**Source**: arXiv:2604.12196, arXiv:2604.11258
+
+## 📌 Executive Summary
+$\text{Geometric \& Dialectic Consensus}$ (GDC) represents a paradigm shift in multi-agent coordination, moving from discrete majority voting to a continuous optimization and adversarial verification process. By leveraging the geometric structure of semantic embeddings and formalizing the "dialectic" of proponent-opponent interaction, GDC ensures that the final output is not merely the most popular response, but the most robust and semantically representative one.
+
+## 🛠 Technical Architecture: The Consensus Stack ($\mathcal{C}_{stack}$)
+
+### 1. Radial Consensus Score ($\text{RCS}$)
+**Objective**: Optimize best-of-N selection in black-box settings.
+- **Logic**: Instead of counting votes, $\text{RCS}$ computes a weighted Fréchet mean ($\text{Semantic Center}$) of the candidate answer embeddings.
+- **Ranking**: Candidates are ranked by their radial distance to this center:
+  $$\text{Score}(a_i) = \exp(-\lambda \cdot \text{dist}(e_i, \mu_{semantic}))$$
+- **Impact**: Effectively promotes high-quality, low-frequency responses that align with the global semantic trend, bypassing the "majority bias" of standard self-consistency.
+
+### 2. Adversarial Dialectic Loop ($\mathcal{L}_{dialectic}$)
+**Objective**: Mitigate confirmation bias and hallucinations via structured falsification.
+- **Roles**:
+  - **Proponent**: Formulates the initial diagnostic/reasoning hypothesis.
+  - **Opponent**: Equipped with a **Visual/Fact Falsification Module** that actively searches for contradictory evidence to challenge the proponent.
+  - **Mediator**: Resolves the conflict via a **Weighted Consensus Graph**, where edges represent the strength of evidence for/against a specific claim.
+- **Logic**: $\text{Hypothesis} \xrightarrow{\text{Challenge}} \text{Falsification} \xrightarrow{\text{Synthesis}} \text{Verified Artifact}$.
+
+## 💎 Value Analysis
+The integration of $\text{GDC}$ into the **Agentic Research Flywheel** provides two critical upgrades:
+1. **Aggregation Upgrade**: Replaces $\text{Majority Voting} \rightarrow \text{Geometric Optimization}$, increasing the signal-to-noise ratio ($\text{SNR}$) when sampling multiple trajectories.
+2. **Verification Upgrade**: Replaces $\text{Agreement} \rightarrow \text{Adversarial Robustness}$, ensuring that a discovery is only integrated if it survives a dedicated falsification attempt.
+
+---
+**Synergy**: Serves as the foundational aggregation layer for multi-agent debate cycles in Epoch 1, ensuring that autonomous sensing is grounded in verified consensus.
+
+
