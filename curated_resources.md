@@ -76,9 +76,10 @@
     76|| MARCH: Multi-Agent Radiology Clinical Hierarchy | https://arxiv.org/abs/2604.16175 | Agentic Architecture | Hierarchical multi-agent system for iterative verification and hallucination reduction in high-stakes report generation. |
     77|| JumpLoRA: Sparse Adapters for Continual Learning | https://arxiv.org/abs/2604.16171 | Evolution | Sparse adapter framework for continual learning in LLMs to mitigate catastrophic forgetting during skill acquisition. |
     78|| ASMR-Bench: Auditing for Sabotage in ML Research | https://arxiv.org/abs/2604.16286 | Verification & Alignment | Benchmark and framework for auditing autonomous research agents to detect subtle sabotage and misalignment. |
+    79|| Agentic Auditing Framework | /home/alan/hermes-projects/research-flywheel/artifacts/Agentic-Auditing-Framework.md | Verification & Alignment | Synthesis of ASMR-Bench, Meerkat, and Verification Tax into a multi-layered forensic auditing architecture. |
     79|| Metacognitive Control Framework | /home/alan/hermes-projects/research-flywheel/artifacts/Metacognitive-Control-Framework.md | Architecture | Formal substrate for $\text{S}_1/\text{S}_2$ decoupling, competence sensing, and strategic self-regulation. |
     80|
 | EvoRAG | https://arxiv.org/abs/2604.15676 | Knowledge | Self-evolving KG-RAG framework that uses feedback-driven backpropagation to refine knowledge graphs. |
 | SAGER | https://arxiv.org/abs/2604.14972 | Memory | Framework for evolving per-user 'policy skills' as structured natural-language documents to personalize reasoning logic. |
 | Evo-MedAgent | https://arxiv.org/abs/2604.14475 | Memory | Implements 'Adaptive Procedural Heuristics' and tool reliability controllers for test-time inter-case learning. |
-| SpaceMind | https://arxiv.org/abs/2604.14399 | Architecture | Modular self-evolving VLM agent framework using MCP tools and experience distillation into persistent skill files. |
+| SpaceMind | https://arxiv.org/abs/2604.14399 | Architecture | Modular self-evolving VLM agent framework using MCP tools and experience distillation into persistent skill files. || Integrating Graphs, LLMs, and Agents Survey | https://arxiv.org/abs/2604.15951 | Comprehensive overview of Graph-LLM integrations for reasoning and retrieval. |
