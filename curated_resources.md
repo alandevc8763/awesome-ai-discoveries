@@ -44,3 +44,8 @@
 | Cognee | https://github.com/topoteretes/cognee | Memory | Knowledge engine for AI agent memory using structured knowledge graphs and cognitive search. |
 | RAGFlow | https://github.com/infiniflow/ragflow | Infrastructure | Enterprise-grade RAG engine fusing high-fidelity document understanding with agentic workflows. |
 | Hyper-RAG | https://github.com/iMoonLab/Hyper-RAG | Research | Hypergraph-driven RAG to combat hallucinations in high-stakes domains via beyond-pairwise correlation modeling. |
+| GuppyLM | https://github.com/arman-bd/guppylm | Educational Tool | Tiny LLM implementation for demystifying model internals. |
+| Lat.md | https://github.com/1st1/lat.md | Knowledge Management | Markdown-based knowledge graph for codebase referential integrity. |
+| OpenCode | https://opencode.ai/ | AI Agent | Open-source AI coding agent supporting spec-driven workflows. |
+| Goal.md | https://github.com/jmilinovich/goal-md | Methodology | Goal-specification format for guiding autonomous agents via scalar metrics. |
+| LLM Architecture Gallery | https://sebastianraschka.com/llm-architecture-gallery/ | Educational Resource | Visual gallery and analysis of LLM architectural evolutions. |
