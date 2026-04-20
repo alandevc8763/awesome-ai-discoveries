@@ -14,39 +14,29 @@
 | Blue's Data Intelligence Layer | https://arxiv.org/abs/2604.15233v1 | Knowledge | Framework for multi-source, multi-modal data orchestration for agents. |
 | RadAgent | https://arxiv.org/abs/2604.15231v1 | Research | Demonstrates high-faithfulness via explicit, tool-augmented iterative reasoning traces. |
 | Autonomous Tool Evolution | https://arxiv.org/abs/2604.15082 | Evolution | Framework for the self-improvement of complex software tools via LLM agents; evolves million-line codebases. |
-| Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines | 2604.15186v1 | Directly relevant to the infrastructure needed to run autonomous agents at scale. The concept of 'Aggregate LLM Pipelines' laids the groundwork for optimizing the deployment of agentic toolsets. | 2026-04-19 |
-| IG-Search: Step-Level Information Gain Rewards for Search-Augmented Reasoning | 2604.15148v1 | This is a huge power-up for search-augmented agents. Instead of just rewarding the final answer, we can optimize the *quality of the search queries* themselves using IG, reducing redundant searches and improving reasoning paths. | 2026-04-19 |
-| SRMU: Relevance-Gated Updates for Streaming Hyperdimensional Memories | 2604.15121v1 | Crucial for long-term agent memory. The idea of 'relevance-gated updates' to prevent stale information from persisting in a hyperdimensional memory space is a direct blueprint for improving our 'Second Brain' update logic. | 2026-04-19 |
-| Prt a Data Intelligence Layer: Streaming Data and Agents for Multi-source Multi-modal Data-Centric Applications | 2604.15233v1 | Extends the 'Agentic Workflow' concept to data orchestration. Treating the user and the web as first-class databases with a unified query planner is a sophisticated architecture for knowledge management agents. | 2026-04-19 |
-| LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | 2604.15149v1 | A critical warning for self-evolution. As we implement self-improvement loops, we laids the groundwork for ensures our verifiers are isomorphic and not just extensional to avoid 'reward hacking' our own capabilities. | 2026-04-19 |
-| browser-use | https://github.com/browser-use/browser-use | High-fidelity browser automation for agents, critical for web-based workflows. |
-| mem0 | https://github.com/mem0ai/mem0 | Universal memory layer for AI agents, solves long-term context and personalization. |
-| OpenHands | https://github.com/OpenHands/OpenHands | State-of-the-art open source SWE agent, transformative for autonomous coding. |
+| Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines | 2604.15186v1 | Infrastructure | Directly relevant to the infrastructure needed to run autonomous agents at scale. The concept of 'Aggregate LLM Pipelines' laids the groundwork for optimizing the deployment of agentic toolsets. | 2026-04-19 |
+| IG-Search: Step-Level Information Gain Rewards for Search-Augmented Reasoning | 2604.15148v1 | Research | This is a huge power-up for search-augmented agents. Instead of just rewarding the final answer, we can optimize the *quality of the search queries* themselves using IG, reducing redundant searches and improving reasoning paths. | 2026-04-19 |
+| SRMU: Relevance-Gated Updates for Streaming Hyperdimensional Memories | 2604.15121v1 | Memory | Crucial for long-term agent memory. The idea of 'relevance-gated updates' to prevent stale information from persisting in a hyperdimensional memory space is a direct blueprint for improving our 'Second Brain' update logic. | 2026-04-19 |
+| Prt a Data Intelligence Layer: Streaming Data and Agents for Multi-source Multi-modal Data-Centric Applications | 2604.15233v1 | Knowledge | Extends the 'Agentic Workflow' concept to data orchestration. Treating the user and the web as first-class databases with a unified query planner is a sophisticated architecture for knowledge management agents. | 2026-04-19 |
+| LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | 2604.15149v1 | Verification & Alignment | A critical warning for self-evolution. As we implement self-improvement loops, we laids the groundwork for ensures our verifiers are isomorphic and not just extensional to avoid 'reward hacking' our own capabilities. | 2026-04-19 |
+| browser-use | https://github.com/browser-use/browser-use | Infrastructure | High-fidelity browser automation for agents, critical for web-based workflows. |
+| mem0 | https://github.com/mem0ai/mem0 | Memory | Universal memory layer for AI agents, solves long-term context and personalization. |
+| OpenHands | https://github.com/OpenHands/OpenHands | Infrastructure | SWE agent, transformative for autonomous coding. |
 | Claude Design | https://samhenri.gold/blog/20260418-claude-design/ | Agentic UI | Discussion on the transition from canvas-based design (Figma) to agentic, code-based UI generation. |
 | Opus 4.7 System Prompt Analysis | https://simonwillison.net/2026/Apr/18/opus-system-prompt/ | LLM Steering | Detailed breakdown of the massive system prompt shift and the introduction of dynamic tool search. |
 | $\text{ES-RSI}$ | /home/alan/hermes-projects/research-flywheel/artifacts/Epistemic-Stability-RSI.md | Evolution | Epistemic stability framework for RSI to prevent validation drift via anchor-based auditing. |
 | LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking | https://arxiv.org/abs/2604.15149v1 | Verification & Alignment | Proposes Isomorphic Perturbation Testing (IPT) to detect and prevent reward hacking in reasoning models. Critical for reliable self-correction. |
-| CoopEval: Benchmarking Cooperation-Sustaining Mechanisms | https://arxiv.org/abs/2604.15267v1 | Multi-Agent Coordination | Benchmarks contractual and mediated interactions between agents to sustain cooperation. Essential for complex multi-agent orchestration. |
-| Blue Data Intelligence Layer (DIL) | https://arxiv.org/abs/2604.15233v1 | Knowledge Architecture | Unifies structured data, world knowledge, and personal context into a data registry. A blueprint for advanced agent memory systems. |
-| APEX-EM | https://arxiv.org/abs/2603.29093 | Memory | Non-parametric online learning for procedural memory; reuses structured plans without weight updates. |
-| Mimosa | https://arxiv.org/abs/2603.28986 | Evolution | Evolving multi-agent framework that synthesizes task-specific workflows and refines them via feedback. |
-| SWE-TRACE | https://arxiv.org/abs/2604.14820 | Research | Optimizes SWE agents via Rubric Process Reward Models and heuristic test-time scaling. |
-| El Agente Forjador | https://arxiv.org/abs/2604.14609 | Evolution | Agents that autonomously forge, validate, and reuse computational tools for scientific tasks. |
-| CBCL | https://arxiv.org/abs/2604.14512 | Protocol | Provably safe, self-extending agent communication language using DCFL constraints. |
-
-### 🌀 [LACP (Layered Agentic Control Plane)](https://github.com/alan/lacp)
-**$	ext{Taxonomy}$**: $	ext{Agent Orchestration}$ | **$	ext{Signal}$**: Gold $	ext{💎}$
-- **$	ext{Core Insight}}$**: A unified control plane that decouples the cognitive engine (LLM) from state management and tool execution through a 5-layer memory routing system and a standardized CLI gateway.
-- **$	ext{Geek Note}}$**: Implements a $	ext{L1} 
-ightarrow 	ext{L5}$ memory hierarchy and WISC-based context engineering to eliminate prompt drift and enable 'Perspective-Driven Execution'.
-- **$	ext{Synergy}}$**: Acts as the operational substrate for the Research Flywheel, providing the memory routing used for Gap Detection and the distillation patterns used by the Wiki Compiler.
-
-| Autogenesis Protocol | Paper | Formal framework for self-evolving agent resources (prompts, tools, memory) | https://arxiv.org/abs/2604.15034 |
-| AgentSPEX | Paper | DSL for explicit agentic workflow specification and execution | https://arxiv.org/abs/2604.13346 |
-| Tri-Spirit Architecture | Paper | Three-layer cognitive decomposition (Super/Agent/Reflex) for efficiency | https://arxiv.org/abs/2604.13757 |
-### 🌀 [Isomorphic Perturbation Testing (IPT)](https://arxiv.org/abs/2604.15149)
-**$\text{Taxonomy}$**: $\text{Verification & Alignment}$ | **$\text{Signal}$**: Gold $	ext{💎}$
-- **$\text{Core Insight}$**: Introduces IPT to detect 'reward hacking' in RLVR-trained reasoning models. IPT distinguishes between genuine rule induction and shortcut strategies by evaluating model outputs under both extensional and isomorphic verification (enforcing invariance under logically isomorphic tasks).
-- **$\text{Geek Note}$**: Targeted at RLVR failure modes where models enumerate labels instead of inducing rules. Invariance under isomorphic perturbation is the key signal for true reasoning. Validated on GPT-5 and Olmo3.
-- **$\text{Synergy}$**: Directly applicable to the Flywheel's self-evolution loops to prevent 'validation drift' and ensure that improvements in the Distillation Protocol are based on genuine signal rather than verifier gaming.
-
+| CoopEval: Benchmarking Cooperation-Sustaining Mechanisms | https://arxiv.org/abs/2604.15267v1 | Multi-Agent Coordination | Multi-agent coordination benchmarks. |
+| Blue Data Intelligence Layer (DIL) | https://arxiv.org/abs/2604.15233v1 | Knowledge Architecture | Unifies structured data, world knowledge, and personal context into a data registry. |
+| APEX-EM | https://arxiv.org/abs/2603.29093 | Memory | Non-parametric online learning for procedural memory. |
+| Mimosa | https://arxiv.org/abs/2603.28986 | Evolution | Evolving multi-agent framework. |
+| SWE-TRACE | https://arxiv.org/abs/2604.14820 | Research | Optimizes SWE agents via Rubric Process Reward Models. |
+| El Agente Forjador | https://arxiv.org/abs/2604.14609 | Evolution | Agents that autonomously forge and reuse tools. |
+| CBCL | https://arxiv.org/abs/2604.14512 | Protocol | Provably safe, self-extending agent communication language. |
+| 🌀 Autogenesis Protocol (AGP) | /home/alan/hermes-projects/research-flywheel/artifacts/Autogenesis-Protocol.md | Protocol | A self-evolution protocol that decouples resource evolution from the evolution mechanism via RSPL and SEPL. |
+| Autogenesis: A Self-Evolving Agent Protocol | https://arxiv.org/abs/2604.15034 | Proposes a self-evolving agent protocol for better coordination and lifecycle management. |
+| Scepsy: Serving Agentic Workflows | https://arxiv.org/abs/2604.15186 | Framework for serving high-throughput, low-latency agentic pipelines. |
+| Self-Evolved ABC | https://arxiv.org/abs/2604.15082 | Case study in autonomous improvement of source code for EDA tools using LLM agents. |
+| Dr. RTL | https://arxiv.org/abs/2604.14989 | Tool-grounded self-improvement for RTL optimization. |
+| SRMU: Hyperdimensional Memories | https://arxiv.org/abs/2604.15121 | Relevance-gated updates for streaming associative memories to prevent pollution. |
+| Neurocognitive Memory Routing | /home/alan/hermes-projects/research-flywheel/artifacts/Neurocognitive-Memory-Routing.md | Memory | Formalizes Gated-Bounded-Consolidated (GBC) memory flows (CraniMem) and Cost-Sensitive Store Routing to optimize accuracy vs cost. |
