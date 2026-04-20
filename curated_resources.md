@@ -90,4 +90,6 @@
 | [Experience Compression Spectrum](https://arxiv.org/abs/2604.15877) | A unifying framework for agent memory, skills, and rules. | Memory/Architecture |
 | [AgentV-RL](https://arxiv.org/abs/2604.16004) | Agentic Verifier for reward modeling via forward/backward verification. | Reasoning/Alignment |
 | [STOP (Path Pruning)](https://arxiv.org/abs/2604.16027) | Efficient parallel reasoning via early path pruning. | Efficiency/Compute |
-| [WORC (Weak-Link Opt)](https://arxiv.org/abs/2604.15972) | Multi-agent stability via optimizing the weakest agent. | Multi-Agent |
+| [WORC (Weak-Link Opt)](https://arxiv.org/abs/2604.15972) | Multi-agent stability via optimizing the weakest agent. | Multi-Agent || ASMR-Bench (arXiv:2604.16286v1) | Benchmark for auditing sabotage in ML research | Essential for autonomous research reliability |
+| SocialGrid (arXiv:2604.16022v1) | Planning and social reasoning benchmark | Exposes gap in social intelligence vs scale |
+| DeepInsightTheorem (arXiv:2604.16278v1) | Hierarchical dataset for insightful theorem proving | Model for extracting 'core techniques' before solving |
