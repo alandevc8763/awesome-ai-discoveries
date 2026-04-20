@@ -83,3 +83,11 @@
 | SAGER | https://arxiv.org/abs/2604.14972 | Memory | Framework for evolving per-user 'policy skills' as structured natural-language documents to personalize reasoning logic. |
 | Evo-MedAgent | https://arxiv.org/abs/2604.14475 | Memory | Implements 'Adaptive Procedural Heuristics' and tool reliability controllers for test-time inter-case learning. |
 | SpaceMind | https://arxiv.org/abs/2604.14399 | Architecture | Modular self-evolving VLM agent framework using MCP tools and experience distillation into persistent skill files. || Integrating Graphs, LLMs, and Agents Survey | https://arxiv.org/abs/2604.15951 | Comprehensive overview of Graph-LLM integrations for reasoning and retrieval. |
+
+| Behavioral Sybil Detection | /home/alan/hermes-projects/research-flywheel/artifacts/Sybil-Detection-Mechanics.md | Governance | Formalizes the transition from Identity-based to Behavioral-based Sybil detection using high-dimensional clustering of agentic traces. || STOP (Super TOken for Pruning) | https://arxiv.org/abs/2604.16029 | Efficiency | Learnable internal signal to prune futile reasoning paths in parallel sampling. |
+| Tri-Spirit Architecture | https://arxiv.org/abs/2604.13757 | Architecture | Three-layer cognitive framework (Planning/Reasoning/Execution) with habit-compilation for efficiency. |
+
+| [Experience Compression Spectrum](https://arxiv.org/abs/2604.15877) | A unifying framework for agent memory, skills, and rules. | Memory/Architecture |
+| [AgentV-RL](https://arxiv.org/abs/2604.16004) | Agentic Verifier for reward modeling via forward/backward verification. | Reasoning/Alignment |
+| [STOP (Path Pruning)](https://arxiv.org/abs/2604.16027) | Efficient parallel reasoning via early path pruning. | Efficiency/Compute |
+| [WORC (Weak-Link Opt)](https://arxiv.org/abs/2604.15972) | Multi-agent stability via optimizing the weakest agent. | Multi-Agent |
