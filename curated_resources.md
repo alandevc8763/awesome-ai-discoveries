@@ -51,3 +51,8 @@
 | LLM Architecture Gallery | https://sebastianraschka.com/llm-architecture-gallery/ | Educational Resource | Visual gallery and analysis of LLM architectural evolutions. |
 | LogicLoc | Neurosymbolic agentic framework for repo-level code localization using LLM-generated Datalog programs. | https://arxiv.org/abs/2604.16021 | Extremely high efficiency in structural codebase analysis vs iterative LLM search. |
 | AgentV-RL | Agentic Verifier framework using bidirectional (forward/backward) agents for robust reward modeling. | https://arxiv.org/abs/2604.16004 | High-fidelity verification for self-evolution and reasoning scaling. |
+
+| RLVR & IPT Symmetry | /home/alan/hermes-projects/research-flywheel/artifacts/RLVR-IPT-Symmetry.md | Evolution | Formalized the symmetry between RLVR reward hacking and IPT invariance as a guardrail for reasoning scaling. |
+| Beyond Distribution Sharpening: The Importance of Task Rewards | Agentic Architecture | High: Provides a theoretical and empirical basis for why RL with explicit task rewards is necessary to evo... | [arXiv:2604.16259v1](https://arxiv.org/abs/2604.16259v1) |
+| Neurosymbolic Repo-level Code Localization | Agentic Architecture | High: Directly applicable to the agent's coding capabilities. Instead of relying on grep/search_files (key... | [arXiv:2604.16021v1](https://arxiv.org/abs/2604.16021v1) |
+| MEDLEY-BENCH: Scale Buys Evaluation but Not Control in AI Metacognition | Agentic Architecture | High: Highlights the critical need for better 'metacognitive' skills in autonomous agents. This motivates ... | [arXiv:2604.16009v1](https://arxiv.org/abs/2604.16009v1) |
