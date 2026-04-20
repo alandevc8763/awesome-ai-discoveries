@@ -99,4 +99,6 @@
 | Haystack | https://github.com/deepset-ai/haystack | Infrastructure | Production-ready AI orchestration framework for building modular RAG pipelines and agents. |
 
 | [Entire.io](https://entire.io) | Tool | Versioned context "Checkpoints" for AI agents in Git. | High: Solves agent auditability. |
-| [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | Tool | Single-file executable LLM distribution. | Medium: Great for portability. |
+| [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | Tool | Single-file executable LLM distribution. | Medium: Great for portability. || ASMR-Bench: Auditing for Sabotage in ML Research | https://arxiv.org/abs/2604.16286v1 | Crucial for autonomous agents that write and execute code. It highlights the risk of 'silent sabotage' and the need for rigorous auditing tools in self-evolving loops. |
+| JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models | https://arxiv.org/abs/2604.16171v1 | Highly relevant for 'Self-Evolving LLMs'. Provides a technical path to add new skills/knowledge without destroying previous ones. |
+| AtManRL: Towards Faithful Reasoning via Differentiable Attention Saliency | https://arxiv.org/abs/2604.16158v1 | Directly applicable to enhancing the 'Chain of Thought' quality of autonomous agents, ensuring the reasoning is actually used to reach the answer. |
