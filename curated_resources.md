@@ -40,3 +40,7 @@
 | Dr. RTL | https://arxiv.org/abs/2604.14989 | Tool-grounded self-improvement for RTL optimization. |
 | SRMU: Hyperdimensional Memories | https://arxiv.org/abs/2604.15121 | Relevance-gated updates for streaming associative memories to prevent pollution. |
 | Neurocognitive Memory Routing | /home/alan/hermes-projects/research-flywheel/artifacts/Neurocognitive-Memory-Routing.md | Memory | Formalizes Gated-Bounded-Consolidated (GBC) memory flows (CraniMem) and Cost-Sensitive Store Routing to optimize accuracy vs cost. |
+| Unsloth | https://github.com/unslothai/unsloth | MLOps | Extreme efficiency in training and running open models (2x faster, 70% less VRAM). |
+| Cognee | https://github.com/topoteretes/cognee | Memory | Knowledge engine for AI agent memory using structured knowledge graphs and cognitive search. |
+| RAGFlow | https://github.com/infiniflow/ragflow | Infrastructure | Enterprise-grade RAG engine fusing high-fidelity document understanding with agentic workflows. |
+| Hyper-RAG | https://github.com/iMoonLab/Hyper-RAG | Research | Hypergraph-driven RAG to combat hallucinations in high-stakes domains via beyond-pairwise correlation modeling. |
