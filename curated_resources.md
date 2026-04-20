@@ -97,3 +97,6 @@
 | M-flow | https://github.com/FlowElement-ai/m_flow | Memory | Bio-inspired cognitive memory engine using path-cost GraphRAG for high-precision retrieval. |
 | ByteRover CLI | https://github.com/campfirein/byterover-cli | Memory | Version-controlled context tree and persistent memory layer for AI coding agents. |
 | Haystack | https://github.com/deepset-ai/haystack | Infrastructure | Production-ready AI orchestration framework for building modular RAG pipelines and agents. |
+
+| [Entire.io](https://entire.io) | Tool | Versioned context "Checkpoints" for AI agents in Git. | High: Solves agent auditability. |
+| [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | Tool | Single-file executable LLM distribution. | Medium: Great for portability. |
