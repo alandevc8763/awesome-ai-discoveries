@@ -1,12 +1,3 @@
-     1|| Resource | URL | Category | Description |
-     2|| :--- | :--- | :--- | :--- |
-     3|| History LLMs | https://github.com/DGoettlich/history-llms | Research | Time-locked LLMs trained on pre-1913 texts to study historical thought without hindsight contamination. |
-     4|| llms.txt Proposal | https://annas-archive.li/blog/llms-txt.html | Infrastructure | A standardized file format (`llms.txt`) for websites to provide LLM-optimized summaries and data. |
-     5|| OpenAI o1 | https://openai.com/index/learning-to-reason-with-llms/ | Models | First major public shift toward reinforcement-learned chain-of-thought reasoning in LLMs. |
-     6|| Scepsy | https://arxiv.org/abs/2604.15186 | Infrastructure | Framework for serving agentic workflows using aggregate LLM pipelines to reduce latency and improve throughput. |
-     7|| Blue Data Intelligence Layer | https://arxiv.org/abs/2604.15233 | Knowledge | Architecture for streaming multi-source multi-modal data integration for data-centric AI agents. |
-     8|| Autogenesis (AGP) | https://arxiv.org/abs/2604.15034 | Protocol | A self-evolution protocol that decouples resource evolution from the evolution mechanism via RSPL and SEPL. |
-     9|| Layered Mutability | https://arxiv.org/abs/2604.14717 | Governance | Framework for reasoning about persistent agent drift across five mutability layers. |
     10|| KAIJU | https://arxiv.org/abs/2604.02375 | Infrastructure | Executive Kernel for intent-gated LLM agent execution; reduces latency and context growth. |
     11|| AgentSPEX | https://arxiv.org/abs/2604.13346 | Protocol | Formal specification and execution language for agents; moves beyond reactive prompting. |
     12|| Time is Not a Label | https://arxiv.org/abs/2604.11544 | Memory | Geometric shadowing for temporal KG; solves the entrenchment problem in persistent agent memory. |
@@ -83,10 +74,8 @@
 | SAGER | https://arxiv.org/abs/2604.14972 | Memory | Framework for evolving per-user 'policy skills' as structured natural-language documents to personalize reasoning logic. |
 | Evo-MedAgent | https://arxiv.org/abs/2604.14475 | Memory | Implements 'Adaptive Procedural Heuristics' and tool reliability controllers for test-time inter-case learning. |
 | SpaceMind | https://arxiv.org/abs/2604.14399 | Architecture | Modular self-evolving VLM agent framework using MCP tools and experience distillation into persistent skill files. || Integrating Graphs, LLMs, and Agents Survey | https://arxiv.org/abs/2604.15951 | Comprehensive overview of Graph-LLM integrations for reasoning and retrieval. |
-
 | Behavioral Sybil Detection | /home/alan/hermes-projects/research-flywheel/artifacts/Sybil-Detection-Mechanics.md | Governance | Formalizes the transition from Identity-based to Behavioral-based Sybil detection using high-dimensional clustering of agentic traces. || STOP (Super TOken for Pruning) | https://arxiv.org/abs/2604.16029 | Efficiency | Learnable internal signal to prune futile reasoning paths in parallel sampling. |
 | Tri-Spirit Architecture | https://arxiv.org/abs/2604.13757 | Architecture | Three-layer cognitive framework (Planning/Reasoning/Execution) with habit-compilation for efficiency. |
-
 | [Experience Compression Spectrum](https://arxiv.org/abs/2604.15877) | A unifying framework for agent memory, skills, and rules. | Memory/Architecture |
 | [AgentV-RL](https://arxiv.org/abs/2604.16004) | Agentic Verifier for reward modeling via forward/backward verification. | Reasoning/Alignment |
 | [STOP (Path Pruning)](https://arxiv.org/abs/2604.16027) | Efficient parallel reasoning via early path pruning. | Efficiency/Compute |
@@ -97,7 +86,6 @@
 | M-flow | https://github.com/FlowElement-ai/m_flow | Memory | Bio-inspired cognitive memory engine using path-cost GraphRAG for high-precision retrieval. |
 | ByteRover CLI | https://github.com/campfirein/byterover-cli | Memory | Version-controlled context tree and persistent memory layer for AI coding agents. |
 | Haystack | https://github.com/deepset-ai/haystack | Infrastructure | Production-ready AI orchestration framework for building modular RAG pipelines and agents. |
-
 | [Entire.io](https://entire.io) | Tool | Versioned context "Checkpoints" for AI agents in Git. | High: Solves agent auditability. |
 | [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | Tool | Single-file executable LLM distribution. | Medium: Great for portability. || ASMR-Bench: Auditing for Sabotage in ML Research | https://arxiv.org/abs/2604.16286v1 | Crucial for autonomous agents that write and execute code. It highlights the risk of 'silent sabotage' and the need for rigorous auditing tools in self-evolving loops. |
 | JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models | https://arxiv.org/abs/2604.16171v1 | Highly relevant for 'Self-Evolving LLMs'. Provides a technical path to add new skills/knowledge without destroying previous ones. |
