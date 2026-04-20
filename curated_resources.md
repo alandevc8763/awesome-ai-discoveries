@@ -67,4 +67,5 @@
 | Autoformalized Reasoning Trajectories | /home/alan/hermes-projects/research-flywheel/artifacts/Autoformalized-Reasoning-Trajectories.md | Research | Bridging CoT and Formal Verification via Lean 4 for certified agentic trajectories. |
 | GRPO | /home/alan/hermes-projects/research-flywheel/artifacts/GRPO.md | Research | Group Relative Policy Optimization: Eliminating the Critic Network for efficient RLHF and reasoning emergence. |
 | $\\text{TTC-Scaling}$ | /home/alan/hermes-projects/research-flywheel/artifacts/TTC-Scaling.md | Research | Analysis of Test-Time Compute scaling laws and the Verifier Bottleneck. |
+| AI Scientist Paradigm | ai-scientist-paradigm.md | Autonomous Research | Formalizes the autonomous scientific discovery loop ($mathcal{L}_{sci}$) and hypothesis generation. |
 | [AgentV-RL: Scaling Reward Modeling with Agentic Verifier](https://arxiv.org/abs/2604.16004v1) | Paper |  bidirectional agentic verification (forward-backward) to scale reward modeling and improve reasoning reliability. | https://arxiv.org/pdf/2604.16004v1 |
