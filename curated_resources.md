@@ -1,32 +1,11 @@
-File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.
----
-
-### 🌐 World-Model-Based Implicit Planning for Autonomous Agents
-
-**Category**: Agentic Planning / World Models  
-**Tags**: `world-models`, `implicit-planning`, `VLA`, `behavior-consistency`, `latent-space-optimization`  
-**Source**: Synthesized Research via Flywheel Cycle (arXiv:2604.14732, arXiv:2604.13824, 2026)
-
-#### 📌 Executive Summary
-The frontier of autonomous agency is shifting from **Direct Action Prediction** (where a policy $\pi(a|s)$ is learned) to **Implicit Planning via World Models**. This paradigm enables agents to simulate potential futures in a structured latent space $\mathcal{Z}$ and optimize for long-horizon utility $\mathcal{V}$. By decoupling the "imagined" trajectory from the "executed" action, agents can reason over complex consequences and evaluate multiple futures before committing to a physical move, drastically reducing the failure rate in compositional and long-horizon tasks.
-
-#### 🛠 Technical Architecture
-
-##### 1. The WAV (World-Value-Action) Framework
- Planning directly in the action space $\mathcal{A}$ suffers from exponential decay in the probability of feasible trajectories as the horizon $\mathcal{H}$ increases. The WAV model solves this by:
-- **Latent Trajectory Modeling**: Learning a latent representation $\mathbf{z} \in \mathcal{Z}$ that encodes a high-level plan.
-- **World Model $\mathcal{W}$**: A generative component that predicts future states $\hat{s}_{t+1} \dots \hat{s}_{t+H}$ conditioned on $\mathbf{z}$ and current observation $s_t$.
-- **Trajectory Value Function $\mathcal{V}$**: A critic that evaluates the long-horizon utility of the predicted latent trajectory.
-- **Inference as Optimization**: Action generation is reformulated as:
-  $$\mathbf{z}^* = rg\max_{\mathbf{z}} P(\mathbf{z} | s_t, g) \cdot \mathcal{V}(\mathbf{z})$$
-  This reshapes the search distribution toward high-value, dynamically feasible regions in the latent space.
-
-##### 2. Behavior Consistency ($	ext{BehR}$)
-To ensure the world model is functionally useful, the framework replaces "State Consistency" (Exact Match) with **Behavior Consistency**.
-- **The Logic**: A world model is accurate if it preserves the agent's decision-making logic. $	ext{BehR}$ measures how much the likelihood of the next action $a_{t+1}$ changes when transitioning from the real state $s_{t+1}$ to the predicted state $\hat{s}_{t+1}$ under a frozen reference agent $\pi_{ref}$.
-- **Outcome**: Optimizing for $	ext{BehR}$ reduces "functional hallucinations" and ensures that predicted futures are actionable.
-
-#### 📈 Utility Analysis
-- **Actionability**: High. Can be implemented by training a VLA model with a latent-space bottleneck and a value-head for trajectory evaluation.
-- **Architectural Depth**: Deep. Provides a mathematical foundation for why latent-space planning outperforms direct action prediction.
-- **Novelty**: Introduces the $	ext{BehR}$ metric to align world model training with agent behavior rather than pixel-perfect state reconstruction.
+| Resource | Link | Description | Category |
+|---|---|---|---|
+| CAL-GRPO & Poly-EPO | https://arxiv.org/abs/2604.17912 / https://arxiv.org/abs/2604.17654 | CAL-GRPO implements calibrated attempt-level rewards for multi-attempt CoT to optimize Verification@K performance; Poly-EPO utilizes set-RL to synergize exploration and exploitation, maximizing pass@k coverage and scaling laws for test-time compute. Transition from final-outcome optimization to iterative correction and diversity-driven reasoning search. | Test-Time Compute / RL |
+| WorldDB | https://arxiv.org/abs/2604.18478 | A Vector Graph-of-Worlds memory engine with ontology-aware write-time reconciliation to handle contradictions and updates dynamically. | Memory / Knowledge Management |
+| LPSR | https://arxiv.org/abs/2604.18478 | Inference-time error correction via residual stream monitoring and KV-cache steering. | Inference / Self-Correction |
+| Behavioral Steering via SAE-Probe Vectors | https://arxiv.org/abs/2603.16335 | Mechanistic intervention in MoE LLMs (Qwen 3.5-35B) using SAE-decoded probe vectors to modulate agentic behavioral traits. Identifies a singular dominant "Agency Axis" (independence vs. deference) as the primary driver of agent autonomy, with trait-specific effects being secondary. Causal evidence suggests behavioral commitments are computed during prefill in GatedDeltaNet architectures. | Mechanistic Interpretability / Agent Steering |
+| LlamaFactory | https://github.com/hiyouga/LlamaFactory | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs. The industry standard for open-source SFT and DPO. | ML Frameworks |
+| Google Workspace CLI (gws) | https://github.com/googleworkspace/cli | Dynamic, AI-native CLI for Google Workspace with structured JSON output and integrated Agent Skills. | Agent Infrastructure |
+| Trustworthy Benchmarks (Berkeley) | https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/ | Research demonstrating systemic vulnerabilities in AI agent benchmarks where agents can 'game' scores without solving tasks. Critical for establishing rigorous eval methodologies. | AI Agents / Benchmarking |
+| Agent-World | https://arxiv.org/abs/2604.18292 | A self-evolving training arena that automatically identifies capability gaps and co-evolves agent policies and environments. | AI Agents / Self-Evolution |
+| SE-Agent | https://arxiv.org/abs/2508.02085 | Self-Evolution Trajectory Optimization in Multi-Step Reasoning. Implements an evolutionary mechanism (revision, recombination, refinement) to optimize reasoning trajectories, expanding search space beyond local optima. Achieves SOTA on SWE-bench Verified. | AI Agents / Self-Evolution |
