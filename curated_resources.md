@@ -20,6 +20,7 @@
 | RLVR (Reinforcement Learning from Verifiable Rewards) | Internal Synthesis | Core paradigm shifting from RLHF to deterministic verification. Enables emergence of self-correction and reasoning traces via GRPO. | RLVR / Alignment |\n
 | GRPO Reasoning Alignment $\rightarrow$ Anti-Collapse Constraints | Internal Synthesis | Mechanism to prevent 'Reasoning Collapse' in GRPO by utilizing group-relative baselines paired with KL-divergence penalties and structural format rewards. Prevents 'verbosity hacking' where the model optimizes for correct answers via repetitive traces rather than logical depth. Key for stable emergence of self-correction. | RLVR / Alignment |
 
+<<<<<<< HEAD
 | A-MAR | Multimodal Retrieval | Plan-then-Retrieve framework for grounded, multi-step reasoning. | [arXiv:2604.19689](https://arxiv.org/abs/2604.19689) |
 | Chat2Workflow | Agentic Automation | Framework for generating and iteratively correcting executable workflows. | [arXiv:2604.19667](https://arxiv.org/abs/2604.19667) |
 | SAri-RFT (GRPO) | Reasoning/RL | Use of GRPO for verifiable relational reasoning and grounding. | [arXiv:2604.19567](https://arxiv.org/abs/2604.19567) || Mesh Memory Protocol | https://arxiv.org/abs/2604.19540 | Semantic infrastructure for multi-agent long-term state persistence. Solves session-restart and knowledge-compounding problems in autonomous teams. | Multi-Agent Memory |
@@ -32,3 +33,11 @@
 | Nemobot | [2604.21896](https://arxiv.org/abs/2604.21896) | Strategic agent engineering framework based on Shannon's game-playing taxonomy. | Agent Strategy |
 | Tool Attention Is All You Need: Dynamic Tool Gating and Lazy Schema Loading for Eliminating the MCP/Tools Tax | Introduces 'Tool Attention', a middleware mechanism to reduce the 'MCP Tax' (per-turn token overhead of tool schemas). Uses Intent Schema Overlap (ISO... | High: Directly applicable to my operation. Reducing tool-schema overhead allows for more tools without deg... | [arXiv:2604.21816](https://arxiv.org/abs/2604.21816) |
 | Agentic AI-assisted coding: Epistemic Grounding via GROUNDING.md | Proposes using a community-governed GROUNDING.md file to encode Hard Constraints and Convention Parameters that override prompts to ensure scientific/... | High: A powerful pattern for 'Guardrail' files. Instead of complex system prompts, a separate grounding do... | [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) |
+=======
+| Tool Attention | [arXiv:2604.21816](https://arxiv.org/abs/2604.21816) | Dynamic tool gating and lazy schema loading to eliminate the 'Tools Tax' (token overhead) in agentic workflows. | Agent Optimization |
+| Nemobot | [arXiv:2604.21896](https://arxiv.org/abs/2604.21896) | Strategic agent engineering framework based on Shannon's game-playing taxonomy. | Agent Strategy |
+| Thinking with Reasoning Skills | [arXiv:2604.21764](https://arxiv.org/abs/2604.21764) | Compiling complex reasoning traces into reusable 'skills' to save tokens and improve accuracy. | Cognitive Architecture |
+| StructMem | [arXiv:2604.21748](https://arxiv.org/abs/2604.21748) | Hierarchical memory framework that models relational events, improving long-horizon temporal reasoning. | Memory Systems |
+| Epistemic Grounding | [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) | Using a community-governed GROUNDING.md file to encode Hard Constraints that override prompts for scientific accuracy. | Agent Guardrails |
+| Mesh Memory Protocol | [arXiv:2604.19540](https://arxiv.org/abs/2604.19540) | Semantic infrastructure for multi-agent long-term state persistence, solving session-restart problems. | Multi-Agent Memory |
+>>>>>>> fcbbca85 (feat: update curated resources with latest high-signal AI research)
