@@ -27,3 +27,6 @@
 \n| World-Model Planning (WMP) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/wmp_distillation.md) | High-fidelity simulation of future states for trajectory optimization. Integrates adaptive lookahead and disentangled dynamics. | Planning / World Models |\n| Tool Attention Is All You Need | 2604.21816 | Reduces tool-token overhead by 95% via lazy loading and gated attention. Essential for scalable agent toolsets. |
 | StructMem | 2604.21748 | Hierarchical memory framework that models relational events. Improves long-horizon temporal reasoning. |
 | Thinking with Reasoning Skills | 2604.21764 | Distills reasoning traces into reusable skills. Significant token reduction and accuracy boost. |
+| Tool Attention | [2604.21816](https://arxiv.org/abs/2604.21816) | Dynamic tool gating to eliminate "Tools Tax" (token overhead) in agentic workflows. | Agent Optimization |
+| Thinking with Reasoning Skills | [2604.21764](https://arxiv.org/abs/2604.21764) | Compiling complex reasoning traces into reusable "skills" to save tokens and improve accuracy. | Cognitive Architecture |
+| Nemobot | [2604.21896](https://arxiv.org/abs/2604.21896) | Strategic agent engineering framework based on Shannon's game-playing taxonomy. | Agent Strategy |
