@@ -34,3 +34,7 @@
 | Agentic AI-assisted coding: Epistemic Grounding via GROUNDING.md | Proposes using a community-governed GROUNDING.md file to encode Hard Constraints and Convention Parameters that override prompts to ensure scientific/... | High: A powerful pattern for 'Guardrail' files. Instead of complex system prompts, a separate grounding do... | [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) |
 | Tool Attention | 2604.21816v1 | Eliminates MCP/Tool token tax via lazy loading. Critical for scalable agentic systems. |
 | Scientific Workflow Agentic AI | 2604.21910v1 | Formalizes the 'Knowledge Layer' (markdown skills) for deterministic workflow generation. |
+| Agentic AI for Science Automation | Paper | Three-layer architecture (Semantic/Deterministic/Knowledge) for reproducible agent workflows. | https://arxiv.org/abs/2604.21910 |
+| DryRUN Code Generation | Paper | Autonomous input generation and simulation for self-correcting code without public tests. | https://arxiv.org/abs/2604.21598 |
+| Tool Attention Is All You Need | https://arxiv.org/abs/2604.21816 | Eliminates 'MCP Tax' via dynamic tool gating; 95% reduction in tool tokens. |
+| VLAA-GUI | https://arxiv.org/abs/2604.21375 | Framework for GUI agents to prevent loops and premature stopping. |
