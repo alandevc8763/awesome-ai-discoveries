@@ -1,5 +1,5 @@
 --- 
-title: Memory Systems
+title: "Memory Systems"
 ---
 
 # Memory Systems Hub

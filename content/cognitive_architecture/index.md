@@ -1,5 +1,5 @@
 --- 
-title: Cognitive Architecture
+title: "Cognitive Architecture"
 ---
 
 # Cognitive Architecture Hub

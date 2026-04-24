@@ -1,6 +1,6 @@
 ---
-title: RLVR (Reinforcement Learning from Verifiable Rewards)
-tags: ["[\n]"]
+title: "RLVR (Reinforcement Learning from Verifiable Rewards)"
+tags: "[\"[\n]\"]"
 ---
 
 **Category**: [[\n]]

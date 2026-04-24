@@ -1,5 +1,5 @@
 --- 
-title: Agent Guardrails
+title: "Agent Guardrails"
 ---
 
 # Agent Guardrails Hub

@@ -1,5 +1,5 @@
 --- 
-title: Inference-Time Optimization
+title: "Inference-Time Optimization"
 ---
 
 # Inference-Time Optimization Hub

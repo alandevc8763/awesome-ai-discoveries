@@ -1,6 +1,6 @@
 ---
-title: SAri-RFT (GRPO)
-tags: ["[Multi-Agent Memory]"]
+title: "SAri-RFT (GRPO)"
+tags: "[\"[Multi-Agent Memory]\"]"
 ---
 
 **Category**: [[Multi-Agent Memory]]

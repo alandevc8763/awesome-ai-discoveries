@@ -1,6 +1,6 @@
 ---
-title: StructMem
-tags: ["[Memory Systems]"]
+title: "StructMem"
+tags: "[\"[Memory Systems]\"]"
 ---
 
 **Category**: [[Memory Systems]]

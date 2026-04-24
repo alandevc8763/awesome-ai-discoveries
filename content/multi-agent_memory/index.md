@@ -1,5 +1,5 @@
 --- 
-title: Multi-Agent Memory
+title: "Multi-Agent Memory"
 ---
 
 # Multi-Agent Memory Hub

@@ -1,5 +1,5 @@
 ---
-title: Curated Resources
+title: "Curated Resources"
 ---
 
 # 🚀 High-Signal Discoveries

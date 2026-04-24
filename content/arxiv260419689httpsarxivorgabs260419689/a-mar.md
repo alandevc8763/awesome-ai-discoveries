@@ -1,6 +1,6 @@
 ---
-title: A-MAR
-tags: ["[[arXiv:2604.19689](https://arxiv.org/abs/2604.19689)]"]
+title: "A-MAR"
+tags: "[\"[[arXiv:2604.19689](https://arxiv.org/abs/2604.19689)]\"]"
 ---
 
 **Category**: [[[arXiv:2604.19689](https://arxiv.org/abs/2604.19689)]]

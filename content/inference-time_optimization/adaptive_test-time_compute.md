@@ -1,6 +1,6 @@
 ---
-title: Adaptive Test-Time Compute
-tags: ["[Inference-Time Optimization]"]
+title: "Adaptive Test-Time Compute"
+tags: "[\"[Inference-Time Optimization]\"]"
 ---
 
 **Category**: [[Inference-Time Optimization]]

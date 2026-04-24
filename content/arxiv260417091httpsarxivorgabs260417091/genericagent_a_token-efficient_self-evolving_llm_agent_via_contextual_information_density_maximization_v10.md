@@ -1,6 +1,6 @@
 ---
-title: GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)
-tags: ["[[arXiv:2604.17091](https://arxiv.org/abs/2604.17091)]"]
+title: "GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)"
+tags: "[\"[[arXiv:2604.17091](https://arxiv.org/abs/2604.17091)]\"]"
 ---
 
 **Category**: [[[arXiv:2604.17091](https://arxiv.org/abs/2604.17091)]]

@@ -1,5 +1,5 @@
 --- 
-title: Skill Evolution
+title: "Skill Evolution"
 ---
 
 # Skill Evolution Hub

@@ -1,5 +1,5 @@
 --- 
-title: RLVR / Alignment
+title: "RLVR / Alignment"
 ---
 
 # RLVR / Alignment Hub

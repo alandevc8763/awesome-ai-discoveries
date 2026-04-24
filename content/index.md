@@ -1,5 +1,5 @@
 ---
-title: Awesome AI Discoveries
+title: "Awesome AI Discoveries"
 ---
 
 # 🌟 Welcome to the AI Knowledge Graph

@@ -1,5 +1,5 @@
 --- 
-title: Agent Strategy
+title: "Agent Strategy"
 ---
 
 # Agent Strategy Hub

@@ -1,5 +1,5 @@
 --- 
-title: \n
+title: "\n"
 ---
 
 # \n Hub
