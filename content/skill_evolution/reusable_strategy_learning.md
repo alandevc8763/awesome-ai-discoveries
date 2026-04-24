@@ -1,6 +1,6 @@
 ---
 title: Reusable Strategy Learning
-tags: [Skill Evolution]
+tags: ["[Skill Evolution]"]
 ---
 
 **Category**: [[Skill Evolution]]

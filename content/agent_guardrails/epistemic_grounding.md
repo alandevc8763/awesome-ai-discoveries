@@ -1,6 +1,6 @@
 ---
 title: Epistemic Grounding
-tags: [Agent Guardrails]
+tags: ["[Agent Guardrails]"]
 ---
 
 **Category**: [[Agent Guardrails]]

@@ -1,6 +1,6 @@
 ---
 title: Chat2Workflow
-tags: [[https://arxiv.org/abs/2604.19667](https://arxiv.org/abs/2604.19667)]
+tags: ["[[https://arxiv.org/abs/2604.19667](https://arxiv.org/abs/2604.19667)]"]
 ---
 
 **Category**: [[[https://arxiv.org/abs/2604.19667](https://arxiv.org/abs/2604.19667)]]

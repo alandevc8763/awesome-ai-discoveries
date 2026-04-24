@@ -1,6 +1,6 @@
 ---
 title: Agentic AI-assisted coding: Epistemic Grounding via GROUNDING.md
-tags: [[arXiv:2604.21744](https://arxiv.org/abs/2604.21744)]
+tags: ["[[arXiv:2604.21744](https://arxiv.org/abs/2604.21744)]"]
 ---
 
 **Category**: [[[arXiv:2604.21744](https://arxiv.org/abs/2604.21744)]]

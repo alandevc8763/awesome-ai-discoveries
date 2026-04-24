@@ -1,6 +1,6 @@
 ---
 title: AblateCell
-tags: [[https://arxiv.org/abs/2604.19606](https://arxiv.org/abs/2604.19606)]
+tags: ["[[https://arxiv.org/abs/2604.19606](https://arxiv.org/abs/2604.19606)]"]
 ---
 
 **Category**: [[[https://arxiv.org/abs/2604.19606](https://arxiv.org/abs/2604.19606)]]

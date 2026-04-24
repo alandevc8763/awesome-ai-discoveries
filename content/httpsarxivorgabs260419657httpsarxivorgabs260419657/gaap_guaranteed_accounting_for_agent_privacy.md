@@ -1,6 +1,6 @@
 ---
 title: GAAP (Guaranteed Accounting for Agent Privacy)
-tags: [[https://arxiv.org/abs/2604.19657](https://arxiv.org/abs/2604.19657)]
+tags: ["[[https://arxiv.org/abs/2604.19657](https://arxiv.org/abs/2604.19657)]"]
 ---
 
 **Category**: [[[https://arxiv.org/abs/2604.19657](https://arxiv.org/abs/2604.19657)]]

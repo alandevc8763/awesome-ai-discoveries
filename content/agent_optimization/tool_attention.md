@@ -1,6 +1,6 @@
 ---
 title: Tool Attention
-tags: [Agent Optimization]
+tags: ["[Agent Optimization]"]
 ---
 
 **Category**: [[Agent Optimization]]

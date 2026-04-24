@@ -1,6 +1,6 @@
 ---
 title: SkillFlow: Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents
-tags: [[arXiv:2604.17308](https://arxiv.org/abs/2604.17308)]
+tags: ["[[arXiv:2604.17308](https://arxiv.org/abs/2604.17308)]"]
 ---
 
 **Category**: [[[arXiv:2604.17308](https://arxiv.org/abs/2604.17308)]]

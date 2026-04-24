@@ -1,6 +1,6 @@
 ---
 title: Nemobot
-tags: [Agent Strategy]
+tags: ["[Agent Strategy]"]
 ---
 
 **Category**: [[Agent Strategy]]

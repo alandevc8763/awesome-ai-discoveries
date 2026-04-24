@@ -1,6 +1,6 @@
 ---
 title: Thinking with Reasoning Skills
-tags: [Cognitive Architecture]
+tags: ["[Cognitive Architecture]"]
 ---
 
 **Category**: [[Cognitive Architecture]]

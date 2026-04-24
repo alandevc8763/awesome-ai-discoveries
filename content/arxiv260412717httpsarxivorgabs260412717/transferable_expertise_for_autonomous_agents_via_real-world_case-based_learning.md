@@ -1,6 +1,6 @@
 ---
 title: Transferable Expertise for Autonomous Agents via Real-World Case-Based Learning
-tags: [[arXiv:2604.12717](https://arxiv.org/abs/2604.12717)]
+tags: ["[[arXiv:2604.12717](https://arxiv.org/abs/2604.12717)]"]
 ---
 
 **Category**: [[[arXiv:2604.12717](https://arxiv.org/abs/2604.12717)]]

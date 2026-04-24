@@ -1,6 +1,6 @@
 ---
 title: GRPO Reasoning Alignment $\rightarrow$ Anti-Collapse Constraints
-tags: [RLVR / Alignment]
+tags: ["[RLVR / Alignment]"]
 ---
 
 **Category**: [[RLVR / Alignment]]

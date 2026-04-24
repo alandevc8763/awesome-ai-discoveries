@@ -1,6 +1,6 @@
 ---
 title: Mesh Memory Protocol
-tags: [Multi-Agent Memory]
+tags: ["[Multi-Agent Memory]"]
 ---
 
 **Category**: [[Multi-Agent Memory]]
