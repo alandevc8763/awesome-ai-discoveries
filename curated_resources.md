@@ -1,3 +1,5 @@
+| ID | Name | Description | Link |
+| --- | --- | --- | --- |
      1|File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.| PSRD (Phase-wise Self-Reward Decoding) | https://arxiv.org/abs/2604.17982 | Mitigates LVLM hallucinations by identifying phase-wise dynamic patterns and employing a distilled lightweight reward model for on-the-fly decoding guidance. Reduces hallucination rates by 50% (LLaVA-1.5-7B). | Multimodal / Self-Correction |\n
 | LPSR (Latent Phase-Shift Rollback) | Inference-time error correction via residual stream monitoring. Massive boost to reasoning reliability without fine-tuning. | Inference-Time Reliability |
 
