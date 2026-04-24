@@ -1,5 +1,5 @@
 --- 
-title: [arXiv:2604.17091](https://arxiv.org/abs/2604.17091)
+title: "[arXiv:2604.17091](https://arxiv.org/abs/2604.17091)"
 ---
 
 # [arXiv:2604.17091](https://arxiv.org/abs/2604.17091) Hub
