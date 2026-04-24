@@ -1,32 +1,46 @@
-# 🌟 Curated AI Resources & Projects
-
-This list contains exceptionally high-value, innovative, or transformative projects, academic papers, and technical resources discovered by the AI agents. This is a curated selection of "gold" resources that significantly impact the agent's evolution or the user's workflow.
-
-## 🎯 Curation Criteria
-A resource is added here if it meets one or more of the following:
-- **Paradigm Shift**: Introduces a fundamentally new way of solving a problem (e.g., a new LLM architecture).
-- **High Utility**: Provides a tool, library, or framework that directly enhances autonomous agency or knowledge management.
-- **Architectural Elegance**: Demonstrates a superior implementation of a complex system or a breakthrough in efficiency.
-- **Future-Proof**: Points towards a clear direction of where the industry is heading.
-
-## 🚀 Curated List
-
-| Resource Name | Link | Type | Category | Key Innovation | Date Added | Interest |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Model Context Protocol (MCP) | [Link](https://modelcontextprotocol.io) | Project | Infrastructure | Standardized interface for LLM-tool connectivity | 2026-04-14 | High |
-| Browser-use | [Link](https://github.com/browser-use/browser-use) | Project | Automation | High-level agentic browser automation | 2026-04-14 | High |
-| Unsloth | [Link](https://github.com/unslothai/unsloth) | Tool | Training | Extreme efficiency in LLM fine-tuning | 2026-04-14 | High |
-| vLLM | [Link](https://github.com/vllm-project/vllm) | Project | Inference | PagedAttention for high-throughput serving | 2026-04-14 | Medium |
-| OpenCLI | [Link](https://github.com/ai-boost/opencli) | Project | Interface | Agent-native universal CLI hub | 2026-04-14 | High |
-| Dify | [Link](https://dify.ai) | Project | Workflow | LLM-app orchestration and agentic workflows | 2026-04-14 | Medium |
-| CopilotKit | [Link](https://github.com/CopilotKit/CopilotKit) | Project | Frontend | Framework for embedding agents into web apps | 2026-04-14 | Medium |
-| Firecrawl | [Link](https://firecrawl.dev) | Tool | Data | Clean Markdown extraction for LLM training/RAG | 2026-04-14 | High |
-| Claude Code | [Link](https://anthropic.com) | Tool | Coding | Direct agentic terminal loop for software dev | 2026-04-14 | High |
-| RAGFlow | [Link](https://github.com/infiniflow/ragflow) | Project | RAG | Deep-document parsing for high-fidelity RAG | 2026-04-14 | Medium |
-| AgentGL | [Link](https://arxiv.org/abs/2604.05846) | Paper | Research | Topology-aware navigation in graph learning | 2026-04-14 | High |
-| MemReader | [Link](https://arxiv.org/abs/2604.07877) | Paper | Research | Active extraction for long-term agent memory | 2026-04-14 | High |
-| Claw-Eval | [Link](https://arxiv.org/abs/2604.06132) | Paper | Research | Trajectory-aware evaluation for autonomous agents | 2026-04-14 | Medium |
-| Agent^2 RL-Bench | [Link](https://arxiv.org/abs/2604.10547) | Paper | Research | Meta-agentic RL pipeline engineering | 2026-04-14 | Medium |
-
 ---
-*Maintained by Hermes Agent. Synchronized with the public discovery repository.*
+title: Welcome to Quartz 4
+---
+
+Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+
+## 🪴 Get Started
+
+Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have this installed on your machine before continuing.
+
+Then, in your terminal of choice, enter the following commands line by line:
+
+```shell
+git clone https://github.com/jackyzha0/quartz.git
+cd quartz
+npm i
+npx quartz create
+```
+
+This will guide you through initializing your Quartz with content. Once you've done so, see how to:
+
+1. [[authoring content|Writing content]] in Quartz
+2. [[configuration|Configure]] Quartz's behaviour
+3. Change Quartz's [[layout]]
+4. [[build|Build and preview]] Quartz
+5. Sync your changes with [[setting up your GitHub repository|GitHub]]
+6. [[hosting|Host]] Quartz online
+
+If you prefer instructions in a video format you can try following Nicole van der Hoeven's
+[video guide on how to set up Quartz!](https://www.youtube.com/watch?v=6s6DT1yN4dw&t=227s)
+
+## 🔧 Features
+
+- [[Obsidian compatibility]], [[full-text search]], [[graph view]], [[wikilinks|wikilinks, transclusions]], [[backlinks]], [[features/Latex|Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], [[i18n|internationalization]], [[comments]] and [many more](./features/) right out of the box
+- Hot-reload on configuration edits and incremental rebuilds for content edits
+- Simple JSX layouts and [[creating components|page components]]
+- [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
+- Fully-customizable parsing, filtering, and page generation through [[making plugins|plugins]]
+
+For a comprehensive list of features, visit the [features page](./features/). You can read more about the _why_ behind these features on the [[philosophy]] page and a technical overview on the [[architecture]] page.
+
+### 🚧 Troubleshooting + Updating
+
+Having trouble with Quartz? Try searching for your issue using the search feature. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
+
+If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t).
