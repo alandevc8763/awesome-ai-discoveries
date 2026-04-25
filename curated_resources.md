@@ -38,5 +38,7 @@
 | DryRUN Code Generation | Paper | Autonomous input generation and simulation for self-correcting code without public tests. | https://arxiv.org/abs/2604.21598 |
 | Tool Attention Is All You Need | https://arxiv.org/abs/2604.21816 | Eliminates 'MCP Tax' via dynamic tool gating; 95% reduction in tool tokens. |
 | VLAA-GUI | https://arxiv.org/abs/2604.21375 | Framework for GUI agents to prevent loops and premature stopping. |
-| Transient Turn Injection (TTI) | 2604.21860v1 | AI Safety | Introduces a new multi-turn attack exploiting stateless moderation, highlighting the need for session-level context aggregation in defenses. |
-| TraceScope | 2604.21840v1 | Agentic Tools | Decoupled triage pipeline using a sandboxed operator agent and an adjudicator agent for high-precision URL forensics. |
+| 42 | Critique-RL & Distilled Self-Critique (dSC) | https://arxiv.org/abs/2510.24320 | Implements a two-stage RL optimization for critics: Stage I reinforces discriminability via rule-based rewards; Stage II improves helpfulness via actor refinement. dSC introduces a Bayesian perspective to RLAIF using Gibbs sampling for iterative refinement. | Multi-Agent / Alignment / Distillation |
+| Thinking with Reasoning Skills: Fewer Tokens, More Accuracy | [arXiv:2604.21764](https://arxiv.org/abs/2604.21764) | Reasoning Skill Library for token reduction | High |
+| StructMem: Structured Memory for Long-Horizon Behavior in LLMs | [arXiv:2604.21748](https://arxiv.org/abs/2604.21748) | Hierarchical Event-based Memory (StructMem) | High |
+| Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development | [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) | Epistemic Grounding Documents for AI Coding | Medium |
