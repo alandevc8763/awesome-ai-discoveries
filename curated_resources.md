@@ -1,0 +1,1 @@
+| Mesh Memory Protocol | [arXiv:2604.19540](https://arxiv.org/abs/2604.19540) | Semantic infrastructure for multi-agent LLM systems using CAT7 Cognitive Memory Blocks and SVAF gating to enable cross-session cognitive collaboration. | Multi-Agent Memory |
