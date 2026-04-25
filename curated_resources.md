@@ -42,3 +42,5 @@
 | Thinking with Reasoning Skills: Fewer Tokens, More Accuracy | [arXiv:2604.21764](https://arxiv.org/abs/2604.21764) | Reasoning Skill Library for token reduction | High |
 | StructMem: Structured Memory for Long-Horizon Behavior in LLMs | [arXiv:2604.21748](https://arxiv.org/abs/2604.21748) | Hierarchical Event-based Memory (StructMem) | High |
 | Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development | [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) | Epistemic Grounding Documents for AI Coding | Medium |
+| Tool Attention Is All You Need: Dynamic Tool Gating and Lazy Schema Loading for Eliminating the MCP/Tools Tax in Scalable Agentic Workflows | Paper | The Model Context Protocol (MCP) has become a common interface for connecting large language model (... | https://arxiv.org/abs/2604.21816v1 |
+| Thinking with Reasoning Skills: Fewer Tokens, More Accuracy | Paper | Reasoning LLMs often spend substantial tokens on long intermediate reasoning traces (e.g., chain-of-... | https://arxiv.org/abs/2604.21764v1 |
