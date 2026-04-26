@@ -11,3 +11,9 @@
 | Tool Attention Is All You Need | Agent Infrastructure | [arXiv:2604.21816](https://arxiv.org/abs/2604.21816) | Eliminates 'MCP Tax' via dynamic tool gating and lazy schema loading. Crucial for scalable tool-use. |
 | Thinking with Reasoning Skills: Fewer Tokens, More Accuracy | Agentic AI | This is a direct blueprint for enhancing Hermes' reasoning. Instead of just CoT, we can build a 'Rea... | https://arxiv.org/abs/2604.21764v1 |
 | StructMem: Structured Memory for Long-Horizon Behavior in LLMs | Agentic AI | Essential for the 'Second Brain' evolution. Moving from flat memory to a structured, event-bound mem... | https://arxiv.org/abs/2604.21748v1 |
+
+| Resource | Type | Key Value | Note |
+|---|---|---|---|
+| [Tool Attention](https://arxiv.org/abs/2604.21816) | Paper | Efficiency | Reduces tool schema overhead by 95% via gated attention. |
+| [StructMem](https://arxiv.org/abs/2604.21748) | Paper | Memory | Hierarchical memory for long-horizon temporal reasoning. |
+| [Reasoning Skills](https://arxiv.org/abs/2604.21764) | Paper | Reasoning | Distills CoT into reusable skills to reduce token cost. |
