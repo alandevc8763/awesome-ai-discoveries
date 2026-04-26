@@ -15,3 +15,7 @@
 | Tool Attention | https://arxiv.org/abs/2604.21816 | Eliminates MCP tool-schema overhead via dynamic gating/lazy loading. Crucial for scalable agentic workflows. |
 | Reasoning Skills | https://arxiv.org/abs/2604.21764 | Distills complex CoT into reusable skills. Directly optimizes token usage and accuracy in reasoning tasks. |
 | StructMem | https://arxiv.org/abs/2604.21748 | Hierarchical memory for temporal reasoning and long-horizon behavior. Prevents 'lost-in-the-middle' in long interactions. |
+
+| Tool Attention Is All You Need: Dynamic Tool Gating and Lazy Schema Loading | Agent Infrastructure | https://arxiv.org/abs/2604.21816 | Eliminates 'Tools Tax' via lazy loading of MCP schemas. |
+| StructMem: Structured Memory for Long-Horizon Behavior | Cognitive Architecture | https://arxiv.org/abs/2604.21748 | Moves from flat RAG to relational event-based memory. |
+| AEL: Agent Evolving Learning for Open-Ended Environments | Self-Evolution | https://arxiv.org/abs/2604.21725 | Framework for converting experience into meta-behavioral updates. |
