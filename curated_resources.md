@@ -14,6 +14,7 @@
 
 | Resource | Type | Key Value | Note |
 |---|---|---|---|
-| [Tool Attention](https://arxiv.org/abs/2604.21816) | Paper | Efficiency | Reduces tool schema overhead by 95% via gated attention. |
-| [StructMem](https://arxiv.org/abs/2604.21748) | Paper | Memory | Hierarchical memory for long-horizon temporal reasoning. |
-| [Reasoning Skills](https://arxiv.org/abs/2604.21764) | Paper | Reasoning | Distills CoT into reusable skills to reduce token cost. |
+| [Tool Attention](https://arxiv.org/abs/2604.21816) | Paper | Efficiency | Reduces tool schema overhead by 95% via gated attention. |\n| [StructMem](https://arxiv.org/abs/2604.21748) | Paper | Memory | Hierarchical memory for long-horizon temporal reasoning. |\n| [Reasoning Skills](https://arxiv.org/abs/2604.21764) | Paper | Reasoning | Distills CoT into reusable skills to reduce token cost. |\n| Active Inference & FEP | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Active-Inference-FEP.md) | Framework for minimizing Variational Free Energy (VFE) to drive autonomous exploration and homeostatic stability. | ActInf / FEP / Homeostasis |\n| SWE-TRACE: Rubric Process Reward Models | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/SWE-TRACE-Rubric-PRM.md) | Implements rubric-guided process supervision and HG-TTS to optimize long-horizon SWE agents; solves sparse reward problem via margin-separated GRPO. | Rubric-PRM / Process-Supervision |\n
+| Tool Attention (2604.21816) | Paper | High | Eliminates MCP/Tools Tax via lazy schema loading. |
+| From Research Question to Scientific Workflow (2604.21910) | Paper | High | Validates Skill-based agent architecture. |
+| MemPalace (2604.21284) | Paper | Medium | Verbatim-first memory and low-cost wake-up. |
