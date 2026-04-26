@@ -14,7 +14,12 @@
 
 | Resource | Type | Key Value | Note |
 |---|---|---|---|
+| AEL: Agent Evolving Learning for Open-Ended Environments | Paper | Introduces a two-timescale learning framework (Thompson Sampling + LLM Reflection) for optimizing how agents use their own memory, solving the 'retrieval policy' problem. | [2604.21725v1](https://arxiv.org/abs/2604.21725) |
+
 | [Tool Attention](https://arxiv.org/abs/2604.21816) | Paper | Efficiency | Reduces tool schema overhead by 95% via gated attention. |\n| [StructMem](https://arxiv.org/abs/2604.21748) | Paper | Memory | Hierarchical memory for long-horizon temporal reasoning. |\n| [Reasoning Skills](https://arxiv.org/abs/2604.21764) | Paper | Reasoning | Distills CoT into reusable skills to reduce token cost. |\n| Active Inference & FEP | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Active-Inference-FEP.md) | Framework for minimizing Variational Free Energy (VFE) to drive autonomous exploration and homeostatic stability. | ActInf / FEP / Homeostasis |\n| SWE-TRACE: Rubric Process Reward Models | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/SWE-TRACE-Rubric-PRM.md) | Implements rubric-guided process supervision and HG-TTS to optimize long-horizon SWE agents; solves sparse reward problem via margin-separated GRPO. | Rubric-PRM / Process-Supervision |\n
 | Tool Attention (2604.21816) | Paper | High | Eliminates MCP/Tools Tax via lazy schema loading. |
 | From Research Question to Scientific Workflow (2604.21910) | Paper | High | Validates Skill-based agent architecture. |
 | MemPalace (2604.21284) | Paper | Medium | Verbatim-first memory and low-cost wake-up. |
+| Paper | Tool Attention Is All You Need | Eliminates 'Tools Tax' (95% token reduction) for MCP-based agents. | https://arxiv.org/abs/2604.21816 |
+| Paper | Thinking with Reasoning Skills | Replaces 'reasoning from scratch' with distilled skill recall, reducing tokens and increasing accuracy. | https://arxiv.org/abs/2604.21764 |
+| Paper | StructMem | Hierarchical memory for long-horizon temporal reasoning and multi-hop QA. | https://arxiv.org/abs/2604.21748 |
