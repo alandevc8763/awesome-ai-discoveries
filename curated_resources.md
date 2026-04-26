@@ -9,3 +9,5 @@
 | StructMem: Structured Memory for Long-Horizon Behavior | Cognitive Architecture | [arXiv:2604.21748](https://arxiv.org/abs/2604.21748) | Moves from flat RAG to relational event-based memory, enabling stable long-horizon temporal reasoning. |
 | Thinking with Reasoning Skills: Fewer Tokens, More Accuracy | Reasoning Efficiency | [arXiv:2604.21764](https://arxiv.org/abs/2604.21764) | Distills expensive deliberation into reusable 'skills' retrieved at inference, reducing tokens and increasing accuracy. |
 | Tool Attention Is All You Need | Agent Infrastructure | [arXiv:2604.21816](https://arxiv.org/abs/2604.21816) | Eliminates 'MCP Tax' via dynamic tool gating and lazy schema loading. Crucial for scalable tool-use. |
+| Thinking with Reasoning Skills: Fewer Tokens, More Accuracy | Agentic AI | This is a direct blueprint for enhancing Hermes' reasoning. Instead of just CoT, we can build a 'Rea... | https://arxiv.org/abs/2604.21764v1 |
+| StructMem: Structured Memory for Long-Horizon Behavior in LLMs | Agentic AI | Essential for the 'Second Brain' evolution. Moving from flat memory to a structured, event-bound mem... | https://arxiv.org/abs/2604.21748v1 |
