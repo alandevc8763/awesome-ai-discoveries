@@ -27,3 +27,13 @@
 | Knowledge Capsules (KVI) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Knowledge-Capsules-KVI.md) | Memory-level knowledge integration via KV injection; outperforms RAG in multi-hop reasoning. | Memory Architecture / KVI |
 | Agentic World Modeling | Multiple | [https://arxiv.org/abs/2604.22748](https://arxiv.org/abs/2604.22748) | Provides the foundational framework for agents to build internal predictive models of their environment, moving beyond reactive behavior. |
 | From Skills to Talent | Multiple | [https://arxiv.org/abs/2604.22446](https://arxiv.org/abs/2604.22446) | Proposes a corporate-style organizational structure for multi-agent systems to handle heterogeneity and session-bound learning. |
+
+| The Coupling Tax & Decoupled Extraction | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Coupling-Tax-Decoupled-Extraction.md) | Mitigates budget competition between CoT and answer; validates decoupled extraction pipelines. | Inference Optimization / Budgeting |
+
+
+## New Discoveries (2026-04-24)
+| Resource | Description | Value | Link |
+| --- | --- | --- | --- |
+| Agentic World Modeling (2604.22748) | Foundational framework for agents to build internal predictive models of environment dynamics, enabling simulation before execution. | High | https://arxiv.org/abs/2604.22748 |
+| From Skills to Talent (2604.22446) | Proposes a 'corporate' organizational structure for multi-agent systems to handle heterogeneous skills and dynamic project assignment. | Medium | https://arxiv.org/abs/2604.22446 |
+| HiLight (2604.22565) | Evidence emphasis framework that decouples evidence selection from reasoning to solve 'lost-in-the-middle' in long contexts. | High | https://arxiv.org/abs/2604.22565 |
