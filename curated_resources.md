@@ -58,3 +58,5 @@
 | SLIDERS | Structured reasoning over long docs via SQL/DB instead of concatenation. | 2604.22294v1 |
 | OneManCompany | Self-organizing AI organizations with Talent Markets and E2R loops. | 2604.22438v1 |
 | UAE Embeddings | LLM-utility aligned embeddings for 180x faster high-quality retrieval. | 2604.22722v1 |
+| From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company | https://arxiv.org/abs/2604.22446v1 | Multi-Agent Orchestration | Transformative framework for treating agents as 'Talents' in a dynamic organization. |
+| Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond | https://arxiv.org/abs/2604.22748v1 | World Modeling | Comprehensive taxonomy for agent world models (L1-L3). |
