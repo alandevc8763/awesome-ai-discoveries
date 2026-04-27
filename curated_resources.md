@@ -45,8 +45,16 @@
 
 
 ## New Discoveries (2026-04-27)
+| Agent Symbolic Learning (2406.18532) | Framework for treating agents as symbolic networks, enabling back-prop and gradient descent on prompts/tools. | High | [arXiv:2406.18532](https://arxiv.org/abs/2406.18532) |
+| Agent Symbolic Learning (2406.18532) | Framework for treating agents as symbolic networks, enabling back-prop and gradient descent on prompts/tools. | High | [arXiv:2406.18532](https://arxiv.org/abs/2406.18532) |
+
+
 | Resource | Description | Value | Link |
 | --- | --- | --- | --- |
 | Agents 2.0 | Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents using symbolic learning. | Implements a method for agents to abstract successful trajectories into general symbolic rules, solving the agent consistency problem. | https://github.com/aiwaves-cn/agents |
 | Agentic World Modeling | Meng Chu et al. | 2604.22748 | Framework for environment dynamics modeling; defines L1-L3 capability levels for agents (Predictor, Simulator, Evolver). | [arXiv:2604.22748](https://arxiv.org/abs/2604.22748) |
 | Utility-Aligned Embeddings (UAE) | https://arxiv.org/abs/2604.22722 | Distillation framework to align dense retrieval with LLM generative utility, significantly improving RAG precision and speed. | RAG / Memory |
+| Agentic World Modeling | Formal taxonomy (Predictor->Simulator->Evolver) for environment dynamics. | 2604.22748v1 |
+| SLIDERS | Structured reasoning over long docs via SQL/DB instead of concatenation. | 2604.22294v1 |
+| OneManCompany | Self-organizing AI organizations with Talent Markets and E2R loops. | 2604.22438v1 |
+| UAE Embeddings | LLM-utility aligned embeddings for 180x faster high-quality retrieval. | 2604.22722v1 |
