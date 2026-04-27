@@ -48,3 +48,4 @@
 | Resource | Description | Value | Link |
 | --- | --- | --- | --- |
 | Agents 2.0 | Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents using symbolic learning. | Implements a method for agents to abstract successful trajectories into general symbolic rules, solving the agent consistency problem. | https://github.com/aiwaves-cn/agents |
+| Agentic World Modeling | Meng Chu et al. | 2604.22748 | Framework for environment dynamics modeling; defines L1-L3 capability levels for agents (Predictor, Simulator, Evolver). | [arXiv:2604.22748](https://arxiv.org/abs/2604.22748) |
