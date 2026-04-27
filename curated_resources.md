@@ -23,3 +23,7 @@
 | Paper | Tool Attention Is All You Need | Eliminates 'Tools Tax' (95% token reduction) for MCP-based agents. | https://arxiv.org/abs/2604.21816 |
 | Paper | Thinking with Reasoning Skills | Replaces 'reasoning from scratch' with distilled skill recall, reducing tokens and increasing accuracy. | https://arxiv.org/abs/2604.21764 |
 | Paper | StructMem | Hierarchical memory for long-horizon temporal reasoning and multi-hop QA. | https://arxiv.org/abs/2604.21748 |
+
+| Knowledge Capsules (KVI) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Knowledge-Capsules-KVI.md) | Memory-level knowledge integration via KV injection; outperforms RAG in multi-hop reasoning. | Memory Architecture / KVI |
+| Agentic World Modeling | Multiple | [https://arxiv.org/abs/2604.22748](https://arxiv.org/abs/2604.22748) | Provides the foundational framework for agents to build internal predictive models of their environment, moving beyond reactive behavior. |
+| From Skills to Talent | Multiple | [https://arxiv.org/abs/2604.22446](https://arxiv.org/abs/2604.22446) | Proposes a corporate-style organizational structure for multi-agent systems to handle heterogeneity and session-bound learning. |
