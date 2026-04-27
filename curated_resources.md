@@ -37,3 +37,6 @@
 | Agentic World Modeling (2604.22748) | Foundational framework for agents to build internal predictive models of environment dynamics, enabling simulation before execution. | High | https://arxiv.org/abs/2604.22748 |
 | From Skills to Talent (2604.22446) | Proposes a 'corporate' organizational structure for multi-agent systems to handle heterogeneous skills and dynamic project assignment. | Medium | https://arxiv.org/abs/2604.22446 |
 | HiLight (2604.22565) | Evidence emphasis framework that decouples evidence selection from reasoning to solve 'lost-in-the-middle' in long contexts. | High | https://arxiv.org/abs/2604.22565 |
+| Tool Attention | https://github.com/asadani/tool-attention | Agent Infrastructure | Dynamic tool gating and lazy schema loading to eliminate 'Tools Tax' in MCP deployments. |
+| Memanto | https://arxiv.org/abs/2604.22085 | Memory Systems | Typed semantic memory layer with information-theoretic retrieval for long-horizon agents. |
+| QuantClaw | https://arxiv.org/abs/2604.22577 | Inference Optimization | Dynamic precision routing plugin for autonomous agents to reduce cost/latency. |
