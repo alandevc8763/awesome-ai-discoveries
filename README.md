@@ -15,3 +15,5 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+| Agentic World Modeling (2604.22748) | Paper | High | Proposes a "Levels x Laws" taxonomy for environment dynamics modeling (L1 Predictor, L2 Simulator, L3 Evolver) across Physical, Digital, Social, and Scientific regimes. | [arXiv:2604.22748](https://arxiv.org/abs/2604.22748) |
