@@ -60,3 +60,13 @@
 | UAE Embeddings | LLM-utility aligned embeddings for 180x faster high-quality retrieval. | 2604.22722v1 |
 | From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company | https://arxiv.org/abs/2604.22446v1 | Multi-Agent Orchestration | Transformative framework for treating agents as 'Talents' in a dynamic organization. |
 | Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond | https://arxiv.org/abs/2604.22748v1 | World Modeling | Comprehensive taxonomy for agent world models (L1-L3). |
+
+
+## New Discoveries (2026-04-27) - Update
+| Resource | Description | Value | Link |
+| --- | --- | --- | --- |
+| Agentic World Modeling (2604.22748) | Foundational framework for agents to build internal predictive models of environment dynamics, enabling simulation before execution. | High | https://arxiv.org/abs/2604.22748 |
+| From Skills to Talent (2604.22446) | Proposes a 'corporate' organizational structure for multi-agent systems to handle heterogeneous skills and dynamic project assignment. | Medium | https://arxiv.org/abs/2604.22446 |
+| Memanto (2604.22085) | Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents. No-indexing paradigm eliminates ingestion tax. | High | https://arxiv.org/abs/2604.22085 |
+| Self-Correction Dynamics (2604.22273) | Frames self-correction as a cybernetic loop; introduces 'verify-first' prompting to prevent harmful refinement degradation. | High | https://arxiv.org/abs/2604.22273 |
+| MolClaw (2604.21937) | Implements a three-tier hierarchical skill architecture (atomic -> workflow -> discipline), optimizing orchestration in complex domains. | Medium | https://arxiv.org/abs/2604.21937 |
