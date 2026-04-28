@@ -84,4 +84,7 @@
 | Great Expectations | The definitive library for data validation, profiling, and documentation to kill pipeline debt. | High | https://github.com/great-expectations/great_expectations |
 | Mage AI | Modern notebook-style data pipeline orchestrator; a flexible and faster alternative to Airflow. | High | https://github.com/mage-ai/mage-ai |
 | ComplianceNLP: Knowledge-Graph-Augmented RAG for Multi-Framework Regulatory Gap Detection | https://arxiv.org/abs/2604.23585 | KG-augmented RAG for precise gap detection across conflicting frameworks. Critical for maintaining a high-fidelity Second Brain. |
-| RouteNLP: Closed-Loop LLM Routing with Conformal Cascading and Distillation Co-Optimization | https://arxiv.org/abs/2604.23577 | Closed-loop routing framework using conformal prediction. Blueprint for optimizing model/tool usage in autonomous agents. |
+| RouteNLP (2604.23577) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/RouteNLP-Closed-Loop-Routing.md) | Closed-loop routing with Conformal Prediction and targeted distillation loop to optimize cost/latency. | Routing / Conformal Prediction |
+| [Skill Retrieval Augmentation for Agentic AI](https://arxiv.org/abs/2604.24594) | A framework for retrieving external skills instead of enumerating them, enabling scalable agent capabilities. | Agent Architecture |
+| [Beyond the Attention Stability Boundary](https://arxiv.org/abs/2604.24512) | Proposed 'Self-Synthesizing Reasoning Protocols' to solve the Attention Latch failure mode in long-turn agents. | Reasoning |
+| [AgentWard](https://arxiv.org/abs/2604.24657) | A lifecycle security architecture specifically for autonomous agents that dynamically load skills. | Security |
