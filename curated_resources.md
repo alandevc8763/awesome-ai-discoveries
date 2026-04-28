@@ -92,3 +92,6 @@
 | Skill Retrieval Augmentation for Agentic AI | https://arxiv.org/abs/2604.24594 | Enables scaling the skill library to thousands of specialized tools by using RAG for skill selection. |
 | Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents | https://arxiv.org/abs/2604.24686 | Provides a framework for runtime monitoring and behavioral drift detection to ensure agent safety and reliability. |
 | Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft | https://arxiv.org/abs/2604.24697 | Identifies the 'discovery-to-application loop' as the core engine for general agent intelligence and self-evolution. |
+
+| [Corporate Multi-Agent Talent Markets](~/hermes-projects/research-flywheel/artifacts/Corporate-Multi-Agent-Talent-Markets.md) | Internal Artifact | Framework for treating agents as 'Talents' in a dynamic organization. | Multi-Agent Orchestration / Talent Markets |
+| XGRAG | Memory/RAG | A graph-native framework for explaining the reasoning process of KG-based RAG systems. | [https://arxiv.org/abs/2604.24623]( https://arxiv.org/abs/2604.24623 ) |
