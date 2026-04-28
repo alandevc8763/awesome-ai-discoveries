@@ -70,3 +70,7 @@
 | Memanto (2604.22085) | Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents. No-indexing paradigm eliminates ingestion tax. | High | https://arxiv.org/abs/2604.22085 |
 | Self-Correction Dynamics (2604.22273) | Frames self-correction as a cybernetic loop; introduces 'verify-first' prompting to prevent harmful refinement degradation. | High | https://arxiv.org/abs/2604.22273 |
 | MolClaw (2604.21937) | Implements a three-tier hierarchical skill architecture (atomic -> workflow -> discipline), optimizing orchestration in complex domains. | Medium | https://arxiv.org/abs/2604.21937 |
+
+| QuantClaw: Precision Where It Matters for OpenClaw | Autonomous agent systems such as OpenClaw introduce significant efficiency challenges due to long-context inputs and multi-turn reasoning. This result... | Agent Architecture | https://arxiv.org/abs/2604.22577 |
+| Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond | As AI systems move from generating text to accomplishing goals through sustained interaction, the ability to model environment dynamics becomes a cent... | Agent Architecture | https://arxiv.org/abs/2604.22748 |
+| From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company | Individual agent capabilities have advanced rapidly through modular skills and tool integrations, yet multi-agent systems remain constrained by fixed ... | Agent Architecture | https://arxiv.org/abs/2604.22446 |
