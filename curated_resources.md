@@ -14,3 +14,5 @@
 | [SCM: Sleep-Consolidated Memory with Algorithmic Forgetting](https://arxiv.org/abs/2604.20943) | Memory | Introduces algorithmic forgetting to maintain memory efficiency and prevent context bloat. |
 | [AgentEval: DAG-Structured Step-Level Evaluation](https://arxiv.org/abs/2604.23581) | Evaluation | Tracks error propagation in agentic workflows via DAGs, enabling surgical debugging of complex plans. |
 | [Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems](https://arxiv.org/abs/2604.19540) | Multi-Agent | Provides a standardized semantic layer for cross-agent knowledge sharing. |
+| 2604.24222v1 | MEMCoder | Multi-dimensional evolving memory for autonomous guideline updates. | https://arxiv.org/abs/2604.24222v1 |
+| 2604.24320v1 | DPEPO | Diverse Parallel Exploration for multi-environment agent interaction. | https://arxiv.org/abs/2604.24320v1 |
