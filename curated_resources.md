@@ -16,3 +16,5 @@
 | [Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems](https://arxiv.org/abs/2604.19540) | Multi-Agent | Provides a standardized semantic layer for cross-agent knowledge sharing. |
 | 2604.24222v1 | MEMCoder | Multi-dimensional evolving memory for autonomous guideline updates. | https://arxiv.org/abs/2604.24222v1 |
 | 2604.24320v1 | DPEPO | Diverse Parallel Exploration for multi-environment agent interaction. | https://arxiv.org/abs/2604.24320v1 |
+| AgentEvolver (Self-Evolving Agents) | https://arxiv.org/abs/2511.10395 | Framework for curiosity-driven task generation and autonomous agent self-evolution via self-questioning. |
+| HyLo (Long-Context Upcycling) | https://arxiv.org/abs/2604.24715 | Hybrid Transformer-Linear architecture that reduces KV-cache by 90% and extends context to 2M tokens while preserving quality. |
