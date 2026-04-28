@@ -74,3 +74,12 @@
 | QuantClaw: Precision Where It Matters for OpenClaw | Autonomous agent systems such as OpenClaw introduce significant efficiency challenges due to long-context inputs and multi-turn reasoning. This result... | Agent Architecture | https://arxiv.org/abs/2604.22577 |
 | Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond | As AI systems move from generating text to accomplishing goals through sustained interaction, the ability to model environment dynamics becomes a cent... | Agent Architecture | https://arxiv.org/abs/2604.22748 |
 | From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company | Individual agent capabilities have advanced rapidly through modular skills and tool integrations, yet multi-agent systems remain constrained by fixed ... | Agent Architecture | https://arxiv.org/abs/2604.22446 |
+
+
+## New Discoveries (2026-04-28)
+| Resource | Description | Value | Link |
+| --- | --- | --- | --- |
+| Apache Airflow | The industry standard for programmatically authoring and monitoring workflows via DAGs. | High | https://github.com/apache/airflow |
+| Apache Superset | Enterprise-grade data exploration and visualization platform with broad SQL support. | High | https://github.com/apache/superset |
+| Great Expectations | The definitive library for data validation, profiling, and documentation to kill pipeline debt. | High | https://github.com/great-expectations/great_expectations |
+| Mage AI | Modern notebook-style data pipeline orchestrator; a flexible and faster alternative to Airflow. | High | https://github.com/mage-ai/mage-ai |
