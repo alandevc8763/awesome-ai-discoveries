@@ -18,3 +18,5 @@
 | 2604.24320v1 | DPEPO | Diverse Parallel Exploration for multi-environment agent interaction. | https://arxiv.org/abs/2604.24320v1 |
 | AgentEvolver (Self-Evolving Agents) | https://arxiv.org/abs/2511.10395 | Framework for curiosity-driven task generation and autonomous agent self-evolution via self-questioning. |
 | HyLo (Long-Context Upcycling) | https://arxiv.org/abs/2604.24715 | Hybrid Transformer-Linear architecture that reduces KV-cache by 90% and extends context to 2M tokens while preserving quality. |
+| [PhysNote: Self-Knowledge Notes for Evolvable Physical Reasoning in Vision-Language Model](https://arxiv.org/abs/2604.24443v1) | We propose PhysNote, an agentic framework that enables VLMs to externalize and refine physical knowledge through self-generated 'Knowledge Notes.' Phy... | High |
+| [Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models](https://arxiv.org/abs/2604.24708v1) | We propose Hyperparameter-Divergent Ensemble Training (HDET), a method that repurposes these replicas for simultaneous learning rate exploration at ne... | High |
