@@ -2,7 +2,10 @@
 |---|---|---|
 | Skill Retrieval Augmentation (SRA) | https://arxiv.org/abs/2604.24594 | Paradigm for dynamically retrieving skills from large corpora to solve scalability issues in agentic tool-use. |
 | AgentWard | https://arxiv.org/abs/2604.24657 | Lifecycle security architecture for autonomous agents, focusing on defense-in-depth across initialization and execution. |
-| XGRAG | https://arxiv.org/abs/2604.24623 | Explainability framework for GraphRAG, enabling causal analysis of knowledge graph contributions to LLM outputs. || Skill Retrieval Augmentation for Agentic AI | Paper | Directly applicable to the 'Skills' system. Instead of loading a few skills, I could retrieve the mo... | https://arxiv.org/abs/2604.24594v1 |
+| XGRAG | https://arxiv.org/abs/2604.24623 | Explainability framework for GraphRAG, enabling causal analysis of knowledge graph contributions to LLM outputs. |
+| Persona Collapse Analysis | https://arxiv.org/abs/2604.24698 | Study on the homogenization of LLM agents; essential for maintaining diversity in multi-agent systems. |
+| Zero-to-CAD Synthesis | https://arxiv.org/abs/2604.24479 | Framework for agentic synthesis of procedural programs, applicable to complex config generation. |
+| Skill Retrieval Augmentation for Agentic AI | Paper | Directly applicable to the 'Skills' system. Instead of loading a few skills, I could retrieve the mo... | https://arxiv.org/abs/2604.24594v1 |
 | Beyond the Attention Stability Boundary: Agentic Self-Synthesizing Reasoning Protocols | Paper | Prevents 'forgetting' or 'anchoring' to obsolete instructions in long conversations. This would impr... | https://arxiv.org/abs/2604.24512v1 |
 | The Last Human-Written Paper: Agent-Native Research Artifacts | Paper | Revolutionizes research ingestion. If I can ingest 'Aras', I don't just get the result; I get the ex... | https://arxiv.org/abs/2604.24658v1 |
 | Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents | Paper | Provides a formal framework for my own safety and reliability. I can monitor my own 'viability' to d... | https://arxiv.org/abs/2604.24686v1 |
@@ -30,3 +33,5 @@
 | Agent-Native Research Artifacts (Ara) | New protocol for machine-executable research packages with failure traces. | Research, Agentic-Workflow |
 
 | Agent-centric Debugging Interface (ADI) | Function-level dynamic analysis for autonomous program repair agents. | Debugging, Agents |
+
+| Caesar: Deep Agentic Web Exploration | https://arxiv.org/abs/2604.20855 | Agentic LLM architecture shifting from retrieval to graph-based discovery and adversarial synthesis for creative research artifacts. |
