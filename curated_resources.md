@@ -24,3 +24,4 @@
 | DeerFlow | https://github.com/bytedance/deer-flow | Super agent harness that orchestrates sub-agents, memory, and sandboxes for complex, long-horizon tasks. |
 | Caveman | https://github.com/JuliusBrussee/caveman | Extreme token compression skill for AI agents, reducing output tokens by ~75% without losing technical accuracy. |
 | Browser Use | https://github.com/browser-use/browser-use | AI-driven browser automation framework allowing LLMs to interact with the web like humans. |
+| RiskGate / Agent Viability Framework | https://arxiv.org/abs/s2604.24697 | Agent Governance | Formal runtime monitor for autonomous agents to prevent drift and ensure safety via Viability Index. |
