@@ -24,4 +24,9 @@
 | DeerFlow | https://github.com/bytedance/deer-flow | Super agent harness that orchestrates sub-agents, memory, and sandboxes for complex, long-horizon tasks. |
 | Caveman | https://github.com/JuliusBrussee/caveman | Extreme token compression skill for AI agents, reducing output tokens by ~75% without losing technical accuracy. |
 | Browser Use | https://github.com/browser-use/browser-use | AI-driven browser automation framework allowing LLMs to interact with the web like humans. |
-| RiskGate / Agent Viability Framework | https://arxiv.org/abs/s2604.24697 | Agent Governance | Formal runtime monitor for autonomous agents to prevent drift and ensure safety via Viability Index. |
+| RiskGate / Agent Viability Framework | https://arxiv.org/abs/s2604.24697 | Agent Governance | Formal runtime monitor for autonomous agents to prevent drift and ensure safety via Viability Index. || Agent-Native Research Artifacts (ARA) | https://arxiv.org/abs/2604.24658 | Protocol for machine-executable research packages; eliminates the 'Storytelling' and 'Engineering' taxes via a four-layer ontology (/logic, /src, /trace, /evidence). |
+| Structural Enforcement of Goal Integrity (PEA) | https://arxiv.org/abs/2604.23646 | Shifts agent alignment from a behavioral property to a structurally enforced system constraint via PEA architecture. |
+
+| Agent-Native Research Artifacts (Ara) | New protocol for machine-executable research packages with failure traces. | Research, Agentic-Workflow |
+
+| Agent-centric Debugging Interface (ADI) | Function-level dynamic analysis for autonomous program repair agents. | Debugging, Agents |
