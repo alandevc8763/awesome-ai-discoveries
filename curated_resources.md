@@ -20,3 +20,7 @@
 | HyLo (Long-Context Upcycling) | https://arxiv.org/abs/2604.24715 | Hybrid Transformer-Linear architecture that reduces KV-cache by 90% and extends context to 2M tokens while preserving quality. |
 | [PhysNote: Self-Knowledge Notes for Evolvable Physical Reasoning in Vision-Language Model](https://arxiv.org/abs/2604.24443v1) | We propose PhysNote, an agentic framework that enables VLMs to externalize and refine physical knowledge through self-generated 'Knowledge Notes.' Phy... | High |
 | [Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models](https://arxiv.org/abs/2604.24708v1) | We propose Hyperparameter-Divergent Ensemble Training (HDET), a method that repurposes these replicas for simultaneous learning rate exploration at ne... | High |
+| Autonomous Target Generation Protocol (ATGP) | /home/alan/hermes-projects/research-flywheel/artifacts/atgp_protocol.md | Formal protocol for transforming semantic voids into actionable research targets via weighted priority functions. |\n
+| DeerFlow | https://github.com/bytedance/deer-flow | Super agent harness that orchestrates sub-agents, memory, and sandboxes for complex, long-horizon tasks. |
+| Caveman | https://github.com/JuliusBrussee/caveman | Extreme token compression skill for AI agents, reducing output tokens by ~75% without losing technical accuracy. |
+| Browser Use | https://github.com/browser-use/browser-use | AI-driven browser automation framework allowing LLMs to interact with the web like humans. |
