@@ -88,3 +88,7 @@
 | [Skill Retrieval Augmentation for Agentic AI](https://arxiv.org/abs/2604.24594) | A framework for retrieving external skills instead of enumerating them, enabling scalable agent capabilities. | Agent Architecture |
 | [Beyond the Attention Stability Boundary](https://arxiv.org/abs/2604.24512) | Proposed 'Self-Synthesizing Reasoning Protocols' to solve the Attention Latch failure mode in long-turn agents. | Reasoning |
 | [AgentWard](https://arxiv.org/abs/2604.24657) | A lifecycle security architecture specifically for autonomous agents that dynamically load skills. | Security |
+| Skill Retrieval Augmentation (SRA) | arXiv:2604.24594 | Agent Architecture | Scalable skill loading via dynamic retrieval rather than context window enumeration. Prevents context bloat and improves skill selection accuracy. |
+| Skill Retrieval Augmentation for Agentic AI | https://arxiv.org/abs/2604.24594 | Enables scaling the skill library to thousands of specialized tools by using RAG for skill selection. |
+| Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents | https://arxiv.org/abs/2604.24686 | Provides a framework for runtime monitoring and behavioral drift detection to ensure agent safety and reliability. |
+| Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft | https://arxiv.org/abs/2604.24697 | Identifies the 'discovery-to-application loop' as the core engine for general agent intelligence and self-evolution. |
