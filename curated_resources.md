@@ -83,3 +83,5 @@
 | Apache Superset | Enterprise-grade data exploration and visualization platform with broad SQL support. | High | https://github.com/apache/superset |
 | Great Expectations | The definitive library for data validation, profiling, and documentation to kill pipeline debt. | High | https://github.com/great-expectations/great_expectations |
 | Mage AI | Modern notebook-style data pipeline orchestrator; a flexible and faster alternative to Airflow. | High | https://github.com/mage-ai/mage-ai |
+| ComplianceNLP: Knowledge-Graph-Augmented RAG for Multi-Framework Regulatory Gap Detection | https://arxiv.org/abs/2604.23585 | KG-augmented RAG for precise gap detection across conflicting frameworks. Critical for maintaining a high-fidelity Second Brain. |
+| RouteNLP: Closed-Loop LLM Routing with Conformal Cascading and Distillation Co-Optimization | https://arxiv.org/abs/2604.23577 | Closed-loop routing framework using conformal prediction. Blueprint for optimizing model/tool usage in autonomous agents. |
