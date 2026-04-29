@@ -26,6 +26,8 @@ plugins:
 
 nav:
   - Home: index.md
+  - Articles:
+      - SRE Stability: zh/articles/sre-stability-myth.md
   - Curated Resources:
       - Overview: resources/index.md
       - Core Models: resources/core-models.md
