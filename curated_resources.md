@@ -9,3 +9,5 @@
 | XGRAG | https://arxiv.org/abs/2604.24623 | Graph-native explanation framework for GraphRAG; makes retrieval paths transparent. | GraphRAG / Explainability / Knowledge Graphs |
 | Tool Attention (Lazy Loading) | https://arxiv.org/abs/2604.21816 | Eliminates 'MCP Tax' by dynamically gating tools and lazy-loading schemas. | MCP / Tool-Optimization / Efficiency |
 | Skill Retrieval Augmentation | https://arxiv.org/abs/2604.24594 | Retrieval-based skill loading (SRA) to scale agent capabilities without context bloat. | Agentic AI / Skill Scaling / RAG |
+| XGRAG (arXiv:2604.24623) | Graph-Native Framework for Explaining KG-based RAG | Critical for improving the explainability and traversal of structured knowledge bases/wikis. |
+| Agent-Native Research Artifacts (arXiv:2604.24658) | Framework for capturing iterative research processes | Paradigm shift from linear reporting to branching discovery logs for AI agents. |
