@@ -6,3 +6,5 @@
 | Toward Scalable Terminal Task Synthesis via Skill Graphs | Introduces a method to evolve agent capabilities by synthesizing new training tasks from a skill gra... | Research | [arXiv:2604.25727](https://arxiv.org/abs/2604.25727) |
 | Think Before You Act -- A Neurocognitive Governance Model for Autonomous AI Agents | Implements an internal governance model (PAGRL) to embed safety and compliance directly into the age... | Research | [arXiv:2604.25684](https://arxiv.org/abs/2604.25684) |
 | Llamafile | https://github.com/Mozilla-Ocho/llamafile | Tool | Single-file portable LLM distribution | High |
+|| GitNexus | https://github.com/abhigyanpatwari/GitNexus | Zero-server code intelligence engine using knowledge graphs for deep architectural awareness and impact analysis. | Code-Intelligence / Graph-RAG / AI-Agents |
+|| VibeVoice | https://github.com/microsoft/VibeVoice | Frontier voice AI family with 60-min single-pass ASR and low-latency streaming TTS. | Voice-AI / ASR-TTS / Multimodal |
