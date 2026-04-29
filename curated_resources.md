@@ -45,3 +45,5 @@
 | Think Before You Act | https://arxiv.org/abs/2604.25684 | Formalizes internalized neurocognitive governance for autonomous agents. |
 | Semantic Gateways | https://arxiv.org/abs/2604.25555 | Introduces MCP-governed Zero-Trust security for agentic enterprise systems. |
 | Memanto | https://arxiv.org/abs/2604.22085 | High-speed typed semantic memory as a faster alternative to complex GraphRAG. |
+| RecursiveMAS | Framework for scaling agent collaboration via latent-space recursion. | Multi-Agent Systems | https://arxiv.org/abs/2604.25917 |
+| ADEMA | Architecture for long-horizon knowledge synthesis with explicit epistemic bookkeeping. | Knowledge Management | https://arxiv.org/abs/2604.25849 |
