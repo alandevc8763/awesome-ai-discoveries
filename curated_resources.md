@@ -117,3 +117,4 @@ The integration of $\text{GDC}$ into the **Agentic Research Flywheel** provides 
 
 ---
 **Synergy**: Serves as the foundational aggregation layer for multi-agent debate cycles in Epoch 1, ensuring that autonomous sensing is grounded in verified consensus.
+\n|| ProofBridge | https://arxiv.org/abs/2510.15681 | $\text{ProofBridge}$ operationalizes a unified framework for NL-to-Lean 4 auto-formalization of theorems and proofs using joint embeddings and iterative repair. | Auto-Formalization / Formal Verification / Lean 4 |\n
