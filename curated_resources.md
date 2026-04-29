@@ -16,40 +16,12 @@
 
 | FAMA | Failure-aware meta-agentic framework to address error accumulation in open-source LLM agents. | Agent Reliability | https://arxiv.org/abs/2604.25135 |
 
-# Geometric & Dialectic Consensus (GDC): Advanced Multi-Agent Aggregation
-
-**Category**: Multi-Agent Systems / Reliable Reasoning
-**Tags**: `multi-agent-consensus`, `radial-consensus`, `adversarial-dialectics`, `semantic-centers`, `falsification`
-**Source**: arXiv:2604.12196, arXiv:2604.11258
-
-## 📌 Executive Summary
-$\text{Geometric \& Dialectic Consensus}$ (GDC) represents a paradigm shift in multi-agent coordination, moving from discrete majority voting to a continuous optimization and adversarial verification process. By leveraging the geometric structure of semantic embeddings and formalizing the "dialectic" of proponent-opponent interaction, GDC ensures that the final output is not merely the most popular response, but the most robust and semantically representative one.
-
-## 🛠 Technical Architecture: The Consensus Stack ($\mathcal{C}_{stack}$)
-
-### 1. Radial Consensus Score ($\text{RCS}$)
-**Objective**: Optimize best-of-N selection in black-box settings.
-- **Logic**: Instead of counting votes, $\text{RCS}$ computes a weighted Fréchet mean ($\text{Semantic Center}$) of the candidate answer embeddings.
-- **Ranking**: Candidates are ranked by their radial distance to this center:
-  $$\text{Score}(a_i) = \exp(-\lambda \cdot \text{dist}(e_i, \mu_{semantic}))$$
-- **Impact**: Effectively promotes high-quality, low-frequency responses that align with the global semantic trend, bypassing the "majority bias" of standard self-consistency.
-
-### 2. Adversarial Dialectic Loop ($\mathcal{L}_{dialectic}$)
-**Objective**: Mitigate confirmation bias and hallucinations via structured falsification.
-- **Roles**:
-  - **Proponent**: Formulates the initial diagnostic/reasoning hypothesis.
-  - **Opponent**: Equipped with a **Visual/Fact Falsification Module** that actively searches for contradictory evidence to challenge the proponent.
-  - **Mediator**: Resolves the conflict via a **Weighted Consensus Graph**, where edges represent the strength of evidence for/against a specific claim.
-- **Logic**: $\text{Hypothesis} \xrightarrow{\text{Challenge}} \text{Falsification} \xrightarrow{\text{Synthesis}} \text{Verified Artifact}$.
-
-## 💎 Value Analysis
-The integration of $\text{GDC}$ into the **Agentic Research Flywheel** provides two critical upgrades:
-1. **Aggregation Upgrade**: Replaces $\text{Majority Voting} \rightarrow \text{Geometric Optimization}$, increasing the signal-to-noise ratio ($\text{SNR}$) when sampling multiple trajectories.
-2. **Verification Upgrade**: Replaces $\text{Agreement} \rightarrow \text{Adversarial Robustness}$, ensuring that a discovery is only integrated if it survives a dedicated falsification attempt.
-
----
-**Synergy**: Serves as the foundational aggregation layer for multi-agent debate cycles in Epoch 1, ensuring that autonomous sensing is grounded in verified consensus.
-\n|| ProofBridge | https://arxiv.org/abs/2510.15681 | $\text{ProofBridge}$ operationalizes a unified framework for NL-to-Lean 4 auto-formalization of theorems and proofs using joint embeddings and iterative repair. | Auto-Formalization / Formal Verification / Lean 4 |\n
-
 | ADI (Agent-centric Debugging Interface) | Function-level debugging interface for autonomous coding agents to reduce token costs. | Coding Agents | https://arxiv.org/abs/2604.24212 |
 \n|| ProofBridge | https://arxiv.org/abs/2510.15681 | $\text{ProofBridge}$ operationalizes a unified framework for NL-to-Lean 4 auto-formalization of theorems and proofs using joint embeddings and iterative repair. | Auto-Formalization / Formal Verification / Lean 4 |\n|| Agentic World Modeling | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Agentic-World-Modeling.md) | Operationalizes the transition from passive prediction to active simulation via a Levels x Laws taxonomy (L1-Predictor, L2-Simulator, L3-Evolver) across Physical, Digital, Social, and Scientific regimes. | World Models / Environment Simulation / L3-Evolver |\n
+
+## Curated Papers
+
+| Title | ID | Link | Key Value |
+|---|---|---|---|
+| Recursive Multi-Agent Systems | 2604.25917 | [https://arxiv.org/abs/2604.25917]( https://arxiv.org/abs/2604.25917 ) | Framework for scaling agent collaboration via recursion. Potential for huge leap in reasoning capabilities. |
+| Agentic Harness Engineering | 2604.25850 | [https://arxiv.org/abs/2604.25850]( https://arxiv.org/abs/2604.25850 ) | Methodology for automatically evolving the tool-use harness. Key for autonomous self-improvement. |
