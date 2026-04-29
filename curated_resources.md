@@ -17,3 +17,12 @@
 | SAFEdit | Agentic Workflow | Multi-agent decomposition for reliable code editing with a Failure Abstraction Layer. | [https://arxiv.org/abs/2604.25737](https://https://arxiv.org/abs/2604.25737) |
 | OxyGent | MAS Architecture | Modular, observable, and evolvable multi-agent systems via Oxy Abstraction. | [https://arxiv.org/abs/2604.25602](https://https://arxiv.org/abs/2604.25602) |
 | PAGRL Framework | C-Governance | Neurocognitive governance model for internalizing safety and policy in agents. | [https://arxiv.org/abs/2604.25684](https://https://arxiv.org/abs/2604.25684) |
+
+
+## New Discoveries (April 2026)
+
+| Resource Name | Link | Category | Description |
+|---|---|---|---|
+| OxyGent | https://oxygent.jd.com/ | Agent Framework | Modular, observable, and evolvable Multi-Agent Systems via a unified 'Oxy' abstraction. Focuses on AI asset management and joint evolution. |
+| SAFEdit | N/A | Code Editing | Multi-agent framework for instructed code editing using a Planner-Editor-Verifier loop and a Failure Abstraction Layer for ihū-diagnostic feedback. |
+| CORAL | N/A | mRAG | Adaptive retrieval loop for culturally-aligned multilingual RAG that iteratively refines retrieval space and probes. |
