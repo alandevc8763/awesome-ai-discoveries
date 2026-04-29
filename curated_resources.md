@@ -5,3 +5,4 @@
 | Recursive Multi-Agent Systems (RecursiveMAS) | Enables scaling agent collaboration through recursive latent-space loops, potentially reducing token... | Research | [arXiv:2604.25917](https://arxiv.org/abs/2604.25917) |
 | Toward Scalable Terminal Task Synthesis via Skill Graphs | Introduces a method to evolve agent capabilities by synthesizing new training tasks from a skill gra... | Research | [arXiv:2604.25727](https://arxiv.org/abs/2604.25727) |
 | Think Before You Act -- A Neurocognitive Governance Model for Autonomous AI Agents | Implements an internal governance model (PAGRL) to embed safety and compliance directly into the age... | Research | [arXiv:2604.25684](https://arxiv.org/abs/2604.25684) |
+| Llamafile | https://github.com/Mozilla-Ocho/llamafile | Tool | Single-file portable LLM distribution | High |
