@@ -47,3 +47,8 @@
 | Memanto | https://arxiv.org/abs/2604.22085 | High-speed typed semantic memory as a faster alternative to complex GraphRAG. |
 | RecursiveMAS | Framework for scaling agent collaboration via latent-space recursion. | Multi-Agent Systems | https://arxiv.org/abs/2604.25917 |
 | ADEMA | Architecture for long-horizon knowledge synthesis with explicit epistemic bookkeeping. | Knowledge Management | https://arxiv.org/abs/2604.25849 |
+
+||| Scaling Laws for Agentic Trajectories | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Scaling-Laws-Agentic-Trajectories.md) | Operationalizes the scaling of test-time compute (TTC) via trajectory depth and verification fidelity. Analyzes the SNR of agentic search vs reward hacking. | Reasoning-Scaling / System-2 / TTC |
+| Knowledge Capsules | https://arxiv.org/abs/2604.20487v2 | KV-Injection for memory-level knowledge interaction, outperforming RAG. |
+| Tool Attention | https://arxiv.org/abs/2604.21816v1 | Lazy schema loading and dynamic gating to reduce tool token overhead by 95%. |
+| RecursiveMAS | https://arxiv.org/abs/2604.25917v1 | Recursive multi-agent collaboration via latent-space transfer. |
