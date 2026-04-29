@@ -1,37 +1,11 @@
-| Name | URL | Description |
-|---|---|---|
-| Skill Retrieval Augmentation (SRA) | https://arxiv.org/abs/2604.24594 | Paradigm for dynamically retrieving skills from large corpora to solve scalability issues in agentic tool-use. |
-| AgentWard | https://arxiv.org/abs/2604.24657 | Lifecycle security architecture for autonomous agents, focusing on defense-in-depth across initialization and execution. |
-| XGRAG | https://arxiv.org/abs/2604.24623 | Explainability framework for GraphRAG, enabling causal analysis of knowledge graph contributions to LLM outputs. |
-| Persona Collapse Analysis | https://arxiv.org/abs/2604.24698 | Study on the homogenization of LLM agents; essential for maintaining diversity in multi-agent systems. |
-| Zero-to-CAD Synthesis | https://arxiv.org/abs/2604.24479 | Framework for agentic synthesis of procedural programs, applicable to complex config generation. |
-| Skill Retrieval Augmentation for Agentic AI | Paper | Directly applicable to the 'Skills' system. Instead of loading a few skills, I could retrieve the mo... | https://arxiv.org/abs/2604.24594v1 |
-| Beyond the Attention Stability Boundary: Agentic Self-Synthesizing Reasoning Protocols | Paper | Prevents 'forgetting' or 'anchoring' to obsolete instructions in long conversations. This would impr... | https://arxiv.org/abs/2604.24512v1 |
-| The Last Human-Written Paper: Agent-Native Research Artifacts | Paper | Revolutionizes research ingestion. If I can ingest 'Aras', I don't just get the result; I get the ex... | https://arxiv.org/abs/2604.24658v1 |
-| Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents | Paper | Provides a formal framework for my own safety and reliability. I can monitor my own 'viability' to d... | https://arxiv.org/abs/2604.24686v1 |
-| AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents | Paper | Essential for hardening autonomous agents. Implementing a 'Ward' system ensures that a failure in on... | https://arxiv.org/abs/2604.24657v1 |
-| Interoceptive machine framework: Toward interoception-inspired regulatory architectures in artificial intelligence | Paper | Moves beyond simple task-execution toward 'agent health' and internal state monitoring, allowing for... | https://arxiv.org/abs/2604.24527v1 |
-| GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems | Paper | Crucial for multi-agent coordination. If I spawn sub-agents, I need a way to ensure they haven't bee... | https://arxiv.org/abs/2604.24477v1 |
-| Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft | Paper | Highlights the need for a specific capability: the ability to realize what I *don't* know and proact... | https://arxiv.org/abs/2604.24697v1 |
-| [Tool Attention Is All You Need: Dynamic Tool Gating and Lazy Schema Loading](https://arxiv.org/abs/2604.21816) | Agent Architecture | Eliminates MCP/Tools tax via dynamic gating and lazy loading, critical for scaling agentic toolsets. |
-| [SCM: Sleep-Consolidated Memory with Algorithmic Forgetting](https://arxiv.org/abs/2604.20943) | Memory | Introduces algorithmic forgetting to maintain memory efficiency and prevent context bloat. |
-| [AgentEval: DAG-Structured Step-Level Evaluation](https://arxiv.org/abs/2604.23581) | Evaluation | Tracks error propagation in agentic workflows via DAGs, enabling surgical debugging of complex plans. |
-| [Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems](https://arxiv.org/abs/2604.19540) | Multi-Agent | Provides a standardized semantic layer for cross-agent knowledge sharing. |
-| 2604.24222v1 | MEMCoder | Multi-dimensional evolving memory for autonomous guideline updates. | https://arxiv.org/abs/2604.24222v1 |
-| 2604.24320v1 | DPEPO | Diverse Parallel Exploration for multi-environment agent interaction. | https://arxiv.org/abs/2604.24320v1 |
-| AgentEvolver (Self-Evolving Agents) | https://arxiv.org/abs/2511.10395 | Framework for curiosity-driven task generation and autonomous agent self-evolution via self-questioning. |
-| HyLo (Long-Context Upcycling) | https://arxiv.org/abs/2604.24715 | Hybrid Transformer-Linear architecture that reduces KV-cache by 90% and extends context to 2M tokens while preserving quality. |
-| [PhysNote: Self-Knowledge Notes for Evolvable Physical Reasoning in Vision-Language Model](https://arxiv.org/abs/2604.24443v1) | We propose PhysNote, an agentic framework that enables VLMs to externalize and refine physical knowledge through self-generated 'Knowledge Notes.' Phy... | High |
-| [Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models](https://arxiv.org/abs/2604.24708v1) | We propose Hyperparameter-Divergent Ensemble Training (HDET), a method that repurposes these replicas for simultaneous learning rate exploration at ne... | High |
-| Autonomous Target Generation Protocol (ATGP) | /home/alan/hermes-projects/research-flywheel/artifacts/atgp_protocol.md | Formal protocol for transforming semantic voids into actionable research targets via weighted priority functions. |\n
-| DeerFlow | https://github.com/bytedance/deer-flow | Super agent harness that orchestrates sub-agents, memory, and sandboxes for complex, long-horizon tasks. |
-| Caveman | https://github.com/JuliusBrussee/caveman | Extreme token compression skill for AI agents, reducing output tokens by ~75% without losing technical accuracy. |
-| Browser Use | https://github.com/browser-use/browser-use | AI-driven browser automation framework allowing LLMs to interact with the web like humans. |
-| RiskGate / Agent Viability Framework | https://arxiv.org/abs/s2604.24697 | Agent Governance | Formal runtime monitor for autonomous agents to prevent drift and ensure safety via Viability Index. || Agent-Native Research Artifacts (ARA) | https://arxiv.org/abs/2604.24658 | Protocol for machine-executable research packages; eliminates the 'Storytelling' and 'Engineering' taxes via a four-layer ontology (/logic, /src, /trace, /evidence). |
-| Structural Enforcement of Goal Integrity (PEA) | https://arxiv.org/abs/2604.23646 | Shifts agent alignment from a behavioral property to a structurally enforced system constraint via PEA architecture. |
 
-| Agent-Native Research Artifacts (Ara) | New protocol for machine-executable research packages with failure traces. | Research, Agentic-Workflow |
+| Epistemic Uncertainty & Count-Based Exploration | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Epistemic-Uncertainty-Sensing.md) | Shifts Gap Detection from semantic distance to density-based pseudo-counts via CFN; enables formal "Sensing" of knowledge voids. | Sensing / Epistemic-Uncertainty / Exploration |
 
-| Agent-centric Debugging Interface (ADI) | Function-level dynamic analysis for autonomous program repair agents. | Debugging, Agents |
-
-| Caesar: Deep Agentic Web Exploration | https://arxiv.org/abs/2604.20855 | Agentic LLM architecture shifting from retrieval to graph-based discovery and adversarial synthesis for creative research artifacts. |
+|| LLM-AAD: Behavioral Diversity | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/LLM-AAD-Behavioral-Diversity.md) | Quantifies algorithmic innovation via Problem-Solving Trajectories (PSTrajs) and DTW; solves syntactic convergence in AAD. | AAD / Behavioral Diversity / BehaveSim |
+|| TDA-based Semantic Void Detection (TDA-SVD) | https://arxiv.org/abs/2512.19135 | Operationalizes 'topological void' sensing by applying Persistent Homology to the semantic manifold to distinguish between topological noise and genuine knowledge voids. || OpenCLI | https://github.com/jackwener/OpenCLI | Universal CLI hub for web/desktop automation; enables deterministic, account-safe web interaction for AI agents. | AI Agents / Browser-Automation / CLI |
+| Neo.mjs | https://github.com/neomjs/neo | Multi-threaded, AI-native application engine with persistent Scene Graph; enables real-time AI mutation of live UIs. | AI-Native UI / Application Engine / Multi-threaded |
+| Cua | https://github.com/trycua/cua | Standardized infrastructure for Computer-Use agents; provides secure sandboxes and background OS drivers across Win/Mac/Linux/Android. | Computer-Use / OS-Automation / Sandboxing |
+| Sleep-Consolidated Memory (SCM) | https://arxiv.org/abs/2604.20943 | Memory architecture with a 'sleep' phase for autonomous reorganization and compression. | LLM Memory / Bio-inspired AI / Consolidation |
+| XGRAG | https://arxiv.org/abs/2604.24623 | Graph-native explanation framework for GraphRAG; makes retrieval paths transparent. | GraphRAG / Explainability / Knowledge Graphs |
+| Tool Attention (Lazy Loading) | https://arxiv.org/abs/2604.21816 | Eliminates 'MCP Tax' by dynamically gating tools and lazy-loading schemas. | MCP / Tool-Optimization / Efficiency |
+| Skill Retrieval Augmentation | https://arxiv.org/abs/2604.24594 | Retrieval-based skill loading (SRA) to scale agent capabilities without context bloat. | Agentic AI / Skill Scaling / RAG |
