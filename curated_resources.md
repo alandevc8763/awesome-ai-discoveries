@@ -17,7 +17,8 @@
 | FAMA | Failure-aware meta-agentic framework to address error accumulation in open-source LLM agents. | Agent Reliability | https://arxiv.org/abs/2604.25135 |
 
 | ADI (Agent-centric Debugging Interface) | Function-level debugging interface for autonomous coding agents to reduce token costs. | Coding Agents | https://arxiv.org/abs/2604.24212 |
-\n|| ProofBridge | https://arxiv.org/abs/2510.15681 | $\text{ProofBridge}$ operationalizes a unified framework for NL-to-Lean 4 auto-formalization of theorems and proofs using joint embeddings and iterative repair. | Auto-Formalization / Formal Verification / Lean 4 |\n|| Agentic World Modeling | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Agentic-World-Modeling.md) | Operationalizes the transition from passive prediction to active simulation via a Levels x Laws taxonomy (L1-Predictor, L2-Simulator, L3-Evolver) across Physical, Digital, Social, and Scientific regimes. | World Models / Environment Simulation / L3-Evolver |\n
+\n|| ProofBridge | https://arxiv.org/abs/2510.15681 | $\text{ProofBridge}$ operationalizes a unified framework for NL-to-Lean 4 auto-formalization of theorems and proofs using joint embeddings and iterative repair. | Auto-Formalization / Formal Verification / Lean 4 |\n|| DeepSeek-R1 | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/DeepSeek-R1-GRPO-Analysis.md) | $\text{DeepSeek-R1}$ operationalizes the emergence of reasoning via Group Relative Policy Optimization ($\text{GRPO}$), eliminating the critic model to scale test-time compute through an autonomous "Aha Moment" of self-correction and reflection. | RL / GRPO / Reasoning / Self-Evolution |
+|| Agentic World Modeling | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Agentic-World-Modeling.md) | Operationalizes the transition from passive prediction to active simulation via a Levels x Laws taxonomy (L1-Predictor, L2-Simulator, L3-Evolver) across Physical, Digital, Social, and Scientific regimes. | World Models / Environment Simulation / L3-Evolver |\n
 
 
 || Test-Time Compute Scaling | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Test-Time-Compute-Scaling.md) | Operationalizes the shift from System 1 to System 2 reasoning via $\text{PRM}$-guided search and test-time scaling laws. | Reasoning-Scaling / System-2 / PRM / MCTS |\n
@@ -34,3 +35,13 @@
 || Tool Attention | https://arxiv.org/abs/2604.21816 | $\text{Tool Attention}$ eliminates the 'Tools Tax' via dynamic gating and lazy schema loading, reducing per-turn tool tokens by 5\%$. | Agent Infrastructure / MCP / Token Optimization |
 | SAFEdit | 2604.25737 | [https://arxiv.org/abs/2604.25737](https://arxiv.org/abs/2604.25737) | Multi-agent decomposition for reliable code editing. |
 | Agentic Security Investigation | 2604.25846 | [https://arxiv.org/abs/2604.25846](https://arxiv.org/abs/2604.25846) | Autonomous correlation of logs and evidence for security alerts. |
+| Escher-Loop | https://arxiv.org/abs/2604.23472 | Pure self-evolution loop implementing mutual evolution of Task and Optimizer agents. |
+| Knowledge Capsules | https://arxiv.org/abs/2604.20487 | Fundamental shift from text-based RAG to attention-compatible KV-injection memory. |
+| Think Before You Act | https://arxiv.org/abs/2604.25684 | Formalizes internalized neurocognitive governance for autonomous agents. |
+| Semantic Gateways | https://arxiv.org/abs/2604.25555 | Introduces MCP-governed Zero-Trust security for agentic enterprise systems. |
+| Memanto | https://arxiv.org/abs/2604.22085 | High-speed typed semantic memory as a faster alternative to complex GraphRAG. |
+| Escher-Loop | https://arxiv.org/abs/2604.23472 | Pure self-evolution loop implementing mutual evolution of Task and Optimizer agents. |
+| Knowledge Capsules | https://arxiv.org/abs/2604.20487 | Fundamental shift from text-based RAG to attention-compatible KV-injection memory. |
+| Think Before You Act | https://arxiv.org/abs/2604.25684 | Formalizes internalized neurocognitive governance for autonomous agents. |
+| Semantic Gateways | https://arxiv.org/abs/2604.25555 | Introduces MCP-governed Zero-Trust security for agentic enterprise systems. |
+| Memanto | https://arxiv.org/abs/2604.22085 | High-speed typed semantic memory as a faster alternative to complex GraphRAG. |
