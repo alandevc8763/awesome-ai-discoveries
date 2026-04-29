@@ -25,3 +25,6 @@
 |---|---|---|---|
 | Recursive Multi-Agent Systems | 2604.25917 | [https://arxiv.org/abs/2604.25917]( https://arxiv.org/abs/2604.25917 ) | Framework for scaling agent collaboration via recursion. Potential for huge leap in reasoning capabilities. |
 | Agentic Harness Engineering | 2604.25850 | [https://arxiv.org/abs/2604.25850]( https://arxiv.org/abs/2604.25850 ) | Methodology for automatically evolving the tool-use harness. Key for autonomous self-improvement. |
+| RecursiveMAS | Multi-Agent | Scales agent collaboration via latent-space recursion, reducing token use by up to 75%. | https://recursivemas.github.io |
+| AHE (Agentic Harness Engineering) | Self-Evolution | Observability-driven autonomous evolution of the agent's tool/environment harness. | https://arxiv.org/abs/2604.25850 |
+| ADEMA | Orchestration | Knowledge-state orchestration to prevent drift in long-horizon agentic synthesis. | https://arxiv.org/abs/2604.25849 |
