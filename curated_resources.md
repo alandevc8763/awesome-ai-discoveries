@@ -37,3 +37,5 @@ $$\text{Query} \rightarrow \text{Thought} \rightarrow \text{Action}(\text{Hybrid
 - General synthesis of Agentic RAG and Knowledge Graph construction patterns.
 | Tool Attention Is All You Need | Infrastructure | Solves MCP context bloat via lazy loading. | https://arxiv.org/abs/2604.21816v1 |
 | Escher-Loop | Self-Evolution | Framework for agents to evolve their own workflows. | https://arxiv.org/abs/2604.23472v1 |
+| Knowledge Capsules: Structured Nonparametric Memory Units for LLMs ([2604.20487v2](https://arxiv.org/abs/2604.20487v2)) | Memory/Architecture | Proposes KVI framework for attention-compatible external memory, bypassing traditional context expansion. |
+| AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning ([2604.05846v2](https://arxiv.org/abs/2604.05846v2)) | Agentic Learning | RL-driven framework for topology-aware graph navigation, enabling autonomous discovery of relational knowledge. |
