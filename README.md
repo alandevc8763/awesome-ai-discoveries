@@ -21,3 +21,5 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
 ### 🌀 [Vericoding] (Certified Program Synthesis)
 - **Key Value**: Automated generation of program, spec, and proof. High-fidelity alignment via multi-modal verification (LeetProof).
 - **Reference**: [arXiv:2604.16584](https://arxiv.org/abs/2604.16584)
+
+- [NEMORI: Adaptive Memory Distillation](https://arxiv.org/abs/2508.03341v4) - $\text{NEMORI}$ operationalizes a data-driven framework for memory retention by casting the assessment of an experience's future utility as a function of predictability. It replaces heuristic-based retention (e.g., importance scores, emotional tags) with a dual-stage distillation pipeline: $\text{Episodic Memory Integration}$ transforms raw interactions into coherent narratives, followed by $\text{Semantic Knowledge Distillation}$, which extracts high-signal insights via prediction error. This approach ensures that the memory system evolves based on the intrinsic properties of interaction sequences rather than designer intuition.
