@@ -136,3 +136,6 @@ $\text{Vericoding}$ provides the "Immutable Ground Truth" necessary for high-fid
 **Category**: Certified Synthesis / Formal Verification / Lean / Vericoding
 
 ||| $\text{DreamProver}$ | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/DreamProver-Wake-Sleep-Lemma-Evolution.md) | Operationalizes a "wake-sleep" program induction paradigm to autonomously evolve reusable lemmas for formal theorem proving; leverages semantic clustering and formal verification to maintain a compact, high-utility library. | Certified Synthesis / Formal Verification / Lemma Evolution / Wake-Sleep Paradigm |\n
+|| Curriculum-Driven RLVR Scaling | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Curriculum-Driven-RLVR-Scaling.md) | Operationalizes the transition from naive RL to structured cognitive growth via Multi-Stage Curriculum Learning in Verifiable Reward environments. | RL / Curriculum Learning / Verifiable-Rewards / Scaling |
+| MemPalace | https://github.com/asadani/tool-attention | Open-source spatial AI memory system utilizing a 'method of loci' hierarchy for zero-LLM write path and high-recall retrieval. | Memory |
+| AgentEval | N/A | DAG-structured step-level evaluation framework for agentic workflows to track error propagation and automate root cause attribution. | Evaluation |
