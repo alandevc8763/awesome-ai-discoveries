@@ -103,3 +103,6 @@ The integration of RG-style environments into the Research Flywheel allows for:
 | XDFT | 2604.26703 | [https://arxiv.org/abs/2604.26703](https://arxiv.org/abs/2604.26703) | Closed-loop self-evolving agent for explainable diagnosis using Bayesian posteriors. |
 | Bian Que | Agent Framework | Agentic framework with Flexible Skill Arrangement and a self-evolving mechanism for distilling operational experience back into skills. | https://github.com/benchen4395/BianQue_Assistant |
 | ClawGym | Agent Training | Scalable framework for building agents that operate over local files and tools with a large synthetic dataset for verifiable training. | https://github.com/ClawGym |
+| ClawGym | Framework for scalable building of agentic coding/system agents | [arXiv:2604.26904](https://arxiv.org/abs/2604.26904) |
+| Bian Que | Agentic framework for flexible skill arrangement in O&M | [arXiv:2604.26805](https://arxiv.org/abs/2604.26805) |
+| Adaptive Retrieval | Technique for RAG integration during long-thinking CoT | [arXiv:2604.26649](https://arxiv.org/abs/2604.26649) |
