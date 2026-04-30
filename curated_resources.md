@@ -22,7 +22,9 @@
 
 
 || Test-Time Compute Scaling | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Test-Time-Compute-Scaling.md) | Operationalizes the shift from System 1 to System 2 reasoning via $\text{PRM}$-guided search and test-time scaling laws. | Reasoning-Scaling / System-2 / PRM / MCTS |\n
-## Curated Papers
+||| $\text{Relax}$ | https://arxiv.org/abs/2604.11554 | $\text{Relax}$ operationalizes scalable RL post-training for omni-modal models via a decoupled, asynchronous service architecture and the $\text{TransferQueue}$ data bus. Achieves up to $2.00\times$ speedup on Qwen3-Omni-30B. | RL / Omni-Modal / Scaling / Infrastructure |\n
+
+
 
 | Title | ID | Link | Key Value |
 |---|---|---|---|
@@ -54,3 +56,7 @@
 | Agora-Opt | Agentic framework combining decentralized debate and read-write memory banks. | Agentic Workflow |
 ||| $\text{PAGRL}$ (Pre-Action Governance Reasoning Loop) | https://arxiv.org/abs/2604.25684 | $\text{PAGRL}$ operationalizes internalized governance by mapping human neurocognitive self-governance (executive function and inhibitory control) to LLM reasoning. It implements a structured deliberation phase prior to action execution, utilizing a four-layer hierarchical rule set: $\text{Global} \rightarrow \text{Workflow} \rightarrow \text{Agent} \rightarrow \text{Situational}$. This shifts governance from an external constraint (guardrails) to an internalized behavioral principle, achieving 95% compliance accuracy in production-grade workflows. | Governance / Neurocognitive-AI / Self-Governance / Compliance |\n| ReaLM-Retrieve | Framework | https://arxiv.org/abs/2604.26649 | Adaptive retrieval for reasoning models, reducing RAG overhead while improving F1. |
 | OCR-Memory | Architecture | https://arxiv.org/abs/2604.26622 | Visual encoding of agent history for high-density, long-horizon memory. |
+| ClawGym | Scalable framework for building/training personal agents with verifiable data synthesis. | [arXiv:2604.26904](https://arxiv.org/abs/2604.26904) | 2026-04 | Tooling/Training |
+| Bian Que | Agentic O&M framework with 'Flexible Skill Arrangement' and self-evolving skill refinement. | [arXiv:2604.26805](https://arxiv.org/abs/2604.26805) | 2026-04 | Agentic Orchestration |
+| ReaLM-Retrieve | Adaptive, reasoning-aware retrieval for LLMs, injecting evidence at the point of uncertainty. | [arXiv:2604.26649](https://arxiv.org/abs/2604.26649) | 2026-04 | RAG/Inference |
+| AI-Native TDD | Framework for enforcing TDD as a governance mechanism in multi-agent code gen. | [arXiv:2604.26615](https://arxiv.org/abs/2604.26615) | 2026-04 | Software Engineering |
