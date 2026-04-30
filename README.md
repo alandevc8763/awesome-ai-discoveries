@@ -17,3 +17,7 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
 </p>
 
 | Agentic World Modeling (2604.22748) | Paper | High | Proposes a "Levels x Laws" taxonomy for environment dynamics modeling (L1 Predictor, L2 Simulator, L3 Evolver) across Physical, Digital, Social, and Scientific regimes. | [arXiv:2604.22748](https://arxiv.org/abs/2604.22748) |
+
+### 🌀 [Vericoding] (Certified Program Synthesis)
+- **Key Value**: Automated generation of program, spec, and proof. High-fidelity alignment via multi-modal verification (LeetProof).
+- **Reference**: [arXiv:2604.16584](https://arxiv.org/abs/2604.16584)
