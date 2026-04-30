@@ -101,3 +101,5 @@ The integration of RG-style environments into the Research Flywheel allows for:
 | AI-Native TDD | 2604.26615 | [https://arxiv.org/abs/2604.26615](https://arxiv.org/abs/2604.26615) | Framework for enforcing TDD as a governance mechanism in multi-agent code gen. |
 | Operating-Layer Controls | 2604.26091 | [https://arxiv.org/abs/2604.26091](https://arxiv.org/abs/2604.26091) | Highlights reliability emerging from the harness/operating layer rather than the base model. |
 | XDFT | 2604.26703 | [https://arxiv.org/abs/2604.26703](https://arxiv.org/abs/2604.26703) | Closed-loop self-evolving agent for explainable diagnosis using Bayesian posteriors. |
+| Bian Que | Agent Framework | Agentic framework with Flexible Skill Arrangement and a self-evolving mechanism for distilling operational experience back into skills. | https://github.com/benchen4395/BianQue_Assistant |
+| ClawGym | Agent Training | Scalable framework for building agents that operate over local files and tools with a large synthetic dataset for verifiable training. | https://github.com/ClawGym |
