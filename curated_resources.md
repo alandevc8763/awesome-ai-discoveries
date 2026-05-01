@@ -1,3 +1,5 @@
+| Resource | Description | Key Insight | Link |
+|---|---|---|---|
 | Resource Name | Link | Description | Tags |
 | :--- | :--- | :--- | :--- |
 | Epistemic Uncertainty & Count-Based Exploration | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Epistemic-Uncertainty-Sensing.md) | Shifts Gap Detection from semantic distance to density-based pseudo-counts via CFN; enables formal "Sensing" of knowledge voids. | Sensing / Epistemic-Uncertainty / Exploration |
@@ -52,3 +54,5 @@ $$\text{Experience} \xrightarrow{\text{Counterfactual Probing}} \text{Causal Dri
 | Synthetic Computers | https://arxiv.org/abs/2604.28181 | Methodological framework for scaling synthetic productivity environments for agent self-improvement. |
 | Dynamic Memory Topology Optimization ($\text{DMTO}$) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Dynamic-Memory-Topology-Optimization.md) | Meta-cognitive framework for autonomous memory manifold evolution; maximizes $\text{SNR}$ via $\text{T-Collapse}$ and $\text{T-Fission}$. | Memory / Topology / SNR-Optimization || Intern-Atlas | https://arxiv.org/abs/2604.28158v1 | Methodological Evolution Graph for AI Scientists - turns research into a structured graph of technique lineage. |
 | Crab | https://arxiv.org/abs/2604.28138v1 | Semantics-Aware Checkpoint/Restore for Agent Sandboxes - enables branching and stateful rollback for agents. |
+| Active Inference & Curiosity-Driven Evolution ($\text{AI-CDE}$) | [Internal Artifact](/home/alan/hermes-projects/research-flywheel/artifacts/Active-Inference-CDE.md) | Transforms agents from passive responders to active epistemic seekers via $\text{VFE}$ minimization and active inference; enables autonomous sensing of knowledge voids. | Active-Inference / FEP / Epistemic-Foraging |
+| Collaborative Agent Reasoning Engineering (CARE) | Agent Engineering Methodology | Shifts agent design from ad-hoc to stage-gated engineering | [arXiv:2604.28043](https://arxiv.org/abs/2604.28043) |
