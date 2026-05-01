@@ -7,6 +7,7 @@
 | Schema-Grounded Memory | https://arxiv.org/abs/2604.27906 | Shifts AI memory from simple RAG retrieval to a 'system of record' and iterative, schema-aware extraction, ensuring reliability for facts and state. | Memory / Reliability / Schema |
 | ObjectGraph | https://arxiv.org/abs/2604.27820 | Proposes a native agentic file format that replaces linear documents with a knowledge graph for efficient traversal and token-saving retrieval. | Knowledge-Representation / Graph-Native / Tokens |
 | Crab Runtime | https://arxiv.org/abs/2604.28138 | A semantics-aware checkpoint/restore Fluorescence-based checkpoint/restore runtime for agent sandboxes, enabling fault tolerance and safe rollback for RL rollout branching. | Infrastructure / Sandbox / RL-Safety |
+| Neuro-Symbolic Compositional Generalization | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Compositional-Generalization-AGEL.md) | Implements Structural Isomorphism to decouple procedural logic from surface-level lexical features, enabling OOD generalization via topological mapping. | Generalization / Neuro-Symbolic / AGEL-Comp |
 # Knowledge Artifact: Causal-Driven Agentic Self-Evolution ($\text{CD-ASE}$)
 
 ## $\text{Architectural Overview}$
@@ -49,3 +50,5 @@ $$\text{Experience} \xrightarrow{\text{Counterfactual Probing}} \text{Causal Dri
 
 | Intern-Atlas | https://arxiv.org/abs/2604.28158 | Methodological evolution graph for AI research. Blueprint for mapping the lineage of AI techniques. |
 | Synthetic Computers | https://arxiv.org/abs/2604.28181 | Methodological framework for scaling synthetic productivity environments for agent self-improvement. |
+| Dynamic Memory Topology Optimization ($\text{DMTO}$) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Dynamic-Memory-Topology-Optimization.md) | Meta-cognitive framework for autonomous memory manifold evolution; maximizes $\text{SNR}$ via $\text{T-Collapse}$ and $\text{T-Fission}$. | Memory / Topology / SNR-Optimization || Intern-Atlas | https://arxiv.org/abs/2604.28158v1 | Methodological Evolution Graph for AI Scientists - turns research into a structured graph of technique lineage. |
+| Crab | https://arxiv.org/abs/2604.28138v1 | Semantics-Aware Checkpoint/Restore for Agent Sandboxes - enables branching and stateful rollback for agents. |
