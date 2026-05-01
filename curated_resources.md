@@ -1,5 +1,6 @@
 | Resource | Description | Category | Link |
 |---|---|---|---|
+| RAD: Retrieval-Aware Distillation for Transformer-SSM Hybrids | Preserves retrieval-critical G&A heads while distilling others into SSMs to close the retrieval gap with 5-6x memory efficiency. | Agent Evolution | https://arxiv.org/abs/2602.11374 |
 | Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes | Introduces state management (C/R) for agent sandboxes, essential for fault tolerance and long-running tasks. | Agent Evolution | https://arxiv.org/abs/2604.28138v1 |
 | FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments | Implements failure-aware meta-frameworks, improving robustness in interactive tool-use environments. | Agent Evolution | https://arxiv.org/abs/2604.25135v1 |
 # Knowledge Artifact: Failure-Aware Meta-Agentic Framework ($\text{FAMA}$)
@@ -61,3 +62,5 @@ To prevent I/O storms in dense co-location scenarios, $\text{Crab}$ schedules ch
 | Synthetic Computers at Scale | 2604.28181 | High-fidelity synthetic data generation for agent RL in OS environments. |
 | Intern-Atlas | 2604.28158 | Methodological evolution graph for tracking research lineage. |
 | LLM+ASP | 2604.27960 | Nonmonotonic reasoning loop via Answer Set Programming (ASP). |
+
+| RHyVE: Competence-Aware Verification and Phase-Aware Deployment for LLM-Generated Reward Hypotheses | Provides infrastructure for agent fault tolerance and state management. Could be used to implement '... | High | [arXiv:2604.28056v1](https://arxiv.org/abs/2604.28056v1) |
