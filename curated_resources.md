@@ -119,3 +119,52 @@ If pruning leads to a drop in recall for critical "long-tail" queries, the syste
 ## $\text{Sources}$
 - Synthesis of Graph Theory, Signal Processing, and $\text{GraphRAG}$ architectural patterns.
 - Principles of "Minimum Description Length" (MDL) applied to semantic networks.
+
+
+# Knowledge Artifact: Agentic Graph Learning ($\text{AgentGL}$)
+
+## $\text{Architectural Overview}$
+$\text{AgentGL}$ introduces the paradigm of **Agentic Graph Learning ($\text{AGL}$)**, which reframes the task of graph learning as an interleaved process of topology-aware navigation and LLM-based inference. While traditional GraphRAG treats graphs as structured context for retrieval, $\text{AgentGL}$ treats the graph as an active environment, employing an RL-driven agent to autonomously navigate relational dependencies to resolve complex queries.
+
+## $\text{Key Mechanisms}$
+
+### 1. Graph-Native Search ($\text{GNS}$) Toolkit
+The agent is equipped with a multi-scale toolset $\mathcal{S}$ designed to cover the information space across two dimensions: $\text{Local vs. Global}$ and $\text{Structure vs. Semantics}$.
+- **Local Grounding ($\tau_{1hop}, \tau_{2hop}$)**: Prioritizes common neighbors and balances exclusive ones using a weighted fusion of query relevance and node embeddings.
+- **Structural Prior ($\tau_{ss}$)**: A "Structure Salience Search" that leverages precomputed Personalized PageRank ($\text{PPR}$) scores to identify global topological pivots.
+- **Semantic Bridging ($\tau_{dense}$)**: A "Graph Dense Search" that utilizes cosine similarity in the latent embedding space to connect nodes that are topologically distant but semantically related.
+
+### 2. Search-Constrained Thinking
+To prevent the agent from defaulting to inefficient, exhaustive retrieval, $\text{AgentGL}$ implements a "Think more, Search less" paradigm:
+- **Retrospective Termination Triggers**: Injects cognitive interrupts after tool execution, forcing the agent to explicitly evaluate the sufficiency of acquired evidence.
+- **Cognitive Density Regularization**: Implements a reward $r_{depth}$ that penalizes fragmented reasoning (segments below a token threshold $\delta$), incentivizing deep internal processing over redundant tool calls.
+- **Parsimony Optimization**: Formulates the objective as $\min \mathbb{E}[T(\tau)]$ (minimizing search cost) subject to a hard accuracy constraint.
+
+### 3. Graph-Conditioned Curriculum Learning ($\text{GCCL}$)
+Rather than relying on expert annotations, $\text{AgentGL}$ uses intrinsic topological priors to automate the training curriculum:
+- **Node Classification Difficulty**: Quantified via a combination of neighbor label consistency (rectified by the **Wilson Lower Bound**) and degree magnitude.
+- **Link Prediction Difficulty**: Measured by the divergence between semantic similarity and label existence.
+- **Trajectory**: Transitions training from "Easy" (structurally prominent hubs/consistent pairs) to "Hard" (heterophilous outliers/conflicting semantic-structural signals).
+
+## $\text{Empirical Utility}$
+- **Performance**: Demonstrates substantial gains over GraphLLMs and GraphRAG, with absolute improvements of up to $17.5\%$ in node classification and $28.4\%$ in link prediction.
+- **Efficiency**: Significantly reduces structural noise and computational overhead by converging on the "minimal sufficient trajectory" for evidence acquisition.
+
+## $\text{Actionability}$
+- **Implementation Path**: Replace static graph-prompting with an RL-optimized (GRPO or REINFORCE++) agentic loop. Integrate a GNS toolkit that balances local neighborhood search with global structural salience.
+- **Training Strategy**: Employ a curriculum based on topological homophily and degree to stabilize long-horizon policy learning.
+
+## $\text{Sources}$
+- [AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning (arXiv:2604.05846)](https://arxiv.org/abs/2604.05846)
+- [sunyuanfu/AgentGL GitHub](https://github.com/sunyuanfu/AgentGL)
+
+# Knowledge Artifact: Path Compression in Semantic Knowledge Graphs
+Refer to: [[path_compression]]
+- **Core Concept**: Reduces multi-hop latency and signal decay by synthesizing long chains of low-signal edges into a single high-fidelity relation {syn}$.
+- **Key Equation**: $\Phi(P) = \frac{\sum \text{sim}(E_i, E_{i+1})}{\text{PathLength}(P)}$
+- **Utility**: $\Delta\text{Latency} \approx -(N-1)$ hops; maximizes $\text{SNR}$ by mitigating semantic noise.
+
+| Synthetic Computers at Scale for Long-Horizon Productivity Simulation | Scalable methodology for creating synthetic computer environments with realistic folder hierarchies ... | Directly applicable to improving agent autonomy in complex workspaces. The idea of 'Synthetic Comput... | [arXiv](https://arxiv.org/abs/2604.28181) |
+| Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists | A methodological evolution graph that identifies method-level entities and infers lineage relationsh... | Strongly aligns with GraphRAG and knowledge management. Implementing a 'Methodological Evolution Gra... | [arXiv](https://arxiv.org/abs/2604.28158) |
+| Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes | A transparent runtime that bridges the agent-OS semantic gap to optimize checkpoint/restore for agen... | Crucial for the reliability of autonomous agents operating in sandboxes. This technique could be int... | [arXiv](https://arxiv.org/abs/2604.28138) |
+| Collaborative Agent Reasoning Engineering (CARE): A Three-Party Design Methodology | A disciplined methodology for engineering LLM agents in scientific domains using SMEs, developers, a... | Provides a framework for systematic skill development. Instead of ad-hoc prompting, the agent can us... | [arXiv](https://arxiv.org/abs/2604.28043) |
