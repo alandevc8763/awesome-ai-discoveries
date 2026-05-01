@@ -1,5 +1,8 @@
 | Resource | Description | Key Insight | Link |
 |---|---|---|---|
+| LightRAG | Fast GraphRAG framework. | Dual-level retrieval (local/global) significantly outperforms NaiveRAG/GraphRAG. | https://github.com/HKUDS/LightRAG |
+| Integuru | AI agent for reverse-engineering internal APIs. | Transforms HAR files into runnable Python integration code via dependency graphing. | https://github.com/Integuru-AI/Integuru |
+| LocalAI | Open-source AI engine for running LLMs/Vision/Audio locally. | Drop-in API compatibility with OpenAI/Anthropic; hardware agnostic (CPU/GPU). | https://github.com/mudler/LocalAI |
 | Resource Name | Link | Description | Tags |
 | :--- | :--- | :--- | :--- |
 | Epistemic Uncertainty & Count-Based Exploration | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Epistemic-Uncertainty-Sensing.md) | Shifts Gap Detection from semantic distance to density-based pseudo-counts via CFN; enables formal "Sensing" of knowledge voids. | Sensing / Epistemic-Uncertainty / Exploration |
