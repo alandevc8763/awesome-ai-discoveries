@@ -56,3 +56,8 @@ $$\text{Experience} \xrightarrow{\text{Counterfactual Probing}} \text{Causal Dri
 | Crab | https://arxiv.org/abs/2604.28138v1 | Semantics-Aware Checkpoint/Restore for Agent Sandboxes - enables branching and stateful rollback for agents. |
 | Active Inference & Curiosity-Driven Evolution ($\text{AI-CDE}$) | [Internal Artifact](/home/alan/hermes-projects/research-flywheel/artifacts/Active-Inference-CDE.md) | Transforms agents from passive responders to active epistemic seekers via $\text{VFE}$ minimization and active inference; enables autonomous sensing of knowledge voids. | Active-Inference / FEP / Epistemic-Foraging |
 | Collaborative Agent Reasoning Engineering (CARE) | Agent Engineering Methodology | Shifts agent design from ad-hoc to stage-gated engineering | [arXiv:2604.28043](https://arxiv.org/abs/2604.28043) |
+| Resource Name | Link | Description | Tags |
+| :--- | :--- | :--- | :--- |
+| MemAPO: Generalizable Self-Evolving Prompt Optimization | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/MemAPO.md) | Reconceptualizes prompt optimization as a dual-memory system of strategy templates and error patterns, enabling generalizable experience accumulation. | Prompt-Optimization / Memory / Self-Evolution |
+
+| LLM+ASP Framework | Combines LLMs with Answer Set Programming for nonmonotonic reasoning and iterative self-correction. | Reasoning | https://arxiv.org/abs/2604.27960 |
