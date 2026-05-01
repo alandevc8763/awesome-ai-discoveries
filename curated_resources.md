@@ -3,7 +3,8 @@
 | 2604.20487 | Knowledge Capsules | Structured nonparametric memory units for LLMs, superior to flat RAG. |
 | 2604.05846 | AgentGL | Agentic Graph Learning using RL for topological knowledge leverage. |
 
-# Knowledge Artifact: Agentic Wiki Synthesis & Autonomous Knowledge Base Evolution
+|| N/A | [NornicDB](https://github.com/orneryd/NornicDB) | Distributed Hybrid Graph+Vector DB with Temporal MVCC and sub-ms search. |
+: Agentic Wiki Synthesis & Autonomous Knowledge Base Evolution
 
 ## $\text{Architectural Overview}$
 The paradigm of **Agentic Wiki Synthesis** transforms the traditional RAG (Retrieval-Augmented Generation) approach—which treats documents as passive chunks—into a dynamic, self-maintaining knowledge engine. As exemplified by the $\text{WeKnora}$ architecture, the system autonomously converts unstructured raw data into a structured, interlinked Markdown Wiki and a corresponding Knowledge Graph ($\text{KG}$), minimizing the semantic distance between raw information and queryable intelligence.
@@ -43,7 +44,8 @@ $$\text{Query} \rightarrow \text{Thought} \rightarrow \text{Action}(\text{Hybrid
 | AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning ([2604.05846v2](https://arxiv.org/abs/2604.05846v2)) | Agentic Learning | RL-driven framework for topology-aware graph navigation, enabling autonomous discovery of relational knowledge. |
 
 
-# Knowledge Artifact: GraphRAG (Graph Retrieval-Augmented Generation)
+|| N/A | [AgenticSeek](https://github.com/Fosowl/agenticSeek) | Fully local autonomous agent implementation (Manus-style) avoiding API costs. |
+: GraphRAG (Graph Retrieval-Augmented Generation)
 
 ## $\text{Architectural Overview}$
 $\text{GraphRAG}$ evolves the RAG paradigm by augmenting vector-based retrieval with a structured knowledge graph ($\text{KG}$), enabling both **local** (entity-specific) and **global** (dataset-wide) reasoning. Unlike standard RAG, which relies on isolated chunk similarity, GraphRAG maps the global topology of the information space.
