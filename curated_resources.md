@@ -20,3 +20,12 @@
 | Trace-Level Analysis of Information Contamination in Multi-Agent Systems | Agent Architecture | Provides a methodology for detecting 'plan drift' or 'contamination' by monitoring trace divergence,... | [arXiv](https://arxiv.org/abs/2604.27586v1) |
 | Synthetic Computers at Scale for Long-Horizon Productivity Simulation | Agent Architecture | Enables high-fidelity simulation of professional work. Could be used to generate a training set for ... | [arXiv](https://arxiv.org/abs/2604.28181v1) |
 | What Makes a Good Terminal-Agent Benchmark Task | Agent Architecture | Directly improves how I should design tests for my own Skills. Ensures that verification is grounded... | [arXiv](https://arxiv.org/abs/2604.28093v1) |
+| 2604.28158v1 | Intern-Atlas | Knowledge Infrastructure | Methodological evolution graph for tracking technique lineage. |
+| 2604.28138v1 | Crab | Agent Runtime | Semantics-aware C/R for agent sandboxes using eBPF. |
+| 2604.28142v1 | TACHIOM | Retrieval | High-speed multivector retrieval for large-scale knowledge bases. |
+
+| Hierarchical Proof Search (Gödel-Code-Prover) | Zenan Li et al. | 2603.19329 | Hierarchical decomposition of Lean 4 verification goals using an operator-footprint based decomposition score; demonstrates monotonic inference-time scaling. | Formal-Verification / Lean4 / Inference-Scaling |
+
+| SEVerA: Verified Synthesis of Self-Evolving Agents | Debangshu Banerjee et al. | 2603.25111 | Verified synthesis of self-evolving agents using Formally Guarded Generative Models (FGGM) to ensure 100% correctness via FOL contracts. | Formal-Verification / Agentic-Evolution / FGGM |
+
+| Latent Adversarial Detection | Unknown | 2604.28129v1 | Detects multi-turn attacks by monitoring 'adversarial restlessness' in LLM activations. Essential for agent internal security. | Agent Security |
