@@ -4,16 +4,14 @@
 | Intern-Atlas | Yujun Wu et al. | 2604.28158v1 | A methodological evolution graph that captures causal networks of how research methods evolve, moving beyond simple citations. |
 | Crab | Tianyuan Wu et al. | 2604.28138v1 | Semantics-aware checkpoint/restore runtime for agent sandboxes, drastically reducing overhead while ensuring 100% recovery correctness. |
 | Deterministic Guardrails (Lean 4) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Deterministic-Guardrails-Lean4.md) | Shifts from probabilistic to deterministic verification via Lean 4 kernel; enables 100% compliance certainty for high-stakes agents. | Guardrails / Formal-Verification / Lean4 |
-
 | Memanto | Unknown | 2604.22085v1 | Typed semantic memory layer with information-theoretic retrieval, bypassing GraphRAG complexity. |
 | Tool Attention | Unknown | 2604.21816v1 | Dynamic tool gating and lazy schema loading to eliminate the 'Tools Tax' in scalable workflows. |
 | SCM | Unknown | 2604.20943v1 | Sleep-consolidated memory architecture implementing algorithmic forgetting and offline synthesis. |
 | Self-Evolving Agents | Unknown | 2604.27264v1 | BDI-LLM architecture for autonomous evolution of goals and code based on experience. |
-
 | From Unstructured Recall to Schema-Grounded Memory | https://arxiv.org/abs/2604.27906 | Proposes a schema-grounded write path for AI memory, moving from retrieval-based search to a verified system of record. Essential for high-reliability agent memory. | Agent Memory |
 | Synthetic Computers at Scale | https://arxiv.org/abs/2604.28181 | Scalable methodology for creating synthetic user environments for long-horizon agent simulations and self-improvement. | Agent Training |
 | Intern-Atlas | https://arxiv.org/abs/2604.28158 | Methodological evolution graph for tracking how AI research methods emerge and adapt. A new paradigm for research infrastructure. | Research Infrastructure |
-| Crab: Semantics-Aware Checkpoint/Restore | https://arxiv.org/abs/2604.28138 | Bridges the agent-OS semantic gap using eBPF to enable 100% recovery correctness for agent sandboxes with minimal overhead. | Agent Infrastructure || Crab (Checkpoint-and-Restore for Agent Sandboxes) | eBPF-based semantic checkpointing for agent runtimes to ensure fault tolerance with minimal overhead. | Agent Infrastructure |
+| Crab: Semantics-Aware Checkpoint/Restore | https://arxiv.org/abs/2604.28138 | Bridges the agent-OS semantic gap using eBPF to enable 100% recovery correctness for agent sandboxes with minimal overhead. | Agent Infrastructure |
 | Global Neural World Model (GNWM) | Noureddine Kermiche | 2604.16585 | Self-stabilizing framework achieving topological quantization via balanced entropy constraints to prevent manifold drift in planning. | World-Models / JEPA / Planning |
 | Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes | Agent Architecture | Critical for autonomous agent reliability. Allows for fault-tolerant execution and precise rollbacks... | [arXiv](https://arxiv.org/abs/2604.28138v1) |
 | Security Attack and Defense Strategies for Autonomous Agent Frameworks | Agent Architecture | Provides a systematic framework for auditing agent security. Essential for designing robust 'Guardra... | [arXiv](https://arxiv.org/abs/2604.27464v1) |
@@ -23,9 +21,10 @@
 | 2604.28158v1 | Intern-Atlas | Knowledge Infrastructure | Methodological evolution graph for tracking technique lineage. |
 | 2604.28138v1 | Crab | Agent Runtime | Semantics-aware C/R for agent sandboxes using eBPF. |
 | 2604.28142v1 | TACHIOM | Retrieval | High-speed multivector retrieval for large-scale knowledge bases. |
-
 | Hierarchical Proof Search (Gödel-Code-Prover) | Zenan Li et al. | 2603.19329 | Hierarchical decomposition of Lean 4 verification goals using an operator-footprint based decomposition score; demonstrates monotonic inference-time scaling. | Formal-Verification / Lean4 / Inference-Scaling |
-
 | SEVerA: Verified Synthesis of Self-Evolving Agents | Debangshu Banerjee et al. | 2603.25111 | Verified synthesis of self-evolving agents using Formally Guarded Generative Models (FGGM) to ensure 100% correctness via FOL contracts. | Formal-Verification / Agentic-Evolution / FGGM |
-
 | Latent Adversarial Detection | Unknown | 2604.28129v1 | Detects multi-turn attacks by monitoring 'adversarial restlessness' in LLM activations. Essential for agent internal security. | Agent Security |
+| NocoBase | nocobase/nocobase | Tool | AI + no-code platform that treats AI agents as first-class citizens with dedicated CLI and Skills, allowing collaborative AI-human building. | AI-Agents / No-Code |
+| Llamafile | https://github.com/Mozilla-Ocho/llamafile | Tool | Single-file LLM distribution for extreme portability. |
+| History LLMs | https://github.com/DGoettlich/history-llms | Model | Avoids hindsight bias by training on pre-1913 texts. |
+| Anna's Archive | https://annas-archive.li | Resource | Massive open-data archive critical for LLM training. |
