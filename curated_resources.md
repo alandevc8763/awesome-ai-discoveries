@@ -28,3 +28,5 @@
 | Llamafile | https://github.com/Mozilla-Ocho/llamafile | Tool | Single-file LLM distribution for extreme portability. |
 | History LLMs | https://github.com/DGoettlich/history-llms | Model | Avoids hindsight bias by training on pre-1913 texts. |
 | Anna's Archive | https://annas-archive.li | Resource | Massive open-data archive critical for LLM training. |
+| [arXiv:2604.27707](https://arxiv.org/abs/2604.27707) - Contextual Agentic Memory is a Memo, Not True Memory | Critical analysis of RAG vs True Memory (weight consolidation). | Memory | agentic-memory, neuroscience |
+| [arXiv:2604.27891](https://arxiv.org/abs/2604.27891) - In-Context Prompting Obsoletes Agent Orchestration | Empirical proof that self-orchestration > complex frameworks (LangGraph). | Agentic Workflow | orchestration, prompting |
