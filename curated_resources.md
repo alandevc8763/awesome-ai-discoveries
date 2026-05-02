@@ -27,3 +27,6 @@
 | Agentic OS Runtimes | [Internal Artifact](/home/alan/hermes-projects/research-flywheel/artifacts/Agentic-OS-Runtimes.md) | Shifts orchestration from graph-based loops to process-based kernels (VCP, PRS); enables systemic SNR optimization and compute-budgeting. | Agentic-OS / Cognitive-Kernel / Orchestration |
 | 2604.27962 | Symbolic Reflection and Modular Optimisation | High-Value |  Introduces 'symbolic lifting' to translate raw execution data into qualitative feedback for agents. |
 | 2604.28178 | LLM as Graph Structure Refiner | Transformative | Uses LLMs to prune and refine knowledge graphs, essential for high-fidelity GraphRAG. |
+| Synthetic Computers at Scale | Methodology for creating massive synthetic productivity environments for agent self-improvement. | Agent Training | https://arxiv.org/abs/2604.28181 |
+| Crab (Runtime) | Semantics-aware checkpoint/restore for agent sandboxes. | Infrastructure | https://arxiv.org/abs/2604.28138 |
+| LLMs as ASP Programmers | Integrating symbolic reasoning via ASP with LLM self-correction. | Reasoning | https://arxiv.org/abs/2604.27960 |
