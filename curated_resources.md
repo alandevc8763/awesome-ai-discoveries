@@ -40,3 +40,5 @@
 | ObjectGraph: From Document Injection to Knowledge Traversal -- A Native File Format for the Agentic Era | This proposes a fundamental change in how agents interact with documents. By treating files as graph... | High | [arXiv:2604.27820](https://arxiv.org/abs/2604.27820) || Crab: Semantics-Aware C/R | Checkpoint/Restore runtime for agent sandboxes. Enables fault tolerance and state rollback. | Infrastructure | https://arxiv.org/abs/2604.28138 |
 | LLMs as ASP Programmers | Using LLMs to write ASP programs for formally guaranteed logical reasoning. | Reasoning | https://arxiv.org/abs/2604.27960 |
 | CARE Methodology | Professional three-party design framework for engineering high-fidelity AI agents. | Methodology | https://arxiv.org/abs/2604.28043 |
+
+| Non-Monotonic Reasoning Trajectories | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Non-Monotonic-Reasoning-Trajectories.md) | Shifting from monotonic to revisable decoding via Action Tokens and MCTS-distillation; enables in-situ self-correction. | Reasoning-Scaling / Self-Correction / NMR |
