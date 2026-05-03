@@ -1,121 +1,54 @@
-| arXiv ID | Project/Paper | Value Proposition |
-|---|---|---|
-| 2604.20487 | Knowledge Capsules | Structured nonparametric memory units for LLMs, superior to flat RAG. |
-| 2604.05846 | AgentGL | Agentic Graph Learning using RL for topological knowledge leverage. |
-
-|| N/A | [NornicDB](https://github.com/orneryd/NornicDB) | Distributed Hybrid Graph+Vector DB with Temporal MVCC and sub-ms search. |
-: Agentic Wiki Synthesis & Autonomous Knowledge Base Evolution
-
-## $\text{Architectural Overview}$
-The paradigm of **Agentic Wiki Synthesis** transforms the traditional RAG (Retrieval-Augmented Generation) approach—which treats documents as passive chunks—into a dynamic, self-maintaining knowledge engine. As exemplified by the $\text{WeKnora}$ architecture, the system autonomously converts unstructured raw data into a structured, interlinked Markdown Wiki and a corresponding Knowledge Graph ($\text{KG}$), minimizing the semantic distance between raw information and queryable intelligence.
-
-## $\text{Key Mechanisms}$
-
-### 1. The Wiki Generation Pipeline ($\text{WGP}$)
-The transformation from raw document $\mathcal{D}$ to structured Wiki page $\mathcal{W}$ is defined as a unidirectional agent-driven pipeline:
-$$\mathcal{D} \xrightarrow{\text{Parsing}} \text{Chunks} \xrightarrow{\text{Embedding}} \text{Vector Space} \xrightarrow{\text{Graph Building}} \text{Entities/Relations} \xrightarrow{\text{Synthesis}} \mathcal{W}$$
-
-- **Multi-Engine Parsing**: Employs diverse parsing strategies to handle heterogeneous formats (PDF, Markdown, HTML), ensuring high-fidelity extraction of structural markers.
-- **Agent-Driven Synthesis**: Rather than simple concatenation, an agent analyzes the extracted entities and relations to generate interlinked Markdown pages. This process ensures that the resulting Wiki is not just a collection of summaries but a coherent knowledge network with explicit cross-references.
-- **Knowledge Graph Integration**: Simultaneously constructs a $\text{KG}$ where and edges represent semantic dependencies, enabling graph-based retrieval ($\text{GraphRAG}$) to complement vector-based search.
-
-### 2. The Reasoning Orchestrator ($\text{ReAct}$ Loop)
-To utilize the synthesized Wiki, the system employs a **ReAct (Reasoning and Acting)** loop that treats the Wiki and external tools as a unified action space:
-$$\text{Query} \rightarrow \text{Thought} \rightarrow \text{Action}(\text{Hybrid Retrieval} \mid \text{MCP Tools} \mid \text{Web Search}) \rightarrow \text{Observation} \rightarrow \dots \rightarrow \text{Final Response}$$
-
-- **Hybrid Retrieval**: Integrates $\text{BM25}$ (keyword), $\text{Vector}$ (semantic), and $\text{Graph}$ (relational) retrieval, followed by a $\text{Rerank}$ stage to maximize the $\text{SNR}$ of the retrieved context.
-- **MCP Tool Integration**: Leverages the Model Context Protocol ($\text{MCP}$) to extend the agent's capabilities into local filesystems, APIs, and specialized toolsets.
-
-## $\text{Empirical Utility}$
-- **Semantic Cohesion**: By transforming chunks into a Wiki, la system reduces \"chunk-fragmentation\" (where critical context is split across indices), leading to higher accuracy in multi-hop reasoning tasks.
-- **Knowledge Discoverability**: The interactive knowledge graph allows users and agents to traverse the knowledge space topologically rather than just numerically.
-
-## $\text{Actionability}$
-- **Implementation Path**: For systems requiring high-fidelity knowledge management, replace standard vector-chunking with an agentic synthesis step that generates structured Markdown summaries of clusters before indexing.
-- **Metric Shift**: Measure success by $\text{Graph Connectivity}$ ( the ratio of inter-linked pages to total pages) and $\text{Retrieval Precision}$ on multi-hop reasoning queries.
-
-## $\text{Sources}$
-- [Tencent/WeKnora GitHub](https://github.com/Tencent/WeKnora) - Open-source LLM knowledge platform.
-- General synthesis of Agentic RAG and Knowledge Graph construction patterns.
-
-| Tool Attention Is All You Need | Infrastructure | Solves MCP context bloat via lazy loading. | https://arxiv.org/abs/2604.21816v1 |
-| Escher-Loop | Self-Evolution | Framework for agents to evolve their own workflows. | https://arxiv.org/abs/2604.23472v1 |
-| Knowledge Capsules: Structured Nonparametric Memory Units for LLMs ([2604.20487v2](https://arxiv.org/abs/2604.20487v2)) | Memory/Architecture | Proposes KVI framework for attention-compatible external memory, bypassing traditional context expansion. |
-| AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning ([2604.05846v2](https://arxiv.org/abs/2604.05846v2)) | Agentic Learning | RL-driven framework for topology-aware graph navigation, enabling autonomous discovery of relational knowledge. |
-
-
-|| N/A | [AgenticSeek](https://github.com/Fosowl/agenticSeek) | Fully local autonomous agent implementation (Manus-style) avoiding API costs. |
-: GraphRAG (Graph Retrieval-Augmented Generation)
-
-## $\text{Architectural Overview}$
-$\text{GraphRAG}$ evolves the RAG paradigm by augmenting vector-based retrieval with a structured knowledge graph ($\text{KG}$), enabling both **local** (entity-specific) and **global** (dataset-wide) reasoning. Unlike standard RAG, which relies on isolated chunk similarity, GraphRAG maps the global topology of the information space.
-
-## $\text{Key Mechanisms}$
-
-### 1. The Indexing Pipeline ($\text{IP}$)
-The construction of a GraphRAG index is a multi-stage process:
-$$\text{Raw Text} \xrightarrow{\text{LLM Extraction}} \text{KG (Entities/Edges)} \xrightarrow{\text{Leiden Clustering}} \text{Communities} \xrightarrow{\text{LLM Summarization}} \text{Community Summaries}$$
-
-- **Entity Extraction**: Uses LLMs to identify nodes (entities) and edges (relationships) within the corpus.
-- **Community Detection**: Employs the Leiden algorithm to partition the graph into hierarchical communities based on edge density.
-- **Global Summarization**: Generates a concise summary for each community, creating a pre-computed index of the global semantic structure.
-
-### 2. The Retrieval Logic ($\text{RL}$)
-Query resolution is handled via a hybrid trajectory:
-- **Local Search**: Vector search identifies relevant entities; the agent traverses immediate neighbors in the $\text{KG}$ to gather deep context.
-- **Global Search**: The system queries the pre-computed community summaries to answer thematic or aggregate questions.
-
-## $\text{Empirical Utility}$
-- **Global Intelligence**: Solves the 'global query' problem (e.g., summarizing an entire codebase) where standard RAG fails due to limited context windows.
-- **Multi-hop Reasoning**: Explicit edges in the $\text{KG}$ provide a deterministic path for multi-hop reasoning, reducing hallucinations during complex entity linking.
-- **$\text{SNR}$ Optimization**: By retrieving summaries rather than raw chunks, the system maximizes the signal-to-noise ratio delivered to the LLM.
-
-## $\text{Actionability}$
-- **Implementation Path**: For large-scale knowledge bases, integrate the Microsoft GraphRAG pipeline or use NetworkX + FAISS to implement a custom community-based retrieval layer.
-- **Metric Shift**: Evaluate performance using **Global Query Accuracy** and **Traversal Depth** vs. **Latency**.
-
-## $\text{Sources}$
-- Microsoft Research: GraphRAG Implementation.
-- General synthesis of Graph-based LLM memory architectures.
-
-| [ClawGym](https://github.com/ClawGym) | Scalable framework for Claw-style agents | Blueprint for tool-rich workspace agent development |
-| [Bian Que](https://github.com/benchen4395/BianQue_Assistant) | Agentic framework for system operations | Advanced skill arrangement and self-evolving mechanism |
-| [HalluCiteChecker](https://pypi.org/project/hallucitechecker/) | Tool for hallucinated citation detection | Critical for ensuring research integrity in knowledge bases |
-# Knowledge Artifact: Dynamic Knowledge Graph Pruning for $\text{SNR}$ Optimization
-
-## $\text{Architectural Overview}$
-In large-scale $\text{GraphRAG}$ implementations, the "Knowledge Graph Explosion" problem occurs when the $\text{KG}$ accumulates redundant, low-signal, or contradictory edges, leading to **context pollution** and a degradation of the Signal-to-Noise Ratio ($\text{SNR}$). **Dynamic Knowledge Graph Pruning** is the process of autonomously identifying and removing low-utility components of the graph to ensure that retrieval trajectories remain high-fidelity and computationally efficient.
-
-## $\text{Key Mechanisms}$
-
-### 1. Signal-to-Noise Evaluation ($\\text{SNE}$)
-The utility of a node $v$ or edge $e$ is quantified using a composite score $\Psi$:
-$$\Psi(e) = \alpha \cdot \text{Centrality}(e) + \beta \cdot \text{SemanticCoherence}(e, \mathcal{C}) - \gamma \cdot \text{Redundancy}(e)$$
-where:
-- $\text{Centrality}(e)$: Measure of the edge's role in connecting disparate semantic communities (e.g., Betweenness Centrality).
-- $\text{SemanticCoherence}(e, \mathcal{C})$: The cosine similarity between the edge's relation and the centroid of its containing community $\mathcal{C}$.
-- $\text{Redundancy}(e)$: The degree to which the information provided by $e$ is already covered by alternative paths in the $\text{KG}$.
-
-### 2. The Pruning Trajectory ($\text{PT}$)
-The system executes pruning in three distinct phases:
-1. **Entropy-Based Filtering**: Identify "noise nodes" with excessively high degree centrality but low semantic coherence (hubs that link unrelated concepts).
-2. **Path Compression**: Replace long, low-signal chains of edges with a single, high-fidelity synthetic relation using an LLM-driven distillation step.
-3. **Temporal Decay**: Apply a decay function $\Lambda(t) = e^{-\lambda t}$ to edges derived from outdated sources, ensuring the $\text{KG}$ evolves with the frontier of knowledge.
-
-### 3. $\text{SNR}$ Recovery Loop
-The system validates pruning via a closed-loop verification:
-$$\text{Query} \rightarrow \text{Retrieve}(\text{Graph}_{\text{pruned}}) \rightarrow \text{Evaluate}(\text{Precision}, \text{Recall}) \rightarrow \text{Adjust}(\alpha, \beta, \gamma)$$
-If pruning leads to a drop in recall for critical "long-tail" queries, the system triggers a **Restoration Event**, recovering pruned edges from the raw archive.
-
-## $\text{Empirical Utility}$
-- **Context Window Optimization**: Reduces the number of retrieved triplets by $30\text{--}50\%$, allowing for more diverse evidence to be included in the prompt without exceeding token limits.
-- **Hallucination Mitigation**: By removing contradictory or weakly-supported edges, the system prevents the LLM from synthesizing "phantom" relations during multi-hop reasoning.
-- **Latency Reduction**: Decreases the computational overhead of graph traversal algorithms (e.g., Leiden clustering) during the indexing phase.
-
-## $\text{Actionability}$
-- **Implementation Path**: Integrate a periodic "Cleaning Job" into the $\text{SyncManager}$ that calculates $\Psi(e)$ for all edges and removes those falling below a dynamic threshold $\tau$.
-- **Metric Shift**: Track $\text{Graph Density}$ vs. $\text{Retrieval Precision}$ to find the "Optimal Sparsity" point for the specific domain.
-
-## $\text{Sources}$
-- Synthesis of Graph Theory, Signal Processing, and $\text{GraphRAG}$ architectural patterns.
-- Principles of "Minimum Description Length" (MDL) applied to semantic networks.
+     1|| Title | Author | ID | Description |
+     2||---|---|---|---|
+     3|| Synthetic Computers at Scale | Tao Ge et al. | 2604.28181v1 | Scalable methodology for creating synthetic computer environments for agent training and self-improvement in long-horizon tasks. |
+     4|| Intern-Atlas | Yujun Wu et al. | 2604.28158v1 | A methodological evolution graph that captures causal networks of how research methods evolve, moving beyond simple citations. |
+     5|| Crab | Tianyuan Wu et al. | 2604.28138v1 | Semantics-aware checkpoint/restore runtime for agent sandboxes, drastically reducing overhead while ensuring 100% recovery correctness. |
+     6|| Deterministic Guardrails (Lean 4) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Deterministic-Guardrails-Lean4.md) | Shifts from probabilistic to deterministic verification via Lean 4 kernel; enables 100% compliance certainty for high-stakes agents. | Guardrails / Formal-Verification / Lean4 |
+     7|| Memanto | Unknown | 2604.22085v1 | Typed semantic memory layer with information-theoretic retrieval, bypassing GraphRAG complexity. |
+     8|| Tool Attention | Unknown | 2604.21816v1 | Dynamic tool gating and lazy schema loading to eliminate the 'Tools Tax' in scalable workflows. |
+     9|| SCM | Unknown | 2604.20943v1 | Sleep-consolidated memory architecture implementing algorithmic forgetting and offline synthesis. |
+    10|| Self-Evolving Agents | Unknown | 2604.27264v1 | BDI-LLM architecture for autonomous evolution of goals and code based on experience. |
+    11|| From Unstructured Recall to Schema-Grounded Memory | https://arxiv.org/abs/2604.27906 | Proposes a schema-grounded write path for AI memory, moving from retrieval-based search to a verified system of record. Essential for high-reliability agent memory. | Agent Memory |
+    12|| Synthetic Computers at Scale | https://arxiv.org/abs/2604.28181 | Scalable methodology for creating synthetic user environments for long-horizon agent simulations and self-improvement. | Agent Training |
+    13|| Intern-Atlas | https://arxiv.org/abs/2604.28158 | Methodological evolution graph for tracking how AI research methods emerge and adapt. A new paradigm for research infrastructure. | Research Infrastructure |
+    14|| Crab: Semantics-Aware Checkpoint/Restore | https://arxiv.org/abs/2604.28138 | Bridges the agent-OS semantic gap using eBPF to enable 100% recovery correctness for agent sandboxes with minimal overhead. | Agent Infrastructure |
+    15|| Global Neural World Model (GNWM) | Noureddine Kermiche | 2604.16585 | Self-stabilizing framework achieving topological quantization via balanced entropy constraints to prevent manifold drift in planning. | World-Models / JEPA / Planning |
+    16|| Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes | Agent Architecture | Critical for autonomous agent reliability. Allows for fault-tolerant execution and precise rollbacks... | [arXiv](https://arxiv.org/abs/2604.28138v1) |
+    17|| Security Attack and Defense Strategies for Autonomous Agent Frameworks | Agent Architecture | Provides a systematic framework for auditing agent security. Essential for designing robust 'Guardra... | [arXiv](https://arxiv.org/abs/2604.27464v1) |
+    18|| Trace-Level Analysis of Information Contamination in Multi-Agent Systems | Agent Architecture | Provides a methodology for detecting 'plan drift' or 'contamination' by monitoring trace divergence,... | [arXiv](https://arxiv.org/abs/2604.27586v1) |
+    19|| Synthetic Computers at Scale for Long-Horizon Productivity Simulation | Agent Architecture | Enables high-fidelity simulation of professional work. Could be used to generate a training set for ... | [arXiv](https://arxiv.org/abs/2604.28181v1) |
+    20|| What Makes a Good Terminal-Agent Benchmark Task | Agent Architecture | Directly improves how I should design tests for my own Skills. Ensures that verification is grounded... | [arXiv](https://arxiv.org/abs/2604.28093v1) |
+    21|| 2604.28158v1 | Intern-Atlas | Knowledge Infrastructure | Methodological evolution graph for tracking technique lineage. |
+    22|| 2604.28138v1 | Crab | Agent Runtime | Semantics-aware C/R for agent sandboxes using eBPF. |
+    23|| 2604.28142v1 | TACHIOM | Retrieval | High-speed multivector retrieval for large-scale knowledge bases. |
+    24|| Hierarchical Proof Search (Gödel-Code-Prover) | Zenan Li et al. | 2603.19329 | Hierarchical decomposition of Lean 4 verification goals using an operator-footprint based decomposition score; demonstrates monotonic inference-time scaling. | Formal-Verification / Lean4 / Inference-Scaling |
+    25|| SEVerA: Verified Synthesis of Self-Evolving Agents | Debangshu Banerjee et al. | 2603.25111 | Verified synthesis of self-evolving agents using Formally Guarded Generative Models (FGGM) to ensure 100% correctness via FOL contracts. | Formal-Verification / Agentic-Evolution / FGGM |
+    26|| Latent Adversarial Detection | Unknown | 2604.28129v1 | Detects multi-turn attacks by monitoring 'adversarial restlessness' in LLM activations. Essential for agent internal security. | Agent Security |
+    27|| NocoBase | nocobase/nocobase | Tool | AI + no-code platform that treats AI agents as first-class citizens with dedicated CLI and Skills, allowing collaborative AI-human building. | AI-Agents / No-Code |
+    28|| Llamafile | https://github.com/Mozilla-Ocho/llamafile | Tool | Single-file LLM distribution for extreme portability. |
+    29|| History LLMs | https://github.com/DGoettlich/history-llms | Model | Avoids hindsight bias by training on pre-1913 texts. |
+    30|| Anna's Archive | https://annas-archive.li | Resource | Massive open-data archive critical for LLM training. |
+    31|| [arXiv:2604.27707](https://arxiv.org/abs/2604.27707) - Contextual Agentic Memory is a Memo, Not True Memory | Critical analysis of RAG vs True Memory (weight consolidation). | Memory | agentic-memory, neuroscience |
+    32|| [arXiv:2604.27891](https://arxiv.org/abs/2604.27891) - In-Context Prompting Obsoletes Agent Orchestration | Empirical proof that self-orchestration > complex frameworks (LangGraph). | Agentic Workflow | orchestration, prompting |
+    33|| Collaborative Agent Reasoning Engineering (CARE) | Methodology | Framework for systematic agent design with helper agents | [arXiv:2604.28043](https://arxiv.org/abs/2604.28043) |
+    34|| ODAR: Adaptive Routing via Active Inference | [Internal Artifact](/home/alan/hermes-projects/research-flywheel/artifacts/Active-Inference-Adaptive-Routing.md) | 2602.23681v1 | Optimizes test-time compute scaling using Variational Free Energy to route between Fast and Slow agents; reduces compute by 82%. | Active-Inference / Test-Time-Scaling / Routing || ObjectGraph: From Document Injection to Knowledge Traversal -- A Native File Format for the Agentic Era | ObjectGraph (.og) format for agent-native knowledge traversal | [arXiv:2604.27820](https://arxiv.org/abs/2604.27820) | Transformative | Format |
+    35|| From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction | Schema-grounded AI memory for reliable state management | [arXiv:2604.27906](https://arxiv.org/abs/2604.27906) | High-Value | Memory |
+    36|| From Context to Skills: Can Language Models Learn from Context Skillfully? | Ctx2Skill: Autonomous skill discovery via self-play | [arXiv:2604.27660](https://arxiv.org/abs/2604.27660) | Transformative | Evolution |
+    37|| ObjectGraph | Mohit Dubey et al. | 2604.27820 | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/ObjectGraph.md) | Native file format for agentic knowledge traversal; eliminates token inflation and context compounding via a typed dependency graph. | Knowledge-Traversal / Token-Efficiency / ObjectGraph |
+    38|
+    39|| From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction | This paper provides a blueprint for moving from simple RAG-based memory to a 'System of Record' memo... | High | [arXiv:2604.27906](https://arxiv.org/abs/2604.27906) |
+    40|| ObjectGraph: From Document Injection to Knowledge Traversal -- A Native File Format for the Agentic Era | This proposes a fundamental change in how agents interact with documents. By treating files as graph... | High | [arXiv:2604.27820](https://arxiv.org/abs/2604.27820) || Crab: Semantics-Aware C/R | Checkpoint/Restore runtime for agent sandboxes. Enables fault tolerance and state rollback. | Infrastructure | https://arxiv.org/abs/2604.28138 |
+    41|| LLMs as ASP Programmers | Using LLMs to write ASP programs for formally guaranteed logical reasoning. | Reasoning | https://arxiv.org/abs/2604.27960 |
+    42|| CARE Methodology | Professional three-party design framework for engineering high-fidelity AI agents. | Methodology | https://arxiv.org/abs/2604.28043 |
+    43|
+    44|| Non-Monotonic Reasoning Trajectories | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Non-Monotonic-Reasoning-Trajectories.md) | Shifting from monotonic to revisable decoding via Action Tokens and MCTS-distillation; enables in-situ self-correction. | Reasoning-Scaling / Self-Correction / NMR |
+    45|
+    46||| Formal Reward Specification | Internal Artifact | ~/hermes-projects/research-flywheel/artifacts/Formal-Reward-Specification.md | Shifts from probabilistic RM to deterministic formal kernels (Lean 4) to eliminate reward hacking; enables 100% verification fidelity in RLVR pipelines. | Formal-Verification / Reward-Modeling / Lean4 |
+    47|
+    48|| Collaborative Agent Reasoning Engineering (CARE) | Rahul Ramachandran et al. | 2604.28043v1 | A three-party design methodology for systematically engineering AI agents with SMEs, developers, and helper agents, replacing trial-and-error with a stage-gated, artifact-driven pipeline. | [Artifact](~/hermes-projects/research-flywheel/artifacts/Collaborative-Agent-Reasoning-Engineering.md) |
+    49|| TACHIOM: Token-Aware Clustering | Silvio Martinico et al. | 2604.28142 | Accelerates multivector retrieval via token-aware clustering and hierarchical indexing; $247\times$ faster clustering, $9.8\times$ retrieval speedup. | Information-Retrieval / Multivector / Efficiency |
+| EviMem | https://arxiv.org/abs/2604.27695 | Retrieval | Evidence-gap-driven iterative retrieval for multi-hop conversational memory. |
+| RoadMapper | https://arxiv.org/abs/2604.27616 | Agentic Workflow | Multi-agent system for decomposing complex research problems into executable roadmaps. |
+| Amortized Workflow Design | Unknown | 2604.25012v1 | Proposes transferring structural priors for workflow design instead of per-task search, drastically reducing compute costs. | Agentic-Workflow / Efficiency |
+| XGRAG | Unknown | 2604.24623v1 | Graph-native framework for explaining KG-based RAG reasoning, transforming the 'black box' into a transparent trace. | GraphRAG / Explainability |
+| AgentEval | Unknown | 2604.23581v1 | DAG-structured step-level evaluation for agentic workflows; tracks error propagation to isolate intermediate failures. | Agentic-Evaluation |
