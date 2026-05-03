@@ -28,3 +28,10 @@ This is a curated list of high-value projects, papers, and tools for autonomous 
 | Bian Que | https://arxiv.org/abs/2604.26805 | Agentic SRE | Framework for flexible skill arrangement in large-scale O&M, treating skills as retrieval specifications to maintain high SNR in diagnostics. |
 | ObjectGraph (.og) | A knowledge-graph native file format for agentic traversal, replacing document injection. | Knowledge Management | https://arxiv.org/abs/2604.27820 |
 | Agentic Memory Theory | Theoretical framework distinguishing lookup (RAG) from true weight-based memory consolidation. | Agent Architecture | https://arxiv.org/abs/2604.27707 |
+
+| 2604.28181 | Synthetic Computers at Scale | Training substrate for long-horizon agents via synthetic world simulation | [https://arxiv.org/abs/2604.28181](https://arxiv.org/abs/2604.28181) | High |
+| 2604.28158 | Intern-Atlas | Methodological evolution graph for AI science research infrastructure | [https://arxiv.org/abs/2604.28158](https://arxiv.org/abs/2604.28158) | High |
+| 2604.28138 | Crab | Semantics-aware C/R runtime for agent sandboxes (safe rollbacks) | [https://arxiv.org/abs/2604.28138](https://arxiv.org/abs/2604.28138) | High |
+|| Model Context Protocol (MCP) | https://modelcontextprotocol.io | Agent Infrastructure | Open-standard for decoupling AI agents from data/tools, reducing integration complexity from O(N*M) to O(N+M). ||
+| From Context to Skills: Ctx2Skill | https://arxiv.org/abs/2604.27660 | Self-Evolution | Framework for autonomous skill discovery and refinement via multi-agent self-play. |
+| MCPHunt: Security in Multi-Server MCP Agents | https://arxiv.org/abs/2604.27819 | Agent Security | Exposes credential propagation risks in multi-server MCP tool compositions. |
