@@ -1,3 +1,7 @@
+# Curated AI Resources
+
+| Title | ID | Link | Note |
+|---|---|---|---|
      1|| Title | Author | ID | Description |
      2||---|---|---|---|
      3|| Synthetic Computers at Scale | Tao Ge et al. | 2604.28181v1 | Scalable methodology for creating synthetic computer environments for agent training and self-improvement in long-horizon tasks. |
@@ -66,3 +70,4 @@
 | Serena | oraios/serena | https://github.com/oraios/serena | IDE-level semantic toolkit for coding agents, providing symbol-aware retrieval and refactoring via LSP/JetBrains. |
 | GPT Researcher | assafelovic/gpt-researcher | https://github.com/assafelovic/gpt-researcher | Autonomous deep research agent that produces factual, cited reports via parallelized planner-execution workflows. |
 | A Pattern Language for Resilient Visual Agents | Unknown | 2604.28001v1 | Architectural patterns for balancing VLM latency and non-determinism in enterprise control loops. |
+| FAMA: Failure-Aware Meta-Agentic Framework | 2604.25135 | https://arxiv.org/abs/2604.25135 | Meta-agent for error detection and automated recovery in tool-use. |
