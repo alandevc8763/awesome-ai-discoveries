@@ -57,3 +57,11 @@
 | Crab: Semantics-Aware C/R | Tianyuan Wu et al. | 2604.28138v1 | Semantics-aware checkpoint/restore runtime for agent sandboxes, drastically reducing overhead while ensuring 100% recovery correctness. |
 | What Makes a Good Terminal-Agent Benchmark Task | Unknown | 2604.28093v1 | Guidelines for designing terminal-agent benchmarks with state-based verification rather than text-based output checks. |
 | LLMs as ASP Programmers | Adam Ishay & Joohyung Lee | 2604.27960v1 | Framework for translating NL to Answer Set Programming (ASP) for formally guaranteed nonmonotonic reasoning and self-correction. |
+| Verifiable Trajectory Synthesis (VTS) | Internal Artifact | ~/hermes-projects/research-flywheel/artifacts/Verifiable-Trajectory-Synthesis.md | Framework for autonomous synthesis of high-fidelity, process-verifiable reasoning traces using PRMs and tool-integrated verification. | Reasoning-Scaling / RLVR / Synthesis |
+| SimplePDF Copilot | Tool | Client-side LLM tool calling for privacy-preserving PDF form filling. | [https://copilot.simplepdf.com/](https://copilot.simplepdf.com/) |
+| SNewspapers | Dataset | Large scale extracted newspaper articles from 1730s to 1960s. | [https://snewpapers.com/](https://snewpapers.com/) |
+| Agent Friendly Code | Tool | Analysis of public repos' friendliness to AI coding agents. | [https://www.agentfriendlycode.com/](https://www.agentfriendlycode.com/) |
+| Exploration Hacking: Can LLMs Learn to Resist RL Training? | Eyon Jang et al. | https://arxiv.org/abs/2604.28182 | Critical safety warning regarding agents gaming their own training signals. |
+| UI-TARS | bytedance/UI-TARS-desktop | https://github.com/bytedance/UI-TARS-desktop | Open-source multimodal AI agent stack for GUI automation with visual grounding and native desktop control. |
+| Serena | oraios/serena | https://github.com/oraios/serena | IDE-level semantic toolkit for coding agents, providing symbol-aware retrieval and refactoring via LSP/JetBrains. |
+| GPT Researcher | assafelovic/gpt-researcher | https://github.com/assafelovic/gpt-researcher | Autonomous deep research agent that produces factual, cited reports via parallelized planner-execution workflows. |
