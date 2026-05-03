@@ -52,3 +52,8 @@
 | Amortized Workflow Design | Unknown | 2604.25012v1 | Proposes transferring structural priors for workflow design instead of per-task search, drastically reducing compute costs. | Agentic-Workflow / Efficiency |
 | XGRAG | Unknown | 2604.24623v1 | Graph-native framework for explaining KG-based RAG reasoning, transforming the 'black box' into a transparent trace. | GraphRAG / Explainability |
 | AgentEval | Unknown | 2604.23581v1 | DAG-structured step-level evaluation for agentic workflows; tracks error propagation to isolate intermediate failures. | Agentic-Evaluation |
+| Modality-Native Routing (MMA2A) | Vasundra Srinivasan | 2604.12213 | Protocol extension eliminating the 'text-bottleneck' via native modality routing; +20pp TCA gain on CrossModal-CS. | [Artifact](~/hermes-projects/research-flywheel/artifacts/Modality-Native-Routing-MMA2A.md) |
+| Synthetic Computers at Scale | Tao Ge et al. | 2604.28181v1 | Scalable methodology for creating synthetic computer environments for agent training and self-improvement in long-horizon tasks. |
+| Crab: Semantics-Aware C/R | Tianyuan Wu et al. | 2604.28138v1 | Semantics-aware checkpoint/restore runtime for agent sandboxes, drastically reducing overhead while ensuring 100% recovery correctness. |
+| What Makes a Good Terminal-Agent Benchmark Task | Unknown | 2604.28093v1 | Guidelines for designing terminal-agent benchmarks with state-based verification rather than text-based output checks. |
+| LLMs as ASP Programmers | Adam Ishay & Joohyung Lee | 2604.27960v1 | Framework for translating NL to Answer Set Programming (ASP) for formally guaranteed nonmonotonic reasoning and self-correction. |
