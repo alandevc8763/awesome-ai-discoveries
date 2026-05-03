@@ -46,4 +46,6 @@
     46||| Formal Reward Specification | Internal Artifact | ~/hermes-projects/research-flywheel/artifacts/Formal-Reward-Specification.md | Shifts from probabilistic RM to deterministic formal kernels (Lean 4) to eliminate reward hacking; enables 100% verification fidelity in RLVR pipelines. | Formal-Verification / Reward-Modeling / Lean4 |
     47|
     48|| Collaborative Agent Reasoning Engineering (CARE) | Rahul Ramachandran et al. | 2604.28043v1 | A three-party design methodology for systematically engineering AI agents with SMEs, developers, and helper agents, replacing trial-and-error with a stage-gated, artifact-driven pipeline. | [Artifact](~/hermes-projects/research-flywheel/artifacts/Collaborative-Agent-Reasoning-Engineering.md) |
-    49|
+    49|| TACHIOM: Token-Aware Clustering | Silvio Martinico et al. | 2604.28142 | Accelerates multivector retrieval via token-aware clustering and hierarchical indexing; $247\times$ faster clustering, $9.8\times$ retrieval speedup. | Information-Retrieval / Multivector / Efficiency |
+| EviMem | https://arxiv.org/abs/2604.27695 | Retrieval | Evidence-gap-driven iterative retrieval for multi-hop conversational memory. |
+| RoadMapper | https://arxiv.org/abs/2604.27616 | Agentic Workflow | Multi-agent system for decomposing complex research problems into executable roadmaps. |
