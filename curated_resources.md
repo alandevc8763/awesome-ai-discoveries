@@ -65,3 +65,4 @@
 | UI-TARS | bytedance/UI-TARS-desktop | https://github.com/bytedance/UI-TARS-desktop | Open-source multimodal AI agent stack for GUI automation with visual grounding and native desktop control. |
 | Serena | oraios/serena | https://github.com/oraios/serena | IDE-level semantic toolkit for coding agents, providing symbol-aware retrieval and refactoring via LSP/JetBrains. |
 | GPT Researcher | assafelovic/gpt-researcher | https://github.com/assafelovic/gpt-researcher | Autonomous deep research agent that produces factual, cited reports via parallelized planner-execution workflows. |
+| A Pattern Language for Resilient Visual Agents | Unknown | 2604.28001v1 | Architectural patterns for balancing VLM latency and non-determinism in enterprise control loops. |
