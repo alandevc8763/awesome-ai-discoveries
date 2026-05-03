@@ -49,3 +49,6 @@
     49|| TACHIOM: Token-Aware Clustering | Silvio Martinico et al. | 2604.28142 | Accelerates multivector retrieval via token-aware clustering and hierarchical indexing; $247\times$ faster clustering, $9.8\times$ retrieval speedup. | Information-Retrieval / Multivector / Efficiency |
 | EviMem | https://arxiv.org/abs/2604.27695 | Retrieval | Evidence-gap-driven iterative retrieval for multi-hop conversational memory. |
 | RoadMapper | https://arxiv.org/abs/2604.27616 | Agentic Workflow | Multi-agent system for decomposing complex research problems into executable roadmaps. |
+| Amortized Workflow Design | Unknown | 2604.25012v1 | Proposes transferring structural priors for workflow design instead of per-task search, drastically reducing compute costs. | Agentic-Workflow / Efficiency |
+| XGRAG | Unknown | 2604.24623v1 | Graph-native framework for explaining KG-based RAG reasoning, transforming the 'black box' into a transparent trace. | GraphRAG / Explainability |
+| AgentEval | Unknown | 2604.23581v1 | DAG-structured step-level evaluation for agentic workflows; tracks error propagation to isolate intermediate failures. | Agentic-Evaluation |
