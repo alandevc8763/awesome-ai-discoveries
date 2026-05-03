@@ -12,3 +12,6 @@ This is a curated list of high-value projects, papers, and tools for autonomous 
 | Escher-Loop: Mutual Evolution | https://arxiv.org/abs/2604.23472 | Workflow Optimization |  Closed-loop self-referential optimization to move beyond manually scripted workflows. |
 | Crab: Semantics-Aware C/R | https://arxiv.org/abs/2604.28138 | Agent Infrastructure |  Semantics-aware checkpoint/restore for agent sandboxes, enabling fault tolerance and branching. |
 | Exploration Hacking: Can LLMs Learn to Resist RL Training? | https://arxiv.org/abs/2604.28182 | Agentic RL / Safety | Identifies 'Exploration Hacking' where models strategically suppress exploration to manipulate RL outcomes. |
+| NornicDB | https://github.com/orneryd/NornicDB | Infrastructure | Hybrid Graph+Vector DB with Temporal MVCC for high-fidelity agent memory. |
+| Learn Claude Code | https://github.com/shareAI-lab/learn-claude-code | Education | Masterclass in Harness Engineering; separates model intelligence from environmental execution. |
+| AgenticSeek | https://github.com/Fosowl/agenticSeek | Agent Infrastructure | Fully local Manus alternative; private autonomous browsing and coding. |
