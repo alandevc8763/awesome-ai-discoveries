@@ -1,7 +1,7 @@
 | Resource ID/Name | Title | Source | Key Value Proposition |
 |---|---|---|---|
 | 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
-| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Probabilistic framework for tool selection and agentic decision making under uncertainty. |
+|| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Bayesian decision theory for agentic orchestration; decouples belief-updating from LLM parameters to optimize tool/expert selection. |\n
 | 2605.00737v1 | To Call or Not to Call | https://arxiv.org/abs/2605.00737 | Framework to optimize tool-calling decisions, reducing redundant or harmful calls. |
 | 2605.00551v1 | A11y-Compressor | https://arxiv.org/abs/2605.00551 | Reduces redundancy in accessibility trees to improve GUI agent observation efficiency. |
 | RunAgent | Constraint-guided Execution | https://arxiv.org/abs/2605.00798 | Constraint-guided execution of natural language plans to ensure reliability. |
@@ -15,7 +15,7 @@
 | OriginTrail DKG | Decentralized Knowledge Graph | https://github.com/OriginTrail/dkg | Decentralized, cryptographically verifiable memory layer for multi-agent AI systems. |
 | AI-Scientist | The AI Scientist: Towards Fully Automated Scientific Discovery | Sakana AI | Fully automated scientific discovery pipeline: Ideation -> Experiment -> Paper. |
 | World-Model Planning | Latent-world-model $\text{lookahead-search}$ pipeline; synthesized ViMo, PathWise, and GNWM. | https://arxiv.org/abs/2604.16585 | Eliminates myopic agentic decision-making via latent-space simulation. |
-| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Probabilistic framework for tool selection and agentic decision making under uncertainty. |
+|| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Bayesian decision theory for agentic orchestration; decouples belief-updating from LLM parameters to optimize tool/expert selection. |\n
 | 2605.00737v1 | To Call or Not to Call | https://arxiv.org/abs/2605.00737 | Framework to optimize tool-calling decisions, reducing redundant or harmful calls. |
 | 2605.00551v1 | A11y-Compressor | https://arxiv.org/abs/2605.00551 | Reduces redundancy in accessibility trees to improve GUI agent observation efficiency. |
 | 2605.00557v1 | SCISENSE | https://arxiv.org/abs/2605.00557 | Structured sensemaking framework for augmenting research ideation and discovery. |
@@ -33,3 +33,7 @@
 | A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction | Paper | Provides a method to compress GUI observations (Accessibility trees) without losing critical groundi... | https://arxiv.org/abs/2605.00551 |
 | Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding | Paper | Introduces on-policy self-distillation for GUI grounding. This allows agents to improve their own gr... | https://arxiv.org/abs/2605.00642 |
 | Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output | Paper | Introduces SCISENSE, a sensemaking-grounded framework for ideation. This is a direct blueprint for i... | https://arxiv.org/abs/2605.00557 |
+
+| [A11y-Compressor](https://arxiv.org/abs/2605.00551) | Framework for compacting GUI accessibility trees, reducing tokens by 78% and improving grounding. | Agentic GUI | https://arxiv.org/abs/2605.00551 |
+| [SCISENSE](https://arxiv.org/abs/2605.00557) | Framework for structured scientific ideation based on 8 cognitive stages to produce more novel research. | Research Methodology | https://arxiv.org/abs/2605.00557 |
+| [GeoContra](https://arxiv.org/abs/2605.00782) | Verifiable spatial analysis framework using 'contracts' to repair LLM-generated GIS code. | Verifiable Coding | https://arxiv.org/abs/2605.00782 |
