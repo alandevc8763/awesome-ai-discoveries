@@ -6,7 +6,6 @@
 | Deterministic Guardrails (Lean 4) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Deterministic-Guardrails-Lean4.md) | Shifts from probabilistic to deterministic verification via Lean 4 kernel; enables 100% compliance certainty for high-stakes agents. | Guardrails / Formal-Verification / Lean4 |
 | Memanto | Unknown | 2604.22085v1 | Typed semantic memory layer with information-theoretic retrieval, bypassing GraphRAG complexity. |
 | Tool Attention | Unknown | 2604.21816v1 | Dynamic tool gating and lazy schema loading to eliminate the 'Tools Tax' in scalable workflows. |
-| SCM | Unknown | 2604.20943v1 | Sleep-consolidated memory architecture implementing algorithmic forgetting and offline synthesis. |
 | Self-Evolving Agents | Unknown | 2604.27264v1 | BDI-LLM architecture for autonomous evolution of goals and code based on experience. |
 | From Unstructured Recall to Schema-Grounded Memory | https://arxiv.org/abs/2604.27906 | Proposes a schema-grounded write path for AI memory, moving from retrieval-based search to a verified system of record. Essential for high-reliability agent memory. | Agent Memory |
 | Synthetic Computers at Scale | https://arxiv.org/abs/2604.28181 | Scalable methodology for creating synthetic user environments for long-horizon agent simulations and self-improvement. | Agent Training |
@@ -14,16 +13,7 @@
 | Crab: Semantics-Aware Checkpoint/Restore | https://arxiv.org/abs/2604.28138 | Bridges the agent-OS semantic gap using eBPF to enable 100% recovery correctness for agent sandboxes with minimal overhead. | Agent Infrastructure || Crab (Checkpoint-and-Restore for Agent Sandboxes) | eBPF-based semantic checkpointing for agent runtimes to ensure fault tolerance with minimal overhead. | Agent Infrastructure |
 | Global Neural World Model (GNWM) | Noureddine Kermiche | 2604.16585 | Self-stabilizing framework achieving topological quantization via balanced entropy constraints to prevent manifold drift in planning. | World-Models / JEPA / Planning |
 | Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
 
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
 | MMA2A Protocol | Internal Artifact | A2A Routing | Eliminates the text-bottleneck in multimodal A2A by routing signals in native modality (voice, image), preserving high-fidelity environmental context. |
 | CMSA (Cross-Modal Semantic Alignment) | Internal Artifact | A2A Routing | Implements a shared latent anchor space (USA) to prevent semantic drift during transitions between heterogeneous cognitive kernels (e.g., VLM -> LLM). |
 | Qualixar OS | Internal Artifact | Agentic OS | Universal orchestration runtime integrating Bayesian routing and MCP/A2A compatibility for high-SNR agent coordination. |
@@ -43,3 +33,6 @@
 | DeepSeek TUI | Hmbown | Hmbown/DeepSeek-TUI | State-of-the-art terminal agent for DeepSeek V4 with 1M-token context, RLM fan-out, and integrated LSP diagnostics. |
 | Crab Runtime | Agent Infrastructure | Semantics-aware checkpoint/restore runtime for agent sandboxes, bridging the agent-OS semantic gap for fault tolerance. | https://arxiv.org/abs/2604.28138 |
 | CARE Methodology | Agent Engineering | Three-party design methodology for systematically engineering AI agents with SMEs, developers, and helper agents. | https://arxiv.org/abs/2604.28043 |
+| Bayes-Consistent Orchestration | https://arxiv.org/abs/2605.00742 | Framework for handling uncertainty in tool calling and resource allocation in agentic AI. |
+| Tool Calling Optimization Framework | https://arxiv.org/abs/2605.00737 | Framework to assess and optimize when to call external tools to avoid redundancy and harm. |
+| SCISENSE (Sensemaking Framework) | https://arxiv.org/abs/2605.00557 | Operationalizes scientific ideation through constrained structure to produce novel research output. |
