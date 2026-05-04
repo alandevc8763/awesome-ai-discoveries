@@ -17,9 +17,8 @@
 | AI-Scientist | The AI Scientist: Towards Fully Automated Scientific Discovery | Sakana AI | Fully automated scientific discovery pipeline: Ideation -> Experiment -> Paper. |
 | World-Model Planning | Latent-world-model $\text{lookahead-search}$ pipeline; synthesized ViMo, PathWise, and GNWM. | https://arxiv.org/abs/2604.16585 | Eliminates myopic agentic decision-making via latent-space simulation. |
 | 2605.00731v1 | DRSA | https://arxiv.org/abs/2605.00731 | Decoupled relation alignment for heterogeneous Graph Foundation Models, improving GraphRAG. |
-| 2605.00814v1 | Persistent Visual Memory | https://arxiv.org/abs/2605.00814 | Sustains visual perception in LVLMs, preventing signal dilution in deep generation. |
-| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Bayesian decision theory for agentic orchestration. |
-| 2605.00782v1 | GeoContra: Verifiable Spatial Analysis | https://arxiv.org/abs/2605.00782 | Executable contracts for verifiable agentic workflows. |
+| 2604.01483 | Neural-Symbolic Determinism | https://arxiv.org/abs/2604.01483 | Formal verification of agentic trajectories via Lean 4; shifts trust from weights to formal kernels. |
+| 2604.05969 | MCP Security Framework | https://arxiv.org/abs/2604.05969 | Formal security framework for MCP-based agents, ensuring deterministic compliance. |
 
 ## Curated Research
 | Title | Link | Impact |
@@ -33,3 +32,6 @@
 | Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding | [arXiv:2605.00642](https://arxiv.org/abs/2605.00642) | Introduces on-policy self-distillation for GUI grounding. This allows agents to improve their own grounding via autonomous self-correction. |
 | Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output | [arXiv:2605.00557](https://arxiv.org/abs/2605.00557) | Introduces SCISENSE, a sensemaking-grounded framework for ideation. This is a direct blueprint for improving the 'Sensing' phase of agentic research. |
 | Skills as Verifiable Artifacts | [arXiv:2605.00424](https://arxiv.org/abs/2605.00424) | Introduces a trust schema for agent skills, moving skills from simple prompts to verifiable software artifacts. Essential for scaling agentic runtimes. |
+| Position: agentic AI orchestration should be Bayes-consistent | [arXiv:2605.00742](https://arxiv.org/abs/2605.00742) | Crucial for improving tool-calling and resource allocation under uncertainty. Directly impacts agentic orchestration logic. | 2026-05-04 |
+| To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling | [arXiv:2605.00737](https://arxiv.org/abs/2605.00737) | Provides a framework to reduce redundant/harmful tool calls, increasing efficiency and reliability of autonomous agents. | 2026-05-04 |
+| Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation | [arXiv:2605.00529](https://arxiv.org/abs/2605.00529) | Improves the 'Second Brain' memory retrieval, especially for complex queries spanning multiple documents. | 2026-05-04 |
