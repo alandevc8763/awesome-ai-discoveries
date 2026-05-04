@@ -36,3 +36,8 @@
 | Bayes-Consistent Orchestration | https://arxiv.org/abs/2605.00742 | Framework for handling uncertainty in tool calling and resource allocation in agentic AI. |
 | Tool Calling Optimization Framework | https://arxiv.org/abs/2605.00737 | Framework to assess and optimize when to call external tools to avoid redundancy and harm. |
 | SCISENSE (Sensemaking Framework) | https://arxiv.org/abs/2605.00557 | Operationalizes scientific ideation through constrained structure to produce novel research output. |
+| Test-Time Scaling Laws (TTSL) | Li et al. / Cheng et al. | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Test-Time-Scaling-Laws-SLG-PRISM.md) | Synthesis of SLG (reward tail-guided search) and PRISM-MCTS (metacognitive reflection) for optimal test-time compute allocation. | Reasoning / Scaling-Laws / Test-Time-Compute |
+
+
+| RunAgent | https://arxiv.org/abs/2605.00798 | Agent Orchestration | Multi-agent platform for constraint-guided execution of NL plans, enforcing rubric-based stepwise validation. |
+| Learning How and What to Memorize | https://arxiv.org/abs/2605.00702 | LLM Memory | Cognition-inspired two-stage optimization for evolving long-term personalization and preference tracking. |
