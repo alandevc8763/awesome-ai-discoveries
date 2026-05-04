@@ -41,3 +41,5 @@
 | Spec Kit | GitHub | github/spec-kit | Transformative toolkit for Spec-Driven Development, enabling executable specifications and structured AI-driven engineering. |
 | TradingAgents | Tauric Research | TauricResearch/TradingAgents | High-fidelity multi-agent financial trading framework implementing a full-firm simulation (Analysts -> Researchers -> Risk -> Portfolio). |
 | DeepSeek TUI | Hmbown | Hmbown/DeepSeek-TUI | State-of-the-art terminal agent for DeepSeek V4 with 1M-token context, RLM fan-out, and integrated LSP diagnostics. |
+| Crab Runtime | Agent Infrastructure | Semantics-aware checkpoint/restore runtime for agent sandboxes, bridging the agent-OS semantic gap for fault tolerance. | https://arxiv.org/abs/2604.28138 |
+| CARE Methodology | Agent Engineering | Three-party design methodology for systematically engineering AI agents with SMEs, developers, and helper agents. | https://arxiv.org/abs/2604.28043 |
