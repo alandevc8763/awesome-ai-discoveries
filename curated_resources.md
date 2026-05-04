@@ -1,7 +1,91 @@
 # Curated AI Resources
 
 | Resource Name | Source | Key Value Proposition |
-|---------------|--------|----------------------|
+|---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+|---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+--|---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+---
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Proposed Bayesian control layer for agent tool-use optimization. |
+
+| 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+-|
 | RunAgent | arXiv:2605.00798 | Constraint-guided execution of natural language plans to ensure reliability in autonomous agents. |
 | Bayes-consistent Orchestration | arXiv:2605.00742 | Probabilistic framework for tool selection and agentic decision making under uncertainty. |
 | Evolving Memory Optimization | arXiv:2605.00702 | Cognition-inspired two-stage optimization for long-term evolving memory in LLM agents. |
