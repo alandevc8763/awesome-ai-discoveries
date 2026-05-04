@@ -36,4 +36,5 @@
 
 | [A11y-Compressor](https://arxiv.org/abs/2605.00551) | Framework for compacting GUI accessibility trees, reducing tokens by 78% and improving grounding. | Agentic GUI | https://arxiv.org/abs/2605.00551 |
 | [SCISENSE](https://arxiv.org/abs/2605.00557) | Framework for structured scientific ideation based on 8 cognitive stages to produce more novel research. | Research Methodology | https://arxiv.org/abs/2605.00557 |
-| [GeoContra](https://arxiv.org/abs/2605.00782) | Verifiable spatial analysis framework using 'contracts' to repair LLM-generated GIS code. | Verifiable Coding | https://arxiv.org/abs/2605.00782 |
+| [GeoContra](https://arxiv.org/abs/2605.00782) | Verifiable spatial analysis framework using 'contracts' to repair LLM-generated GIS code. | Verifiable Coding | https://arxiv.org/abs/2605.00782 || Skills as Verifiable Artifacts | Agent Frameworks | https://arxiv.org/abs/2605.00424v1 | Introduces a trust schema for agent skills, moving skills from simple prompts to verifiable software artifacts. |
+| To Call or Not to Call | Tool Use / MCP | https://arxiv.org/abs/2605.00737v1 | Framework to optimize tool calling and eliminate redundant/harmful calls. |
