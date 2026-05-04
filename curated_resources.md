@@ -21,3 +21,11 @@
 | 2605.00557v1 | SCISENSE | https://arxiv.org/abs/2605.00557 | Structured sensemaking framework for augmenting research ideation and discovery. |
 | 2605.00731v1 | DRSA | https://arxiv.org/abs/2605.00731 | Decoupled relation alignment for heterogeneous Graph Foundation Models, improving GraphRAG. |
 | 2605.00814v1 | Persistent Visual Memory | https://arxiv.org/abs/2605.00814 | Sustains visual perception in LVLMs, preventing signal dilution in deep generation. |
+
+
+## Curated Research
+| Title | Link | Impact |
+|---|---|---|
+| A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations | [arXiv:2605.00551](https://arxiv.org/abs/2605.00551) | Crucial for improving GUI agent efficiency and accuracy by reducing token noise in accessibility trees—directly applicable to enhancing browser-based agent tools. |
+| To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling | [arXiv:2605.00737](https://arxiv.org/abs/2605.00737) | Provides a theoretical framework to optimize when to use tools vs. internal knowledge, which can be implemented as a meta-cognitive layer in agentic workflows to reduce redundant API calls and noise. |
+| GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair | [arXiv:2605.00782](https://arxiv.org/abs/2605.00782) | Demonstrates a powerful 'Contract-based' verification and repair loop for domain-specific code generation, a pattern that can be generalized to other technical domains (e.g., SQL, API orchestration). |
