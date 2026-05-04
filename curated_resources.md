@@ -1,1 +1,11 @@
-| Resource | Description | Link | Note | Tags |\n|---|---|---|---|---|\n| Psi-RAG | Hierarchical Abstract Tree for Cross-Document RAG | [2605.00529](https://arxiv.org/abs/2605.00529) | High-fidelity cross-document multi-hop QA, outperforms RAPTOR | RAG, Memory, Agents |\n
+| Resource | Description | Link | Note | Tags |
+|---|---|---|---|---|
+| Psi-RAG | Hierarchical Abstract Tree for Cross-Document RAG | [2605.00529](https://arxiv.org/abs/2605.00529) | High-fidelity cross-document multi-hop QA, outperforms RAPTOR | RAG, Memory, Agents |
+| $\text{MCTS-GRPO}$ Convergence | Synthesis of MCTS-guided GRPO for reasoning scaling: Trajectory bootstrapping, Staged Advantage Estimation (SAE), and Process-level signaling. | [Synthesis] | Resolves reward variance and exploration collapse in RLVR via structural guidance. | RL, Reasoning, MCTS, GRPO |
+| LASER | Data-centric SQL rewriting using SQL-MCTS for corpus generation and SQL-GRPO for alignment. | [2604.06804](https://arxiv.org/abs/2604.06804) | Empowers SLMs to master execution-based optimization logic. | SQL, GRPO, MCTS |
+| ReST-RL | Combines ReST-GRPO for data filtering with VM-MCTS for test-time decoding. | [2508.19576](https://arxiv.org/abs/2508.19576) | Significant gains in code reasoning via value-model assisted MCTS. | Coding, RL, MCTS |
+| Tree-OPO | Staged Advantage Estimation (SAE) for GRPO using MCTS-derived tree curricula. | [2509.09284](https://arxiv.org/abs/2509.09284) | Reduces gradient variance via prefix-aware advantage projection. | Math, GRPO, MCTS |
+| TemplateRL | Structured template-guided RL using MCTS-generated libraries to steer GRPO. | [2505.15692](https://arxiv.org/abs/2505.15692) | Improves hit rates on AIME/AMC by reducing ineffective exploration. | Reasoning, RL, Templates |
+| PROPA | Interleaved GRPO and SFT with MCTS for dense process-level rewards in VLMs. | [2511.10279](https://arxiv.org/abs/2511.10279) | Establishes strong visual reasoning via process-level optimization. | VLM, Visual Reasoning, GRPO |
+| Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents | Paper | Provides a formal framework for evolving interaction traces into reusable Skills and Rules, enabling autonomous self-improvement. | https://arxiv.org/abs/2604.15877 |
+| Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval | Paper | Standardizes GraphRAG integration for agents, significantly improving complex retrieval and structural reasoning. | https://arxiv.org/abs/2604.15951 |
