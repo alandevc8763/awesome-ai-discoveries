@@ -10,3 +10,4 @@
 | Duralang | https://temporal.io/code-exchange/duralang-durable-stochastic-ai-agents-with-one-decorator | AI Agents | Durable agent calls via Temporal activities |
 | Enoch | https://github.com/alias8818/enoch-agentic-research-system | Autonomous Agents | Control plane for AI research workflows |
 | VulkanForge | https://github.com/maeddesg/vulkanforge | LLM Inference | 14MB Rust engine for native FP8 on AMD |
+| OriginTrail DKG | GitHub:OriginTrail/dkg | Decentralized, cryptographically verifiable memory layer for multi-agent AI systems. |
