@@ -24,6 +24,7 @@
 | 2605.00814v1 | Persistent Visual Memory | https://arxiv.org/abs/2605.00814 | Sustains visual perception in LVLMs, preventing signal dilution in deep generation. |
 
 
+| UI-TARS-desktop | Multimodal GUI Agent Stack | https://github.com/bytedance/UI-TARS-desktop | Native multimodal VLM-driven GUI control; removes need for API-based automation for OS tasks. |
 ## Curated Research
 | Title | Link | Impact |
 |---|---|---|
@@ -40,3 +41,7 @@
 | [GeoContra](https://arxiv.org/abs/2605.00782) | Verifiable spatial analysis framework using 'contracts' to repair LLM-generated GIS code. | Verifiable Coding | https://arxiv.org/abs/2605.00782 || Skills as Verifiable Artifacts | Agent Frameworks | https://arxiv.org/abs/2605.00424v1 | Introduces a trust schema for agent skills, moving skills from simple prompts to verifiable software artifacts. |
 | To Call or Not to Call | Tool Use / MCP | https://arxiv.org/abs/2605.00737v1 | Framework to optimize tool calling and eliminate redundant/harmful calls. |
 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Agent Architecture | Proposed a formal trust/verification schema for agent skills, moving from trust-based loading to verifiable artifacts. Essential for scaling agentic runtimes. |
+
+| DeepSeek V4 Pro | https://api-docs.deepseek.com/ | LLM | High-performance, low-cost model often compared to Claude 3.5 Sonnet; currently seeing significant adoption in agentic loops for cost efficiency. |
+| Kepler AI | https://kepler.ai | Agent Architecture | Implements a 'verifiable AI' pattern: LLM for intent capture -> Deterministic execution for output. Essential for high-stakes financial services. |
+| Faz (AI Database Safety) | https://news.ycombinator.com/item?id=48008603 | Agents/Security | Middleware safety layer that prevents AI agents from performing destructive database operations. |
