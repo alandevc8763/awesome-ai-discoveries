@@ -1,5 +1,3 @@
-# Curated AI Resources
-
 | Resource ID/Name | Title | Source | Key Value Proposition |
 |---|---|---|---|
 | 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
@@ -15,3 +13,11 @@
 | Enoch | Agentic Research System | https://github.com/alias8818/enoch-agentic-research-system | Control plane for AI research workflows |
 | VulkanForge | Native FP8 Engine | https://github.com/maeddesg/vulkanforge | 14MB Rust engine for native FP8 on AMD |
 | OriginTrail DKG | Decentralized Knowledge Graph | https://github.com/OriginTrail/dkg | Decentralized, cryptographically verifiable memory layer for multi-agent AI systems. |
+| AI-Scientist | The AI Scientist: Towards Fully Automated Scientific Discovery | Sakana AI | Fully automated scientific discovery pipeline: Ideation -> Experiment -> Paper. |
+| World-Model Planning | Latent-world-model $\text{lookahead-search}$ pipeline; synthesized ViMo, PathWise, and GNWM. | https://arxiv.org/abs/2604.16585 | Eliminates myopic agentic decision-making via latent-space simulation. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Probabilistic framework for tool selection and agentic decision making under uncertainty. |
+| 2605.00737v1 | To Call or Not to Call | https://arxiv.org/abs/2605.00737 | Framework to optimize tool-calling decisions, reducing redundant or harmful calls. |
+| 2605.00551v1 | A11y-Compressor | https://arxiv.org/abs/2605.00551 | Reduces redundancy in accessibility trees to improve GUI agent observation efficiency. |
+| 2605.00557v1 | SCISENSE | https://arxiv.org/abs/2605.00557 | Structured sensemaking framework for augmenting research ideation and discovery. |
+| 2605.00731v1 | DRSA | https://arxiv.org/abs/2605.00731 | Decoupled relation alignment for heterogeneous Graph Foundation Models, improving GraphRAG. |
+| 2605.00814v1 | Persistent Visual Memory | https://arxiv.org/abs/2605.00814 | Sustains visual perception in LVLMs, preventing signal dilution in deep generation. |
