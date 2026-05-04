@@ -18,9 +18,13 @@
 | World-Model Planning | Latent-world-model $\text{lookahead-search}$ pipeline; synthesized ViMo, PathWise, and GNWM. | https://arxiv.org/abs/2604.16585 | Eliminates myopic agentic decision-making via latent-space simulation. |
 | 2605.00731v1 | DRSA | https://arxiv.org/abs/2605.00731 | Decoupled relation alignment for heterogeneous Graph Foundation Models, improving GraphRAG. |
 | 2605.00814v1 | Persistent Visual Memory | https://arxiv.org/abs/2605.00814 | Sustains visual perception in LVLMs, preventing signal dilution in deep generation. |
+| 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Bayesian decision theory for agentic orchestration. |
+| 2605.00782v1 | GeoContra: Verifiable Spatial Analysis | https://arxiv.org/abs/2605.00782 | Executable contracts for verifiable agentic workflows. |
 
 ## Curated Research
 | Title | Link | Impact |
+| Bayes-consistent Orchestration: agentic AI orchestration should be Bayes-consistent | [arXiv:2605.00742](https://arxiv.org/abs/2605.00742) | Proposes treating the control layer as a Bayesian belief-updating engine to optimize tool/expert selection. |
+| GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair | [arXiv:2605.00782](https://arxiv.org/abs/2605.00782) | Implements a 'Contract-based' verification and repair loop, a generalized pattern for ensuring technical output validity. |
 |---|---|---|
 | A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations | [arXiv:2605.00551](https://arxiv.org/abs/2605.00551) | Crucial for improving GUI agent efficiency and accuracy by reducing token noise in accessibility trees—directly applicable to enhancing browser-based agent tools. |
 | To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling | [arXiv:2605.00737](https://arxiv.org/abs/2605.00737) | Provides a theoretical framework to optimize when to use tools vs. internal knowledge, which can be implemented as a meta-cognitive layer in agentic workflows to reduce redundant API calls and noise. |
