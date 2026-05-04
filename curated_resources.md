@@ -1,6 +1,7 @@
 | Resource ID/Name | Title | Source | Key Value Proposition |
 |---|---|---|---|
 | 2605.00424v1 | Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Trust schema for agent skills - critical for self-evolution safety. |
+| 2605.00557v1 | SCISENSE: Sensemaking-Grounded Ideation | https://arxiv.org/abs/2605.00557 | 8-stage cognitive sequence for scientific ideation; reduces downstream cognitive load. |
 || 2605.00742v1 | Bayes-consistent Orchestration | https://arxiv.org/abs/2605.00742 | Bayesian decision theory for agentic orchestration; decouples belief-updating from LLM parameters to optimize tool/expert selection. |\n
 | 2605.00737v1 | To Call or Not to Call | https://arxiv.org/abs/2605.00737 | Framework to optimize tool-calling decisions, reducing redundant or harmful calls. |
 | 2605.00551v1 | A11y-Compressor | https://arxiv.org/abs/2605.00551 | Reduces redundancy in accessibility trees to improve GUI agent observation efficiency. |
@@ -38,3 +39,4 @@
 | [SCISENSE](https://arxiv.org/abs/2605.00557) | Framework for structured scientific ideation based on 8 cognitive stages to produce more novel research. | Research Methodology | https://arxiv.org/abs/2605.00557 |
 | [GeoContra](https://arxiv.org/abs/2605.00782) | Verifiable spatial analysis framework using 'contracts' to repair LLM-generated GIS code. | Verifiable Coding | https://arxiv.org/abs/2605.00782 || Skills as Verifiable Artifacts | Agent Frameworks | https://arxiv.org/abs/2605.00424v1 | Introduces a trust schema for agent skills, moving skills from simple prompts to verifiable software artifacts. |
 | To Call or Not to Call | Tool Use / MCP | https://arxiv.org/abs/2605.00737v1 | Framework to optimize tool calling and eliminate redundant/harmful calls. |
+| Skills as Verifiable Artifacts | https://arxiv.org/abs/2605.00424 | Agent Architecture | Proposed a formal trust/verification schema for agent skills, moving from trust-based loading to verifiable artifacts. Essential for scaling agentic runtimes. |
