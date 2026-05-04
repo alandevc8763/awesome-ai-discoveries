@@ -1,43 +1,7 @@
-| Title | Author | ID | Description |
-|---|---|---|---|
-| Synthetic Computers at Scale | Tao Ge et al. | 2604.28181v1 | Scalable methodology for creating synthetic computer environments for agent training and self-improvement in long-horizon tasks. |
-| Intern-Atlas | Yujun Wu et al. | 2604.28158v1 | A methodological evolution graph that captures causal networks of how research methods evolve, moving beyond simple citations. |
-| Crab | Tianyuan Wu et al. | 2604.28138v1 | Semantics-aware checkpoint/restore runtime for agent sandboxes, drastically reducing overhead while ensuring 100% recovery correctness. |
-| Deterministic Guardrails (Lean 4) | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Deterministic-Guardrails-Lean4.md) | Shifts from probabilistic to deterministic verification via Lean 4 kernel; enables 100% compliance certainty for high-stakes agents. | Guardrails / Formal-Verification / Lean4 |
-| Memanto | Unknown | 2604.22085v1 | Typed semantic memory layer with information-theoretic retrieval, bypassing GraphRAG complexity. |
-| Tool Attention | Unknown | 2604.21816v1 | Dynamic tool gating and lazy schema loading to eliminate the 'Tools Tax' in scalable workflows. |
-| Self-Evolving Agents | Unknown | 2604.27264v1 | BDI-LLM architecture for autonomous evolution of goals and code based on experience. |
-| From Unstructured Recall to Schema-Grounded Memory | https://arxiv.org/abs/2604.27906 | Proposes a schema-grounded write path for AI memory, moving from retrieval-based search to a verified system of record. Essential for high-reliability agent memory. | Agent Memory |
-| Synthetic Computers at Scale | https://arxiv.org/abs/2604.28181 | Scalable methodology for creating synthetic user environments for long-horizon agent simulations and self-improvement. | Agent Training |
-| Intern-Atlas | https://arxiv.org/abs/2604.28158 | Methodological evolution graph for tracking how AI research methods emerge and adapt. A new paradigm for research infrastructure. | Research Infrastructure |
-| Crab: Semantics-Aware Checkpoint/Restore | https://arxiv.org/abs/2604.28138 | Bridges the agent-OS semantic gap using eBPF to enable 100% recovery correctness for agent sandboxes with minimal overhead. | Agent Infrastructure || Crab (Checkpoint-and-Restore for Agent Sandboxes) | eBPF-based semantic checkpointing for agent runtimes to ensure fault tolerance with minimal overhead. | Agent Infrastructure |
-| Global Neural World Model (GNWM) | Noureddine Kermiche | 2604.16585 | Self-stabilizing framework achieving topological quantization via balanced entropy constraints to prevent manifold drift in planning. | World-Models / JEPA / Planning |
-| Exploration Hacking: RL Resistance | https://arxiv.org/abs/2604.28182 | Frontier models can strategically alter exploration during RL to influence training outcomes, resisting capability elicitation. | Agentic RL / Safety |
+# Curated AI Resources
 
-| MMA2A Protocol | Internal Artifact | A2A Routing | Eliminates the text-bottleneck in multimodal A2A by routing signals in native modality (voice, image), preserving high-fidelity environmental context. |
-| CMSA (Cross-Modal Semantic Alignment) | Internal Artifact | A2A Routing | Implements a shared latent anchor space (USA) to prevent semantic drift during transitions between heterogeneous cognitive kernels (e.g., VLM -> LLM). |
-| Qualixar OS | Internal Artifact | Agentic OS | Universal orchestration runtime integrating Bayesian routing and MCP/A2A compatibility for high-SNR agent coordination. |
-| Relax Engine | https://github.com/rednote-ai/Relax | Omni-Modal RL | Asynchronous RL post-training framework that decouples execution from training to maximize throughput for multimodal agents. |
-| DreamProver | Internal Artifact | Lemma Evolution | Autonomous discovery of reusable lemmas for formal theorem proving via wake-sleep program induction, reducing Lean 4 proof overhead. |
-| Bian Que | https://arxiv.org/abs/2604.26805 | Agentic SRE | Framework for flexible skill arrangement in large-scale O&M, treating skills as retrieval specifications to maintain high SNR in diagnostics. |
-
-| ODAR | Siyuan Ma et al. | 2602.23681 | [Internal Artifact](~/ai-second-brain/wiki/research/odar.md) - Principled adaptive routing via Active Inference; optimizes accuracy-efficiency frontier. |
-| S^2VAE: Topologically Aligned Latent Geometry | https://arxiv.org/abs/2604.28122 | Replaces Gaussian bottlenecks with Power Spherical latent distributions to preserve hyperspherical 3D structural semantics under extreme compression; establishes latent geometry as a first-class architectural primitive for physically grounded agents. | World Modeling / Latent Geometry |
-
-| FlashRT: High-Efficiency Red-Teaming for Long-Context LLMs | https://arxiv.org/abs/2604.28157 | Agent Security / Guardrails | 2x-7x speedup in optimization-based red-teaming; reduces GPU memory by 2x-4x for long-context security audits. |
-| 2026-05-03 | In-Context Prompting Obsoletes Agent Orchestration | [2604.27891v1](https://arxiv.org/abs/2604.27891) | Simplifies agent architecture by replacing external orchestrators with detailed system prompts for procedural tasks. | High |\n| [Skills-Coach: A Self-Evolving Skill Optimizer via Training-Free GRPO](https://arxiv.org/abs/2604.27488v1) | Paper | Directly provides a mechanism for agents to optimize their own skills without retraining. | 2604.27488v1 |
-| [From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction](https://arxiv.org/abs/2604.27906v1) | Paper | Proposes a reliable memory architecture using schema-grounded extraction, reducing hallucinations in recall. | 2604.27906v1 |
-| Latent Geometry & Semantic-Geometric Co-evolution | Zixun Luo et al. | 2603.13325 | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Latent-Geometry-MAS.md) - Principled framework for proactive risk detection in MAS via Ollivier-Ricci Curvature; identifies structural precursors to collapse before semantic violations. | Latent Geometry / MAS / Risk-Detection |
-| Spec Kit | GitHub | github/spec-kit | Transformative toolkit for Spec-Driven Development, enabling executable specifications and structured AI-driven engineering. |
-| TradingAgents | Tauric Research | TauricResearch/TradingAgents | High-fidelity multi-agent financial trading framework implementing a full-firm simulation (Analysts -> Researchers -> Risk -> Portfolio). |
-| DeepSeek TUI | Hmbown | Hmbown/DeepSeek-TUI | State-of-the-art terminal agent for DeepSeek V4 with 1M-token context, RLM fan-out, and integrated LSP diagnostics. |
-| Crab Runtime | Agent Infrastructure | Semantics-aware checkpoint/restore runtime for agent sandboxes, bridging the agent-OS semantic gap for fault tolerance. | https://arxiv.org/abs/2604.28138 |
-| CARE Methodology | Agent Engineering | Three-party design methodology for systematically engineering AI agents with SMEs, developers, and helper agents. | https://arxiv.org/abs/2604.28043 |
-| Bayes-Consistent Orchestration | https://arxiv.org/abs/2605.00742 | Framework for handling uncertainty in tool calling and resource allocation in agentic AI. |
-| Tool Calling Optimization Framework | https://arxiv.org/abs/2605.00737 | Framework to assess and optimize when to call external tools to avoid redundancy and harm. |
-| SCISENSE (Sensemaking Framework) | https://arxiv.org/abs/2605.00557 | Operationalizes scientific ideation through constrained structure to produce novel research output. |
-| Test-Time Scaling Laws (TTSL) | Li et al. / Cheng et al. | [Internal Artifact](~/hermes-projects/research-flywheel/artifacts/Test-Time-Scaling-Laws-SLG-PRISM.md) | Synthesis of SLG (reward tail-guided search) and PRISM-MCTS (metacognitive reflection) for optimal test-time compute allocation. | Reasoning / Scaling-Laws / Test-Time-Compute |
-
-
-| RunAgent | https://arxiv.org/abs/2605.00798 | Agent Orchestration | Multi-agent platform for constraint-guided execution of NL plans, enforcing rubric-based stepwise validation. |
-| Learning How and What to Memorize | https://arxiv.org/abs/2605.00702 | LLM Memory | Cognition-inspired two-stage optimization for evolving long-term personalization and preference tracking. |
+| Resource Name | Source | Key Value Proposition |
+|---------------|--------|----------------------|
+| RunAgent | arXiv:2605.00798 | Constraint-guided execution of natural language plans to ensure reliability in autonomous agents. |
+| Bayes-consistent Orchestration | arXiv:2605.00742 | Probabilistic framework for tool selection and agentic decision making under uncertainty. |
+| Evolving Memory Optimization | arXiv:2605.00702 | Cognition-inspired two-stage optimization for long-term evolving memory in LLM agents. |
