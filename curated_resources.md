@@ -43,3 +43,8 @@ World Models for Agentic Planning | World Modeling | Deep-dive into PSRs (Predic
 | MuninnDB | Cognitive database implementing biological memory primitives (decay, Hebbian learning) as engine-native features. | https://github.com/scrypster/muninndb | Moves memory from 'flat vector store' to 'dynamic state system'; mimics human-like forgetting and reinforcement. | Cognitive Architecture, Memory, MCP, Database |
 
 | XMem | Unified, multi-modal long-term memory layer with agentic ingestion and multi-domain classification. | https://github.com/XortexAI/XMem | Outperforms standard memory solutions on multi-hop reasoning and temporal recall; provides a unified memory layer across AI interfaces. | Memory, Multi-Agent, LangGraph, Temporal Reasoning |
+
+| AIs and Humans with Agency | Shift from autoregressive tokens to joint plan/action world models to enable true agency. | [arXiv:2605.02810](https://arxiv.org/abs/2605.02810) | Architecture, Agency, World Models |
+| AI-Generated Smells | Audit of technical debt in AI-generated software; identifies 'smells' that hinder maintainability. | [arXiv:2605.02741](https://arxiv.org/abs/2605.02741) | Software Engineering, Self-Evolution, Technical Debt |
+| Autonomous LLM Agent Worms | Security analysis of propagation risks via persistent agent state and memory. | [arXiv:2605.02812](https://arxiv.org/abs/2605.02812) | Agent Security, Persistence, Prompt Injection |
+| FlexSQL: Flexible Exploration | Principle of iterative exploration of environment/schemas before final plan execution. | [arXiv:2605.02815](https://arxiv.org/abs/2605.02815) | Tool Use, Agent Planning, Exploration |
