@@ -47,4 +47,6 @@ World Models for Agentic Planning | World Modeling | Deep-dive into PSRs (Predic
 | AIs and Humans with Agency | Shift from autoregressive tokens to joint plan/action world models to enable true agency. | [arXiv:2605.02810](https://arxiv.org/abs/2605.02810) | Architecture, Agency, World Models |
 | AI-Generated Smells | Audit of technical debt in AI-generated software; identifies 'smells' that hinder maintainability. | [arXiv:2605.02741](https://arxiv.org/abs/2605.02741) | Software Engineering, Self-Evolution, Technical Debt |
 | Autonomous LLM Agent Worms | Security analysis of propagation risks via persistent agent state and memory. | [arXiv:2605.02812](https://arxiv.org/abs/2605.02812) | Agent Security, Persistence, Prompt Injection |
-| FlexSQL: Flexible Exploration | Principle of iterative exploration of environment/schemas before final plan execution. | [arXiv:2605.02815](https://arxiv.org/abs/2605.02815) | Tool Use, Agent Planning, Exploration |
+| FlexSQL: Flexible Exploration | Principle of iterative exploration of environment/schemas before final plan execution. | [arXiv:2605.02815](https://arxiv.org/abs/2605.02815) | Tool Use, Agent Planning, Exploration || 2605.02741v1 (AI-Generated Smells) | arXiv Paper | Alerts to the 'Volume-Quality Inverse Law' in AI code; necessitates architectural review skills. |
+| 2605.02728v1 (ORPilot) | arXiv Paper | Introduces Solver-Agnostic IR pattern for deterministic tool execution from LLM logic. |
+| 2605.02765v1 (U-Define) | arXiv Paper | Hard vs Soft constraint verification for reliable agent planning. |
