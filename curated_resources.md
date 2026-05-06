@@ -10,3 +10,5 @@
 | Context7 | upstash/context7 | Real-time, version-specific documentation injection into LLM context to kill hallucinations. | High: Critical for reducing technical hallucinations in agentic coding. |
 | TradingAgents | TauricResearch/TradingAgents | High-fidelity mirroring of trading firm dynamics via specialized agent roles and structured debate. | High: Benchmark for multi-agent collaboration in high-stakes domains. |
 | Learn Claude Code | shareAI-lab/learn-claude-code | The "Harness Engineering" paradigm: Agency is trained, not coded; the engineer builds the vehicle. | High: Fundamental shift in how to build agentic runtimes. |
+| llm-from-scratch | https://github.com/angelos-p/llm-from-scratch | Comprehensive guide to training LLMs from scratch. |
+| SubQ | https://subq.ai/ | Sub-quadratic LLM claiming 12M token context. |
