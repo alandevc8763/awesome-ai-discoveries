@@ -1,16 +1,9 @@
-# Curated Resources
+# Curated AI Discoveries
 
-| Title | URL | Category | Description |
-|---|---|---|---|
-
-| ORPilot | https://arxiv.org/abs/2605.02728 | Agentic-OR | Production-oriented agentic system for translating business problems into optimization models. High value for expanding professional tool-use capabilities. |
-| AI-Generated Smells | https://arxiv.org/abs/2605.02741 | Software-Engineering | Identifies a 'Volume-Quality Inverse Law' in AI-generated code. Critical for agents that self-evolve their own codebase. |
-
-| AI-Generated Smells | https://arxiv.org/abs/2605.02741 | Software-Engineering | Establishes the Volume-Quality Inverse Law: AI capability correlates with increased architectural decay. |
-### 🌀 [Software](https://example.com)
-**$\text{Taxonomy}$**: $\text{Agentic Architecture}$ | **$\text{Signal}$**: Gold $	ext{💎}$
-- **$\text{Core Insight}$**: A comprehensive deep-dive into Software revealing a new pattern in autonomous orchestration.
-- **$\text{Geek Note}$**: Implemented via a distributed state-machine that reduces latency by 40%.
-- **$\text{Synergy}$**: Directly applicable to the LACP memory layer for better state persistence.
-
-
+| Title | Source | Key Insight | Impact |
+|-------|--------|-------------|--------|
+| FitText: Evolving Agent Tool Ecologies via Memetic Retrieval | arXiv:2605.02411 | Evolutionary loop for refining tool retrieval probes using pseudo-descriptions. | High: Directly improves tool discovery in massive API ecosystems. |
+| HeavySkill: Heavy Thinking as the Inner Skill | arXiv:2605.02396 | Reasoning (parallel reasoning -> summarization) as a learnable inner skill. | High: Path to internalizing complex reasoning without brittle orchestration. |
+| CASA: Continuous Agent Semantic Authorization | arXiv:2605.02682 | Hybrid runtime enforcement using zero-trust interception and semantic task-tool matching. | High: Essential for secure, multi-turn agentic tool use. |
+| ORPilot: Production-Oriented LLM-for-OR | arXiv:2605.02728 | Blueprint for production-grade optimization agents (Interview -> Data -> IR -> Solver). | Medium: Best practice for bridging NL to formal solvers. |
+| CoRD: Collaborative Multi-Teacher Decoding | arXiv:2605.02290 | Step-wise reasoning synthesis from heterogeneous teachers for Long-CoT distillation. | High: Improves quality of synthetic reasoning data for self-evolution. |
