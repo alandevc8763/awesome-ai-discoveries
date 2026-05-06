@@ -1,6 +1,7 @@
-File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.
-| EvoLM: Self-Evolving LMs | arXiv:2605.03871 | Self-improvement via co-evolved discriminative rubrics and temporal contrast. | High: Blueprint for self-evolving capabilities without human labels. |
-| MEMTIER: Tiered Memory Architecture | arXiv:2605.03675 | Tripartite memory (Episodic-Semantic-Core) with asynchronous consolidation. | High: Direct implementation pattern for persistent agent memory. |
-| Experience-RAG Skill | arXiv:2605.03989 | Pluggable retrieval orchestration that selects strategies based on task experience. | High: Evolves RAG from a pipeline to a dynamic agent skill. |
-| Agentic-imodels | arXiv:2605.03808 | Evolving tools that are optimized for agent-interpretability rather than human-interpretability. | Medium: Improves tool-use efficiency by tailoring schemas to LLMs. |
-| Stable Agentic Control | arXiv:2605.03034 | Tool-mediated architecture that enforces stability and safety via deterministic action catalogs. | High: Essential for production-grade agentic control. |
+1|File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading.
+     2|| EvoLM: Self-Evolving LMs | arXiv:2605.03871 | Self-improvement via co-evolved discriminative rubrics and temporal contrast. | High: Blueprint for self-evolving capabilities without human labels. |
+     3|| MEMTIER: Tiered Memory Architecture | arXiv:2605.03675 | Tripartite memory (Episodic-Semantic-Core) with asynchronous consolidation. | High: Direct implementation pattern for persistent agent memory. |
+     4|| Experience-RAG Skill | arXiv:2605.03989 | Pluggable retrieval orchestration that selects strategies based on task experience. | High: Evolves RAG from a pipeline to a dynamic agent skill. |
+     5|| Agentic-imodels | arXiv:2605.03808 | Evolving tools that are optimized for agent-interpretability rather than human-interpretability. | Medium: Improves tool-use efficiency by tailoring schemas to LLMs. |
+     6|| Stable Agentic Control | arXiv:2605.03034 | Tool-mediated architecture that enforces stability and safety via deterministic action catalogs. | High: Essential for production-grade agentic control. |
+| Executor-Grounded Rewards | arXiv:2605.03862 | Shifts reward from outcome-correctness to execution-faithfulness in reasoning traces. | High: Prevents 'hallucinated correctness' in long-horizon planning. |\n
